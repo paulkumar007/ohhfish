@@ -1,0 +1,746 @@
+@chaset"utf-8";
+
+body {
+  margin: 0 auto;
+  background-color:#292929 !important;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x:hidden;
+}
+
+.box{
+	width:800px;
+	margin:5% auto;
+	background-color:#ff7f00;
+	text-align:center;
+	padding:30px 0px 30px 0px;
+}
+
+.white_box{
+	position:relative;
+	width:700px;
+	margin:0 auto;
+	background-color:#fff;
+	padding:10px 0px 15px 0px;
+}
+
+.close_b{
+	position:relative;
+	padding:13px;
+}
+
+
+.close_b i{
+	position:absolute; 
+	font-size:20px; 
+	color:#888; 
+	top:3px; 
+	right:10px;
+}
+
+.close_b i:hover{
+	color:#ff7f00;
+}
+
+
+.logo_f{
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+	padding:0px;
+}
+
+.logo_fish{
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+	padding:13px 0px 20px 0px;
+}
+
+
+.text_wrapper{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	padding:0px;
+}
+
+.popup_heading{
+	font-family:'Lato',sans-serif;
+	font-size:19px;
+	font-weight:bold;
+	margin:0 auto;
+	text-align:center;
+}
+
+.location_d{
+	padding:0px;
+	margin:20px 0px 5px 0px;
+}
+
+.select_location{
+	font-family:'Lato',sans-serif;
+	color:#333;
+	font-size:14px;
+	display:inline;
+	padding:0px 0px 0px 0px;
+}
+
+.sample_text{
+	font-family:'Lato',sans-serif;
+	color:#333;
+	font-size:14px;
+	margin:0px 50px;
+	padding:18px 0px 0px 0px;
+	
+}
+.center{
+	display:block;
+	
+}
+.log_details{
+	margin:0 auto;
+	padding:10px 0px;
+	position:relative;
+}
+
+.log_ul{
+	margin:0 auto;
+	position:relative;
+	padding:0px;
+}
+
+.list_log{
+	display:inline;
+}
+
+.list_log a:link,
+.list_log a:active,
+.list_log a:visited{
+	font-family:'Lato',sans-serif;
+	color:#888;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.6em;
+}
+
+
+.list_log a:hover{
+	color:#ff7f00;
+}
+
+.offer_box{
+	background-color:#fafafa;
+	padding:0px 0px 4px 0px;
+	margin:0px 60px;
+}
+
+.offer_text{
+	font-family:'Lato',sans-serif;
+	color:#888;
+	font-size:18px;
+	font-weight:400;
+	line-height:1.6em;
+	
+}
+
+
+.slot_box{
+	position:relative;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	padding:10px 0px 8px 0px;
+}
+
+.t_box{
+	width:300px;
+	padding:8px 0px;
+    border:2px solid #eee;
+	text-align:center;
+	margin:0 auto;
+}
+
+.delivery_time{
+	font-family:'Open Sans',sans-serif;
+	color:#555;
+	font-size:13px;
+}
+
+.select_d_location{
+	font-family:'Lato',sans-serif;
+	color:#333;
+	font-size:14px;
+	display:inline;
+	padding:10px 0px 10px 0px;
+}
+
+
+.button_area{
+	position:relative;
+	margin:0 auto;
+	padding:20px 0px 10px 180px;
+}
+
+.button_box{
+	width:100%;
+	position:relative;
+	text-align:center;
+	margin:0 auto;
+	display:inline;
+}
+
+
+.small_buttons .button{
+  width: 150px;
+  display: block;
+  float: left;
+  border-radius:3px;
+  margin: 10px 10px 10px 10px;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ecf0f1;
+}
+
+.red{
+  background: #e74c3c;
+
+}
+
+.red:active{
+  background: #c0392b;
+}
+
+.button:active{
+  position:relative;
+}
+
+@media (min-width: 767px) and (max-width: 992px ){
+.box{
+	width:740px;
+	margin:15% auto;
+	background-color:#ff7f00;
+	text-align:center;
+	padding:30px 0px;
+}
+
+.white_box{
+	position:relative;
+	width:700px;
+	margin:0 auto;
+	background-color:#fff;
+	padding:10px 0px 15px 0px;
+}
+
+.logo_f{
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+
+}
+
+.logo_fish{
+	width:30%;
+}
+
+
+.text_wrapper{
+	width:100%;
+	text-align:center;
+
+}
+
+.popup_heading{
+	text-align:center;
+}
+
+.location_d{
+	padding:0px;
+	margin:20px 0px 5px 0px;
+}
+
+.select_location{
+	padding:0px 0px 0px 0px;
+}
+
+.center{
+	display:block;
+	
+}
+.log_details{
+	margin:0 auto;
+	padding:10px 0px;
+	position:relative;
+}
+
+.log_ul{
+	margin:0 auto;
+	position:relative;
+	padding:0px;
+}
+
+.list_log{
+	display:inline;
+}
+
+
+.offer_box{
+	width:550px;	
+	margin:0px auto;
+}
+
+.offer_text{
+	text-align:center;
+}
+
+
+.slot_box{
+	position:relative;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	padding:10px 0px 8px 0px;
+}
+
+.t_box{
+	width:320px;
+	margin:0 auto;
+}
+
+.delivery_time{
+	font-size:13px;
+}
+
+.select_d_location{
+	padding:10px 0px 10px 0px;
+}
+
+
+.sample_text{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	padding:18px 0px 0px 0px;
+	
+}
+
+.button_area{
+	position:relative;
+	margin:0 auto;
+	padding:20px 0px 10px 210px;
+}
+
+.button_box{
+	width:100%;
+	position:relative;
+	text-align:center;
+	margin:0 auto;
+	display:inline;
+}
+
+
+.small_buttons .button{
+  width:120px;
+}
+
+}
+
+
+
+/* Responsive */
+@media (min-width:480px) and (max-width:768px) {
+
+.box{
+	width:450px;
+	margin:15% auto;
+	background-color:#ff7f00;
+	text-align:center;
+	padding:30px 0px;
+}
+
+.white_box{
+	position:relative;
+	width:420px;
+	margin:0 auto;
+	background-color:#fff;
+	padding:10px 0px 15px 0px;
+}
+
+.logo_f{
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+
+}
+
+.logo_fish{
+	width:60%;
+}
+
+
+.text_wrapper{
+	width:100%;
+	text-align:center;
+
+}
+
+.popup_heading{
+	text-align:center;
+}
+
+.location_d{
+	padding:0px;
+	margin:20px 0px 5px 0px;
+}
+
+.select_location{
+	padding:0px 0px 0px 0px;
+}
+
+.center{
+	display:block;
+	
+}
+.log_details{
+	margin:0 auto;
+	padding:10px 0px;
+	position:relative;
+}
+
+.log_ul{
+	margin:0 auto;
+	position:relative;
+	padding:0px;
+}
+
+.list_log{
+	display:inline;
+}
+
+
+.offer_box{
+	width:350px;	
+	margin:0px auto;
+}
+
+.offer_text{
+	text-align:center;
+}
+
+
+.slot_box{
+	position:relative;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	padding:10px 0px 8px 0px;
+}
+
+.t_box{
+	width:320px;
+	margin:0 auto;
+}
+
+.delivery_time{
+	font-size:13px;
+}
+
+.select_d_location{
+	padding:10px 0px 10px 0px;
+}
+
+
+.sample_text{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	padding:18px 0px 0px 0px;
+	
+}
+
+.button_area{
+	position:relative;
+	margin:0 auto;
+	padding:20px 0px 10px 60px;
+}
+
+.button_box{
+	width:100%;
+	position:relative;
+	text-align:center;
+	margin:0 auto;
+	display:inline;
+}
+
+
+.small_buttons .button{
+  width:120px;
+}
+
+}
+
+
+@media screen and (max-width:480px) {
+.box{
+	width:330px;
+	margin:13% auto;
+	background-color:#ff7f00;
+	text-align:center;
+	padding:16px 0px;
+}
+
+.white_box{
+	position:relative;
+	width:300px;
+	margin:0 auto;
+	background-color:#fff;
+	padding:10px 0px 15px 0px;
+}
+
+.logo_f{
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+
+}
+
+.logo_fish{
+	width:80%;
+}
+
+
+.text_wrapper{
+	width:100%;
+	text-align:center;
+
+}
+
+.popup_heading{
+	text-align:center;
+}
+
+.location_d{
+	padding:0px;
+	margin:20px 0px 5px 0px;
+}
+
+.select_location{
+	padding:0px 0px 0px 0px;
+}
+
+.center{
+	display:block;
+	
+}
+.log_details{
+	margin:0 auto;
+	padding:10px 0px;
+	position:relative;
+}
+
+.log_ul{
+	margin:0 auto;
+	position:relative;
+	padding:0px;
+}
+
+.list_log{
+	display:inline;
+}
+
+
+.offer_box{
+	width:280px;	
+	margin:0px auto;
+}
+
+.offer_text{
+	text-align:center;
+	font-size:16px;
+}
+
+
+.slot_box{
+	position:relative;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	padding:10px 0px 8px 0px;
+}
+
+.t_box{
+	width:280px;
+	margin:0 auto;
+}
+
+.delivery_time{
+	font-size:13px;
+}
+
+.select_d_location{
+	padding:10px 0px 10px 0px;
+}
+
+
+.sample_text{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	padding:18px 0px 0px 0px;
+	
+}
+
+.button_area{
+	position:relative;
+	margin:0 auto;
+	padding:20px 0px 10px 25px;
+}
+
+.button_box{
+	width:100%;
+	position:relative;
+	text-align:center;
+	margin:0 auto;
+	display:inline;
+}
+
+
+.small_buttons .button{
+  width:100px;
+  font-size:12px;
+}
+
+}
+
+@media screen and (max-width:320px) {
+.box{
+	width:280px;
+	margin:13% auto;
+	background-color:#ff7f00;
+	text-align:center;
+	padding:20px 0px;
+}
+
+.white_box{
+	position:relative;
+	width:260px;
+	margin:0 auto;
+	background-color:#fff;
+	padding:10px 0px 15px 0px;
+}
+
+.logo_f{
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+
+}
+
+.logo_fish{
+	width:80%;
+}
+
+
+.text_wrapper{
+	width:100%;
+	text-align:center;
+
+}
+
+.popup_heading{
+	text-align:center;
+}
+
+.location_d{
+	padding:0px;
+	margin:20px 0px 5px 0px;
+}
+
+.select_location{
+	padding:0px 0px 0px 0px;
+}
+
+.center{
+	display:block;
+	
+}
+.log_details{
+	margin:0 auto;
+	padding:10px 0px;
+	position:relative;
+}
+
+.log_ul{
+	margin:0 auto;
+	position:relative;
+	padding:0px;
+}
+
+.list_log{
+	display:inline;
+}
+
+
+.offer_box{
+	width:245px;	
+	margin:0px auto;
+}
+
+.offer_text{
+	text-align:center;
+	font-size:16px;
+}
+
+
+.slot_box{
+	position:relative;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	padding:10px 0px 8px 0px;
+}
+
+.t_box{
+	width:250px;
+	margin:0 auto;
+}
+
+.delivery_time{
+	font-size:13px;
+}
+
+.select_d_location{
+	padding:10px 0px 10px 0px;
+}
+
+
+.sample_text{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	padding:18px 0px 0px 0px;
+	
+}
+
+.button_area{
+	position:relative;
+	margin:0 auto;
+	padding:20px 0px 10px 4px;
+}
+
+.button_box{
+	width:100%;
+	position:relative;
+	text-align:center;
+	margin:0 auto;
+	display:inline;
+}
+
+
+.small_buttons .button{
+  width:100px;
+  font-size:12px;
+}
+
+}
