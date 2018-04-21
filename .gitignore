@@ -7,6 +7,7 @@ admin/config.php
 download/
 image/data/
 image/cache/
+image/product/
 system/cache/
 system/logs/
 
