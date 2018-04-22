@@ -23,8 +23,8 @@ body {
   outline: 0;
 }
 
-.modal.fade 
-.modal-dialog {	
+.modal.fade
+.modal-dialog {
   -webkit-transition: -webkit-transform .3s ease-out;
        -o-transition: -o-transform .3s ease-out;
           transition: transform .3s ease-out;
@@ -134,7 +134,7 @@ header{
 
 .topm{
 	margin:0 auto;
-	
+
 }
 
 .top_bar ul{
@@ -149,7 +149,7 @@ header{
 .top_ul li{
 	list-style-type:none;
 	display:inline;
-	
+
 }
 
 .toplist{
@@ -266,7 +266,7 @@ header{
 
 #top_left_n img{
 	width:100%;
-	max-width:331px;
+	max-width:181px;
 }
 
 
@@ -405,16 +405,8 @@ header{
   padding-left: 1.5em;
 }
 
-
-
-
-
-
-
-
-
 footer{
-	background: #15100d;
+	background: #123e86;
 	padding:10px 0 0;
 	width: 100%;
 }
@@ -422,6 +414,7 @@ footer{
 .footer_links{
 	width:100%;
 	position:relative;
+	color:#fff;
 }
 
 
@@ -435,15 +428,15 @@ footer{
 	display:inline;
 	font-size:0.875em;
 	color:#fff;
-	padding:0% 0.5% 0% 0.5%; 
+	padding:0% 0.5% 0% 0.5%;
 }
 
 .footer_list a:link,
 .footer_list a:active,
 .footer_list a:visited{
 	font-family:'Lato', sans-serif;
-	font-size:1em;
-	color:#bfbfbf;
+	font-size:1.2em;
+	color:#fff;
 	text-decoration:none;
 }
 
@@ -459,13 +452,16 @@ footer{
 	overflow:hidden;
 	clear:both;
 	padding:0%;
+	background:#0d2e65;
 }
 
 .copy_text{
 	font-family:'Lato', sans-serif;
-	color:#bfbfbf;
-	font-size:0.875em;
+	color:#fff;
+	font-size:1em;
 	text-align:center;
+	background:#0d2e65;
+	margin: 14px;
 }
 
 a.copyright_a:link,
@@ -483,6 +479,7 @@ a.copyright_a:hover{
 	text-decoration:underline;
 }
 
+.footer_socials  img{width:40px;height:40px;}
 
 
 /* BackToTop button css */
@@ -726,7 +723,7 @@ header{
 }
 
 .footer_list li{
-	padding:0% 1% 0% 1%; 
+	padding:0% 1% 0% 1%;
 }
 
 .copyrights{
@@ -906,7 +903,7 @@ header{
 }
 
 .footer_list li{
-	padding:0% 1% 0% 1%; 
+	padding:0% 1% 0% 1%;
 }
 
 .copyrights{
@@ -1083,15 +1080,15 @@ header{
   top: 0;
   bottom: 0;
   left:0;
-}	
-	
-	
+}
+
+
 .footer_list{
 	padding:4% 0%;
 }
 
 .footer_list li{
-	padding:0% 1% 0% 1%; 
+	padding:0% 1% 0% 1%;
 }
 
 .copyrights{
@@ -1104,5 +1101,28 @@ header{
 }
 
 
+}
+#tabs{
+	background: #007b5e;
+    color: #eee;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
 }
 

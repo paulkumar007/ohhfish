@@ -149,7 +149,7 @@
 <div class="box_navigation">
 <div id="top_left_n">
 <a href="index.php">
-<img src="catalog/view/theme/default/image/fishgennie_logo.jpg" alt="fishgennie_logo"></a></div>
+<img src="catalog/view/theme/default/image/ohhfish_logo.png" alt="Ohhfish_logo"></a></div>
 <div id="top_right_n">
 <?php if ($categories) { ?>
 	<div id="navigation">

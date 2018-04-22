@@ -11,19 +11,52 @@
 <footer>
 
 <div class="footer_links">
-<ul class="footer_list">
+<!-- <ul class="footer_list">
 			<li><a href="/about-us">About Us</a></li>
 			<li>|</li>
 			<li><a href="/faq">FAQ's</a></li>
 			<li>|</li>
 			<li><a href="/terms-and-conditions">Terms & Conditions</a></li>
+		</ul> -->
+		<div class="container">
+		<div class="row">
+		<div class="col-sm-5 col-xs-12">
+		<ul class="footer_list">
+			<li><a href="/about-us">Delivery Information</a></li>
+			<li>|</li>
+			<li><a href="/faq">Privacy Policy</a></li>
+			<li>|</li>
+			<li><a href="/terms-and-conditions">Terms & Conditions</a></li>
 		</ul>
+		<ul class="footer_list">
+			<li><a href="/about-us">Area of Operations</a></li>
+			<li>|</li>
+			<li><a href="/faq">How to Order</a></li>
+		</ul>
+		</div>
+		<div class="col-sm-2 col-xs-12 center-block text-center footer_socials">
+		<div>Connect with us:</div>
+		<img src="catalog/view/theme/default/image/homepage_icons/whatsapp.png"/>
+		<img src="catalog/view/theme/default/image/homepage_icons/facebook.png"/>
+		<img src="catalog/view/theme/default/image/homepage_icons/twitter.png"/>
+		</div>
+		<div class="col-sm-5 col-xs-12">
+			<h3 class="join_text">Join Ohhfish today To get special Offers </h3>   
+			<div class="w3ls-form">
+				<form action="#" method="post" class="subscribe_form" name="newsletter_form" id="newsletter_form">
+					<input type="email" name="newsletter_subscriber" id="newsletter_subscriber" placeholder="Email Id" required />
+					<button type="submit" id="newsletter_btn" class="btn1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+				</form>
+			</div>
+		</div>
+		</div>
+		</div>
 </div>
 
 
 <div class="copyrights">
-<p class="copy_text">Copyright © 2017-2018, www.fishgeniee.com. All rights reserved. 
-<a href="#" class="copyright_a">customercare@fishgeniee.com</a>
+<p class="copy_text">© Copyright 2018 Ohh Fish. All Rights Reserved. Premium fresh fish daily
+<!--<a href="#" class="copyright_a">customercare@fishgeniee.com</a>-->
 </p>
 </div>
 		</div>

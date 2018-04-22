@@ -136,6 +136,42 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 </div>
 </article>
 
+<!--section start here-->
+<section class="home-area">
+	<div class="home_content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					tabs code here
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--section start here-->
+<section class="home-area">
+	<div class="home_content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="row">
+					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/why_sec1.png"/></div>
+					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/why_sec1.png"/></div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="row">
+					<div class="col-sm-12"></div>
+					<div class="col-sm-12"></div>
+					<div class="col-sm-12"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 
 <!--section start here-->
 <section class="home-area">
@@ -368,57 +404,50 @@ $('input[type=number]').spinner();
 <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
 <div class="circle_one">
 <img src="catalog/view/theme/default/image/login.png" alt="login" class="order_icons">
-<p class="login_tx">Login to <br>www.fishgeniee.com</p>
 </div>
+<p class="login_tx">Login to <br>www.fishgeniee.com</p>
 </div>
 
 <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
 <div class="circle_one">
 <img src="catalog/view/theme/default/image/f_fish.png" alt="login" class="order_icons">
+</div>
 <p class="login_tx">Select<br> Favourite Fish</p>
 </div>
-</div>
-
-
-
-
-
 
 <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
 <div class="circle_one">
 <img src="catalog/view/theme/default/image/location.png" alt="login" class="order_icons">
-<h4 class="login_tx">Check pincode <br> service & availibility</h4>
 </div>
+<h4 class="login_tx">Check pincode <br> service & availibility</h4>
 </div>
 
 <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
 <div class="circle_one">
 <img src="catalog/view/theme/default/image/d_slot.png" alt="login" class="order_icons">
-<h4 class="login_tx">Select delivery <br> date & slot </h4>
 </div>
+<h4 class="login_tx">Select delivery <br> date & slot </h4>
 </div>
 
 
 <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
 <div class="circle_one">
 <img src="catalog/view/theme/default/image/pay.png" alt="login" class="order_icons">
-<h4 class="login_tx">Pay securely</h4>
 </div>
+<h4 class="login_tx">Pay securely</h4>
 </div>
 
 
 <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
 <div class="circle_one">
 <img src="catalog/view/theme/default/image/home_delivery.png" alt="login" class="order_icons">
+</div>
 <h4 class="login_tx">Ready to receive <br>home delivery</h4>
 </div>
-</div>
 
-
-<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_help">
+<!--<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_help">
 <img src="catalog/view/theme/default/image/helpyou.png"  class="help" alt="geniee">
-</div>
-
+</div>-->
 
 </div>
 </div>
@@ -428,25 +457,40 @@ $('input[type=number]').spinner();
 
 <div class="boxes_area">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
+                <div class="row row-eq-height">
+				<h3 class="order_heading">Why Only <strong>ohh fish </strong> Seafoods? </h3>
+                    <div class="col-sm-3 center-block">
                         <div class="box_orange">
-						
-                         <h3 class="box_heading">
-						 Fresh Fish</h3>  
+						 <div class="box_orange_img text-center">
+							<img src="catalog/view/theme/default/image/homepage_icons/why_sec1.png"/><br/></div>
+                         <h3 class="box_heading">Delivery at Your<br/>Door Step</h3>  
+						 <p>Our customers enjoy fresh pick every day sitting right at home, without witnessing the market chaos, polluted lanes, contaminated containers, bullying vendors and soaring prices.Our customers enjoy fresh pick every day sitting right at home, without witnessing the market chaos, polluted lanes, contaminated containers, bullying vendors and soaring prices.</p>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="box_orange">
-                           <h3 class="box_heading">
-						   Hygienic</h3>                
+                    <div class="col-sm-3">
+                        <div class="box_orange center-block">
+						<div class="box_orange_img text-center">
+							<img src="catalog/view/theme/default/image/homepage_icons/why_sec2.png"/><br/></div>
+                           <h3 class="box_heading">Best Price for<br/>Best Catch</h3> 
+							<p>We offer best value for money deals in line with the excellent quality product vis-a-vis market offer.</p>				   
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="box_orange">
-                         <h3 class="box_heading">Quality Product</h3>
-                    </div>
-                </div>
+                    <div class="col-sm-3">
+                        <div class="box_orange center-block">
+							<div class="box_orange_img text-center">
+							<img src="catalog/view/theme/default/image/homepage_icons/why_sec3.png"/><br/></div>
+                         <h3 class="box_heading">Your Wish is Our<br/>Command</h3>
+						 <p>Our customers have an upper hand in choosing their most favoured cuts and slices, be it fillet, steaks or anything.</p>
+						</div>
+					</div>
+                    <div class="col-sm-3">
+                        <div class="box_orange center-block">
+							<div class="box_orange_img text-center">
+							<img src="catalog/view/theme/default/image/homepage_icons/why_sec4.png"/><br/></div>
+                         <h3 class="box_heading">No Middle man Policy</h3>
+						 <p>At ohh fish Sea Foods sourcing of fishes, prawns & crabs are directly done by us. We have the infrastructure and manpower to handle the business right from the port. We have a strict policy of...Readmore</p>
+						</div>
+					</div>
             </div>
 </div>
 
@@ -472,16 +516,33 @@ $('input[type=number]').spinner();
 <div class="join_us">
 <div class="container">
 <div class="row">
-<div class="col-sm-12">
-<h3 class="join_text">Join Fishgeniee today To get special Offers </h3>   
-<div class="w3ls-form">
-				<form action="#" method="post" class="subscribe_form" name="newsletter_form" id="newsletter_form">
-					<input type="email" name="newsletter_subscriber" id="newsletter_subscriber" placeholder="Email Id" required />
-					<button type="submit" id="newsletter_btn" class="btn1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-				</form>
-			</div> 
-
-
+<h3 class="order_heading">How to Order? </h3>
+<div class="col-sm-4 text-center center-block">
+<div class="col-sm-12  well well-lg box">
+<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+<p><strong>Rupesh Karbate</strong></p>
+<p> Mumbai, Dadar</p>
+</div>
+</div>
+<div class="col-sm-4 text-center center-block">
+<div class="col-sm-12  well well-lg box">
+<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+<p><strong>Rupesh Karbate</strong></p>
+<p> Mumbai, Dadar</p>
+</div>
+</div>
+<div class="col-sm-4 text-center center-block">
+<div class="col-sm-12  well well-lg box">
+<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+<p><strong>Rupesh Karbate</strong></p>
+<p> Mumbai, Dadar</p>
+</div>
 </div>
 </div>
 </div>
