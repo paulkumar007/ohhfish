@@ -504,7 +504,7 @@ span.spinner > .add:hover {
 .box_orange {
 	position: relative;
 	background:#fff;
-	margin:80PX 0 0;
+	margin:10PX 0 0;
 }
 
 .box_orange i{
@@ -776,15 +776,6 @@ span.spinner > .add:hover {
 }/*
 
 
-
-
-
-
-
-
-
-
-
 /* recepie start here */ 
 .recepie{
 	width:100%;
@@ -794,6 +785,22 @@ span.spinner > .add:hover {
 	background-color:#fff;
 }
 
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+	padding: 16px;
+    border-spacing: 1em;
+}
+
+.col {
+    display: table-cell;background: #fff;width:24%;-webkit-box-shadow: 1px 1px 5px 0px rgba(165, 165, 165, 0.75);
+-moz-box-shadow:    1px 1px 5px 0px rgba(165, 165, 165, 0.75);
+box-shadow:         1px 1px 5px 0px rgba(165, 165, 165, 0.75); /* Make elements inside the container behave like table cells */
+}
+
+.shopbycat img.img-responsive{width:99%}
+.shopbycat > .container > .row > .col-sm-6 > .row > .col-sm-12:first-child  > img, .shopbycat > .container > .row > .col-sm-6 > .row > .col-sm-12:nth-child(2)  > img{ padding-bottom:7%; }
+.shopbycat-info {position: absolute;z-index: 2;color: #fff;top: 39%;left: 0;right: 0;text-align: center;}
 
 @media (min-width: 767px) and (max-width: 992px ){
 
@@ -1057,4 +1064,10 @@ span.spinner > .add:hover {
 }
 
 
+}
+@media screen and (max-width:767px) {
+	.col { 
+        display: block;
+        width: 100%;
+    }
 }

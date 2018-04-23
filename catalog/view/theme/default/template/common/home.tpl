@@ -151,20 +151,30 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 
 <!--section start here-->
 <section class="home-area">
-	<div class="home_content">
+	<div class="home_content shopbycat">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
 					<div class="row">
-					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/why_sec1.png"/></div>
-					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/why_sec1.png"/></div>
+					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-seafish.jpg" class="img-responsive"/>
+					<div class="shopbycat-info">SeawaterFish <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></div>
+					</div>
+					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-seafoods.jpg" class="img-responsive"/>
+					<div class="shopbycat-info">Frozen Seafood <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></div>
+					</div>
 					</div>
 				</div>
 				<div class="col-sm-6">
 					<div class="row">
-					<div class="col-sm-12"></div>
-					<div class="col-sm-12"></div>
-					<div class="col-sm-12"></div>
+					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-fish.jpg" class="img-responsive"/>
+					<div class="shopbycat-info">Freshwater Fish <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></div>
+					</div>
+					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-exotic.jpg" class="img-responsive"/>
+					<div class="shopbycat-info">Exotic <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></div>
+					</div>
+					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-prawns.jpg" class="img-responsive"/>
+					<div class="shopbycat-info">Prawns <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></div>
+					</div>
 					</div>
 				</div>
 			</div>
@@ -457,17 +467,17 @@ $('input[type=number]').spinner();
 
 <div class="boxes_area">
             <div class="container">
-                <div class="row row-eq-height">
 				<h3 class="order_heading">Why Only <strong>ohh fish </strong> Seafoods? </h3>
-                    <div class="col-sm-3 center-block">
-                        <div class="box_orange">
+                <div class="col-container">
+                    <div class="col">
+                        <div class="box_orange center-block">
 						 <div class="box_orange_img text-center">
 							<img src="catalog/view/theme/default/image/homepage_icons/why_sec1.png"/><br/></div>
                          <h3 class="box_heading">Delivery at Your<br/>Door Step</h3>  
 						 <p>Our customers enjoy fresh pick every day sitting right at home, without witnessing the market chaos, polluted lanes, contaminated containers, bullying vendors and soaring prices.Our customers enjoy fresh pick every day sitting right at home, without witnessing the market chaos, polluted lanes, contaminated containers, bullying vendors and soaring prices.</p>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col">
                         <div class="box_orange center-block">
 						<div class="box_orange_img text-center">
 							<img src="catalog/view/theme/default/image/homepage_icons/why_sec2.png"/><br/></div>
@@ -475,7 +485,7 @@ $('input[type=number]').spinner();
 							<p>We offer best value for money deals in line with the excellent quality product vis-a-vis market offer.</p>				   
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col">
                         <div class="box_orange center-block">
 							<div class="box_orange_img text-center">
 							<img src="catalog/view/theme/default/image/homepage_icons/why_sec3.png"/><br/></div>
@@ -483,7 +493,7 @@ $('input[type=number]').spinner();
 						 <p>Our customers have an upper hand in choosing their most favoured cuts and slices, be it fillet, steaks or anything.</p>
 						</div>
 					</div>
-                    <div class="col-sm-3">
+                    <div class="col">
                         <div class="box_orange center-block">
 							<div class="box_orange_img text-center">
 							<img src="catalog/view/theme/default/image/homepage_icons/why_sec4.png"/><br/></div>
