@@ -121,7 +121,7 @@
 </div>
 
 <main class="site-main">
-<!--article start here-->
+<!--article start here
 <article>
 <div class="container">
 <div class="row">
@@ -134,7 +134,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 </div>
 </div>
 </div>
-</article>
+</article>-->
 
 <!--section start here-->
 <section class="home-area">
@@ -504,6 +504,21 @@ $('input[type=number]').spinner();
 						</div>
 					</div>
             </div>
+			<div class="clear"></div>
+			<div class="row">
+				<h3 class="order_heading">Benefits </h3>
+				<div class="col-sm-12">
+				<p>Fish is loaded with important nutrients that is beneficial to health like Omega 3 fatty acids and Vitamins D and B2. Fish is rich in calcium and phosphorus. Fish is also a great source of minerals such as  iron, zinc, iodine, magnesium and potassium. Most Health organisations have recommended eating fish atleast twice a week. Here's a list of health benefits from consuming fish.</p>
+				<div class="row">
+					<div class="col-sm-2">It lowers risk of Heart diseases</div>
+					<div class="col-sm-2">It reduces risk of Alzheimer's disease</div>
+					<div class="col-sm-2">It can help lower symptoms of Depression</div>
+					<div class="col-sm-2">It’s a great source of Vitamin D</div>
+					<div class="col-sm-2">It helps improves Vision and Eye Health</div>
+					<div class="col-sm-2"></div>
+				</div>
+				</div>
+			</div>
 </div>
 
 <!--connect start here-->
@@ -528,7 +543,7 @@ $('input[type=number]').spinner();
 <div class="join_us">
 <div class="container">
 <div class="row">
-<h3 class="order_heading">How to Order? </h3>
+<h3 class="order_heading">What people are saying </h3>
 <div class="col-sm-4 text-center center-block">
 <div class="col-sm-12  well well-lg box">
 <img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
