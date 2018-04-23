@@ -801,6 +801,7 @@ box-shadow:         1px 1px 5px 0px rgba(165, 165, 165, 0.75); /* Make elements 
 .shopbycat img.img-responsive{width:99%}
 .shopbycat > .container > .row > .col-sm-6 > .row > .col-sm-12:first-child  > img, .shopbycat > .container > .row > .col-sm-6 > .row > .col-sm-12:nth-child(2)  > img{ padding-bottom:7%; }
 .shopbycat-info {position: absolute;z-index: 2;color: #fff;top: 39%;left: 0;right: 0;text-align: center;}
+.tab-section {background:url(../image/homepage_icons/about_us.jpg) no-repeat;background-size:cover;}
 
 @media (min-width: 767px) and (max-width: 992px ){
 

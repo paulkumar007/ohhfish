@@ -142,7 +142,9 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
+				<div class="tab-section">
 					tabs code here
+				</div>
 				</div>
 			</div>
 		</div>
