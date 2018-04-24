@@ -3,7 +3,7 @@
 body {
   margin: 0 auto;
   background-color:#fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
   overflow-x:hidden;
 }
 
@@ -169,7 +169,7 @@ header{
 .toplist a:link,
 .toplist a:active,
 .toplist a:visited{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:0.875em;
 	text-decoration:none;
 	color:#fff;
@@ -196,7 +196,7 @@ header{
 .toplist_r a:link,
 .toplist_r a:active,
 .toplist_r a:visited{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:0.875em;
 	text-decoration:none;
 	color:#fff;
@@ -226,7 +226,7 @@ header{
 .white #search input[type="text"] {
     background: url(../image/search-white.png) no-repeat 10px 6px #fcfcfc;
     border: 1px solid #d1d1d1;
-    font-family:Arial,Helvetica,Sans-serif;
+    font-family: 'Roboto Slab', serif;
 	font-size:12px;
     color: #bebebe;
     width:150px;
@@ -303,7 +303,7 @@ header{
 
 
 .faq_main{
-	font-family:'Lato',sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:0.675em;
 	font-weight:400;
 	color:#555;
@@ -313,7 +313,7 @@ header{
 
 
 .about_para{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:1em;
 	font-weight:400;
 	color:#333;
@@ -325,7 +325,7 @@ header{
 
 
 .about_us_p{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:1.125em;
 	font-weight:400;
 	color:#333;
@@ -335,7 +335,7 @@ header{
 }
 
 .about_para_ans{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:0.9em;
 	font-weight:400;
 	color:#333;
@@ -346,7 +346,7 @@ header{
 .about_para_ans a:link,
 .about_para_ans a:active,
 .about_para_ans a:visited{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:1em;
 	font-weight:400;
 	color:#333;
@@ -371,7 +371,7 @@ header{
 .faq-t {
   line-height:1em;
   color:#f05e22;
-  font-family: sans-serif;
+  font-family: 'Roboto Slab', serif;
   float: left;
   font-weight: 700;
   padding-right:0.3em;
@@ -434,7 +434,7 @@ footer{
 .footer_list a:link,
 .footer_list a:active,
 .footer_list a:visited{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:1.2em;
 	color:#fff;
 	text-decoration:none;
@@ -456,7 +456,7 @@ footer{
 }
 
 .copy_text{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	color:#fff;
 	font-size:1em;
 	text-align:center;
@@ -468,7 +468,7 @@ a.copyright_a:link,
 a.copyright_a:active,
 a.copyright_a:visited{
 	display:block;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:0.875em;
 	text-decoration:none;
 	color:#bfbfbf;
@@ -620,7 +620,7 @@ header{
 .toplist a:link,
 .toplist a:active,
 .toplist a:visited{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:2em;
 	text-decoration:none;
 	color:#ff961b;
@@ -648,7 +648,7 @@ header{
 .toplist_r a:link,
 .toplist_r a:active,
 .toplist_r a:visited{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:0.875em;
 	text-decoration:none;
 	color:#fff;
@@ -801,7 +801,7 @@ header{
 .toplist a:link,
 .toplist a:active,
 .toplist a:visited{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:2em;
 	text-decoration:none;
 	color:#ff961b;
@@ -829,7 +829,7 @@ header{
 .toplist_r a:link,
 .toplist_r a:active,
 .toplist_r a:visited{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:0.875em;
 	text-decoration:none;
 	color:#fff;
@@ -978,7 +978,7 @@ header{
 .toplist a:link,
 .toplist a:active,
 .toplist a:visited{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:2em;
 	text-decoration:none;
 	color:#ff961b;
@@ -1010,7 +1010,7 @@ header{
 .toplist_r a:link,
 .toplist_r a:active,
 .toplist_r a:visited{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:0.875em;
 	text-decoration:none;
 	color:#fff;

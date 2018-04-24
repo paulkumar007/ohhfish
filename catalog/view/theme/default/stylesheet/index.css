@@ -48,7 +48,7 @@ body {
 }
 
 .ticker__item{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:1em;
 	font-weight:400;
 	color:#fff;
@@ -59,7 +59,7 @@ body {
 .ticker__item a:link,
 .ticker__item a:active,
 .ticker__item a:visited{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:1em;
 	font-weight:400;
 	color:#fff;
@@ -139,7 +139,7 @@ article{
 }
 
 .article_text{
-	font-family: 'Lato', sans-serif;	
+	font-family: 'Roboto Slab', serif;	
 	color:#fff;
 	font-size:1.425em;
 	font-weight:400;
@@ -176,7 +176,7 @@ article{
 .view_arrow a:link,
 .view_arrow a:active,
 .view_arrow a:visited{
-	font-family:'Roboto',sans-serif;
+	font-family: 'Roboto Slab', serif;
 	color:#fff;
 	font-size:1.6em;
 	text-decoration:none;
@@ -206,7 +206,7 @@ article{
 }
 
 .fish_heading_one{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:center;
 	color:#333;
 	font-weight:300;
@@ -225,7 +225,7 @@ article{
 .fish_heading a:link,
 .fish_heading a:active,
 .fish_heading a:visited{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:left;
 	color:#333;
 	font-weight:400;
@@ -239,7 +239,7 @@ article{
 }
 
 .second_text{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	color:#888;
 	font-weight:400;
 	font-size:0.585em;
@@ -268,7 +268,7 @@ article{
 
 .kg{
 	position: relative;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: #333;
     font-weight: 400;
     font-size: 1em;
@@ -277,7 +277,7 @@ article{
     margin: 0px 0px 0px 0px;
 }
 .price{
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:left;
 	color:#333;
 	font-weight:700;
@@ -315,7 +315,7 @@ input[type=number] {
   float:left;
   width:60px;
   height:33px;
-  font-family: Lato;
+  font-family: 'Roboto Slab', serif;
   font-weight:700;
   font-size: 1.2em;
   text-transform: uppercase;
@@ -344,7 +344,7 @@ span.spinner > .add {
   width: 35px;
   height: 33px;
   text-align: center;
-  font-family: Lato;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
   font-size: 1.2em;
   line-height:33px;
@@ -410,7 +410,7 @@ span.spinner > .add:hover {
 }
 
 .order_heading{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:center;
 	color:#000;
 	font-weight:300;
@@ -480,7 +480,7 @@ span.spinner > .add:hover {
 
 .login_tx{
 	position:relative;
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:center;
 	color:#000000;
 	font-weight:300;
@@ -520,7 +520,7 @@ span.spinner > .add:hover {
 
 .box_heading {
 	position: relative;
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:center;
 	color:#000;
 	font-weight:300;
@@ -540,7 +540,7 @@ span.spinner > .add:hover {
 }
 
 .join_text{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:center;
 	color:#fff;
 	font-weight:200;
@@ -564,7 +564,7 @@ span.spinner > .add:hover {
 }
 
 .btn_subscribe{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
     font-size:18px;
     padding:10px 35px;
     color:#fff;
@@ -577,7 +577,7 @@ span.spinner > .add:hover {
 .btn_subscribe a:link,
 .btn_subscribe a:active,
 .btn_subscribe a:visited {
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-decoration:none;
     font-size:18px;
     padding:10px 35px;
@@ -606,7 +606,7 @@ span.spinner > .add:hover {
     border:none;
     width:300px;
     outline: none;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
     padding:1em;
 	border-radius: 3px;
     font-size:1em;
