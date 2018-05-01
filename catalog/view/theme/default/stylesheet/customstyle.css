@@ -228,15 +228,16 @@ header{
     border: 1px solid #d1d1d1;
     font-family: 'Roboto Slab', serif;
 	font-size:12px;
-    color: #bebebe;
-    width:150px;
-    padding:5px 15px 3px 35px;
+    color: #bebebe;width:53%;
+    /* width:150px; 
     -webkit-border-radius:10px;
     -moz-border-radius:10x;
     border-radius:10px;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    font-family:Arial,Helvetica,Sans-serif;*/
+    padding:5px 15px 3px 35px;
     -webkit-transition: all 0.7s ease 0s;
     -moz-transition: all 0.7s ease 0s;
     -o-transition: all 0.7s ease 0s;
@@ -244,7 +245,7 @@ header{
     }
 
 .white #search input[type="text"]:focus {
-    width:170px;
+    /* width:170px; */
 }
 
 
@@ -256,7 +257,7 @@ header{
 }
 
 #top_left_n{
-	width:35%;
+	width:20%;
 	float:left;
 	position:relative;
 	background-color:#fff;
@@ -266,21 +267,21 @@ header{
 
 #top_left_n img{
 	width:100%;
-	max-width:181px;
+	max-width:128px;
 }
 
 
 #top_right_n{
-	width:60%;
+	width:80%;
 	float:right;
 	position:relative;
-	padding:50px 0px 0px 150px;
+	/* padding:50px 0px 0px 150px; */
 }
 
 #navigation{
 	width:100%;
 	position:relative;
-	padding:0px 0px 0px 0px;
+	padding:23px 0px 0px 0px;
 }
 
 .arrow_b {
