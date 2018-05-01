@@ -195,6 +195,31 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 	</div>
 </section>
 
+<section class="home-area" style="background:#aae7ff">
+	<div class="home_content shopbycat" style="padding-bottom:100px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12"><h2 class="fish_heading_one">Best Sellers</h2></div>
+				<div class="home_list">
+					<ul>
+						<li class="col-md-3 col-sm-6 col-xs-12 fish_row"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller1.jpg" alt="" title="" class="img-responsive" /></a>
+						<div class="caption"><h4>Surmai - King Fish</h4></div>
+						</li>
+						<li class="col-md-3 col-sm-6 col-xs-12 fish_row"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller2.jpg" alt="" title="" class="img-responsive" /></a>
+						<div class="caption"><h4>Pomfret</h4></div>
+						</li>
+						<li class="col-md-3 col-sm-6 col-xs-12 fish_row"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller3.jpg" alt="" title="" class="img-responsive" /></a>
+						<div class="caption"><h4>Tiger - Prawns</h4></div>
+						</li>
+						<li class="col-md-3 col-sm-6 col-xs-12 fish_row"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller4.jpg" alt="" title="" class="img-responsive" /></a>
+						<div class="caption"><h4>Mackerel(Bangada)</h4></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <!--section start here-->
 <section class="home-area">
@@ -362,7 +387,6 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 </div>
 </div>
 <?php } ?>
-
  
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
 <script>
@@ -415,6 +439,113 @@ $('input[type=number]').spinner();
 </script>
 </section>
 
+<div class="boxes_area">
+            <div class="container">
+				<h3 class="order_heading">Why Only <strong>ohh fish </strong> Seafoods? </h3>
+                <div class="col-container">
+                    <div class="col">
+                        <div class="box_orange center-block">
+						 <div class="box_orange_img text-center">
+							<img src="catalog/view/theme/default/image/homepage_icons/why_sec1.png"/><br/></div>
+                         <h3 class="box_heading">Delivery at Your<br/>Door Step</h3>  
+						 <p>Our customers enjoy fresh pick every day sitting right at home, without witnessing the market chaos, polluted lanes, contaminated containers, bullying vendors and soaring prices.Our customers enjoy fresh pick every day sitting right at home, without witnessing the market chaos, polluted lanes, contaminated containers, bullying vendors and soaring prices.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box_orange center-block">
+						<div class="box_orange_img text-center">
+							<img src="catalog/view/theme/default/image/homepage_icons/why_sec2.png"/><br/></div>
+                           <h3 class="box_heading">Best Price for<br/>Best Catch</h3> 
+							<p>We offer best value for money deals in line with the excellent quality product vis-a-vis market offer.</p>				   
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box_orange center-block">
+							<div class="box_orange_img text-center">
+							<img src="catalog/view/theme/default/image/homepage_icons/why_sec3.png"/><br/></div>
+                         <h3 class="box_heading">Your Wish is Our<br/>Command</h3>
+						 <p>Our customers have an upper hand in choosing their most favoured cuts and slices, be it fillet, steaks or anything.</p>
+						</div>
+					</div>
+                    <div class="col">
+                        <div class="box_orange center-block">
+							<div class="box_orange_img text-center">
+							<img src="catalog/view/theme/default/image/homepage_icons/why_sec4.png"/><br/></div>
+                         <h3 class="box_heading">No Middle man Policy</h3>
+						 <p>At ohh fish Sea Foods sourcing of fishes, prawns & crabs are directly done by us. We have the infrastructure and manpower to handle the business right from the port. We have a strict policy of...Readmore</p>
+						</div>
+					</div>
+            </div>
+			<div class="clear"></div>
+			<div class="row">
+				<h3 class="order_heading">Benefits </h3>
+				<div class="col-sm-12">
+				<p>Fish is loaded with important nutrients that is beneficial to health like Omega 3 fatty acids and Vitamins D and B2. Fish is rich in calcium and phosphorus. Fish is also a great source of minerals such as  iron, zinc, iodine, magnesium and potassium. Most Health organisations have recommended eating fish atleast twice a week. Here's a list of health benefits from consuming fish.</p>
+				<div class="row">
+					<div class="col-sm-2"><div class="col-sm-12 well well-blue box">It lowers risk of Heart diseases</div></div>
+					<div class="col-sm-2"><div class="col-sm-12 well well-blue box">It reduces risk of Alzheimer's disease</div></div>
+					<div class="col-sm-2"><div class="col-sm-12 well well-blue box">It can help lower symptoms of Depression</div></div>
+					<div class="col-sm-2"><div class="col-sm-12 well well-blue box">It’s a great source of Vitamin D</div></div>
+					<div class="col-sm-2"><div class="col-sm-12 well well-blue box">It helps improves Vision and Eye Health</div></div>
+					<div class="col-sm-2"><div class="col-sm-12 well well-blue box">It helps improves Vision and Eye Health</div></div>
+				</div>
+				</div>
+			</div>
+</div>
+
+<!--connect start here-->
+<!--<div class="connect">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 connect_center">
+
+<div class="icons">
+<a class="facebook" href="https://www.facebook.com/SheoreyDigitalSystems/" target="_blank" title="Facebook"></a>
+<a class="twitter" href="#" title="Twitter"></a>
+<a class="linkedin" href="https://plus.google.com" target="_blank"  title="google-plus"></a>
+</div>
+
+</div>
+</div>
+</div>
+</div>-->
+
+
+<!--join us start here-->
+<div class="join_us">
+<div class="container">
+<div class="row">
+<h3 class="order_heading">What people are saying </h3>
+<div class="col-sm-4 text-center center-block">
+<div class="col-sm-12  well well-lg box">
+<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+<p><strong>Rupesh Karbate</strong></p>
+<p> Mumbai, Dadar</p>
+</div>
+</div>
+<div class="col-sm-4 text-center center-block">
+<div class="col-sm-12  well well-lg box">
+<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+<p><strong>Rupesh Karbate</strong></p>
+<p> Mumbai, Dadar</p>
+</div>
+</div>
+<div class="col-sm-4 text-center center-block">
+<div class="col-sm-12  well well-lg box">
+<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+<p><strong>Rupesh Karbate</strong></p>
+<p> Mumbai, Dadar</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 <div class="order_process">
 <div class="container">
@@ -478,113 +609,6 @@ $('input[type=number]').spinner();
 </div>
 </div>
 
-<div class="boxes_area">
-            <div class="container">
-				<h3 class="order_heading">Why Only <strong>ohh fish </strong> Seafoods? </h3>
-                <div class="col-container">
-                    <div class="col">
-                        <div class="box_orange center-block">
-						 <div class="box_orange_img text-center">
-							<img src="catalog/view/theme/default/image/homepage_icons/why_sec1.png"/><br/></div>
-                         <h3 class="box_heading">Delivery at Your<br/>Door Step</h3>  
-						 <p>Our customers enjoy fresh pick every day sitting right at home, without witnessing the market chaos, polluted lanes, contaminated containers, bullying vendors and soaring prices.Our customers enjoy fresh pick every day sitting right at home, without witnessing the market chaos, polluted lanes, contaminated containers, bullying vendors and soaring prices.</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="box_orange center-block">
-						<div class="box_orange_img text-center">
-							<img src="catalog/view/theme/default/image/homepage_icons/why_sec2.png"/><br/></div>
-                           <h3 class="box_heading">Best Price for<br/>Best Catch</h3> 
-							<p>We offer best value for money deals in line with the excellent quality product vis-a-vis market offer.</p>				   
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="box_orange center-block">
-							<div class="box_orange_img text-center">
-							<img src="catalog/view/theme/default/image/homepage_icons/why_sec3.png"/><br/></div>
-                         <h3 class="box_heading">Your Wish is Our<br/>Command</h3>
-						 <p>Our customers have an upper hand in choosing their most favoured cuts and slices, be it fillet, steaks or anything.</p>
-						</div>
-					</div>
-                    <div class="col">
-                        <div class="box_orange center-block">
-							<div class="box_orange_img text-center">
-							<img src="catalog/view/theme/default/image/homepage_icons/why_sec4.png"/><br/></div>
-                         <h3 class="box_heading">No Middle man Policy</h3>
-						 <p>At ohh fish Sea Foods sourcing of fishes, prawns & crabs are directly done by us. We have the infrastructure and manpower to handle the business right from the port. We have a strict policy of...Readmore</p>
-						</div>
-					</div>
-            </div>
-			<div class="clear"></div>
-			<div class="row">
-				<h3 class="order_heading">Benefits </h3>
-				<div class="col-sm-12">
-				<p>Fish is loaded with important nutrients that is beneficial to health like Omega 3 fatty acids and Vitamins D and B2. Fish is rich in calcium and phosphorus. Fish is also a great source of minerals such as  iron, zinc, iodine, magnesium and potassium. Most Health organisations have recommended eating fish atleast twice a week. Here's a list of health benefits from consuming fish.</p>
-				<div class="row">
-					<div class="col-sm-2">It lowers risk of Heart diseases</div>
-					<div class="col-sm-2">It reduces risk of Alzheimer's disease</div>
-					<div class="col-sm-2">It can help lower symptoms of Depression</div>
-					<div class="col-sm-2">It’s a great source of Vitamin D</div>
-					<div class="col-sm-2">It helps improves Vision and Eye Health</div>
-					<div class="col-sm-2"></div>
-				</div>
-				</div>
-			</div>
-</div>
-
-<!--connect start here-->
-<!--<div class="connect">
-<div class="container">
-<div class="row">
-<div class="col-sm-12 connect_center">
-
-<div class="icons">
-<a class="facebook" href="https://www.facebook.com/SheoreyDigitalSystems/" target="_blank" title="Facebook"></a>
-<a class="twitter" href="#" title="Twitter"></a>
-<a class="linkedin" href="https://plus.google.com" target="_blank"  title="google-plus"></a>
-</div>
-
-</div>
-</div>
-</div>
-</div>-->
-
-
-<!--join us start here-->
-<div class="join_us">
-<div class="container">
-<div class="row">
-<h3 class="order_heading">What people are saying </h3>
-<div class="col-sm-4 text-center center-block">
-<div class="col-sm-12  well well-lg box">
-<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
-<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
-<p><strong>Rupesh Karbate</strong></p>
-<p> Mumbai, Dadar</p>
-</div>
-</div>
-<div class="col-sm-4 text-center center-block">
-<div class="col-sm-12  well well-lg box">
-<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
-<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
-<p><strong>Rupesh Karbate</strong></p>
-<p> Mumbai, Dadar</p>
-</div>
-</div>
-<div class="col-sm-4 text-center center-block">
-<div class="col-sm-12  well well-lg box">
-<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
-<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
-<p><strong>Rupesh Karbate</strong></p>
-<p> Mumbai, Dadar</p>
-</div>
-</div>
-</div>
-</div>
-</div>
 <script type="text/javascript">
 $("#newsletter_form").on('submit',(function(e) {
 	e.preventDefault();	

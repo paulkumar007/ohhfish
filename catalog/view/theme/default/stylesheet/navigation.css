@@ -62,16 +62,19 @@
 }
 #cssmenu > ul > li > a {
   font-family:'Roboto', sans-serif;
-  padding:17px 24px;
+  padding:17px 24px 14px;
   font-size:14px;
   font-weight:400;
   letter-spacing:0px;
   text-decoration: none;
   color:#555;
+  text-transform: uppercase;
 }
 
 #cssmenu > ul > li:hover > a {
-  color:#f05e22;
+  color:#2196f3;
+  border-bottom:3px solid #2196f3;
+  font-weight:600;
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right:25px;

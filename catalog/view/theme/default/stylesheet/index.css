@@ -422,7 +422,7 @@ span.spinner > .add:hover {
 .seven-cols .col-sm-1,
 .seven-cols .col-lg-1 {
     width:14%;
-    *width:14%;
+    width:16%;
 	margin:1.6px;
 }
 
@@ -802,7 +802,7 @@ box-shadow:         1px 1px 5px 0px rgba(165, 165, 165, 0.75); /* Make elements 
 .shopbycat > .container > .row > .col-sm-6 > .row > .col-sm-12:first-child  > img, .shopbycat > .container > .row > .col-sm-6 > .row > .col-sm-12:nth-child(2)  > img{ padding-bottom:7%; }
 .shopbycat-info {position: absolute;z-index: 2;color: #fff;top: 39%;left: 0;right: 0;text-align: center;}
 .tab-section {background:url(../image/homepage_icons/about_us.jpg) no-repeat;background-size:cover;}
-
+.well-blue {background-color: #3677e4 !important;color: #fff;min-height: 100px !important;}
 @media (min-width: 767px) and (max-width: 992px ){
 
 .fish_heading_one{

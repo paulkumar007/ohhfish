@@ -87,13 +87,13 @@
 							<li class="vertical_line"> | </li>
 							<?php } ?>
 							<li class="toplist_r"><a href="index.php?route=checkout/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart</a></li>
-							<li class="vertical_line"> | </li>
+							<!-- <li class="vertical_line"> | </li>
 							<li class="toplist_r">
 							<div class="white">
 							<form method="get" action="index.php?route=product/search" id="search">
 								<input name="search" id="searcher" type="text" size="40" placeholder="Search..." />
 							</form>
-							</div></li>
+							</div></li> -->
 
 
                         </ul>                        
@@ -152,6 +152,13 @@
 <a href="index.php">
 <img src="catalog/view/theme/default/image/ohhfish_logo.png" alt="Ohhfish_logo"></a></div>
 <div id="top_right_n">
+<div>
+	<div class="white">
+	<form method="get" action="index.php?route=product/search" id="search">
+		<input name="search" id="searcher" type="text" size="40" placeholder="Search what you like..." />
+	</form>
+	</div>
+</div>
 <?php if ($categories) { ?>
 	<div id="navigation">
 	<div id="cssmenu">
