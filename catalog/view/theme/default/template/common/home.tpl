@@ -265,12 +265,12 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 				<div class="col-sm-12">
 				<p>Fish is loaded with important nutrients that is beneficial to health like Omega 3 fatty acids and Vitamins D and B2. Fish is rich in calcium and phosphorus. Fish is also a great source of minerals such as  iron, zinc, iodine, magnesium and potassium. Most Health organisations have recommended eating fish atleast twice a week. Here's a list of health benefits from consuming fish.</p>
 				<div class="row owl-carousel owl-theme" id="owl-benefits">
-					<div class="well well-blue box">It lowers risk of Heart diseases</div>
-					<div class="well well-blue box">It reduces risk of Alzheimer's disease</div>
-					<div class="well well-blue box">It can help lower symptoms of Depression</div>
-					<div class="well well-blue box">It’s a great source of Vitamin D</div>
-					<div class="well well-blue box">It helps improves Vision and Eye Health</div>
-					<div class="well well-blue box">It helps improves Vision and Eye Health</div>
+					<div class="well well-blue">It lowers risk of Heart diseases</div>
+					<div class="well well-blue">It reduces risk of Alzheimer's disease</div>
+					<div class="well well-blue">It can help lower symptoms of Depression</div>
+					<div class="well well-blue">It’s a great source of Vitamin D</div>
+					<div class="well well-blue">It helps improves Vision and Eye Health</div>
+					<div class="well well-blue">It helps improves Vision and Eye Health</div>
 				</div>
 				</div>
 			</div>
