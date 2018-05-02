@@ -4,7 +4,7 @@
 <h3 class="add_text">My Cart </h3>
 <span class="g_lamp">
 <div class="bck_lamp">
-<img src="catalog/view/theme/default/image/g_lamp.png" width="64px" height="64px" alt="geniee_lamp"></div>
+<img src="catalog/view/theme/default/image/g_lamp.png" width="68px" height="88px" alt="geniee_lamp"></div>
 <!--<i class="fa fa-shopping-basket" aria-hidden="true" style="font-size:30px; color:#fff;">-->
 <span class="badge loc">
 <?php echo $total_cart; ?></span><!--</i>--></span> </a></div>

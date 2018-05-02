@@ -22,10 +22,10 @@
 
 
 
-<!--slider jquery start here-->
+<!--slider jquery start here
 <link href="catalog/view/theme/default/stylesheet/slider_bootstrap.min.css" rel="stylesheet" />
 <script src="catalog/view/javascript/slider_jquery.min.js"></script>
-<script src="catalog/view/javascript/slider_bootstrap.min.js"></script>
+<script src="catalog/view/javascript/slider_bootstrap.min.js"></script>-->
 
 
 <script type="text/javascript">
@@ -200,18 +200,18 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12"><h2 class="fish_heading_one">Best Sellers</h2></div>
-				<div class="home_list">
-					<ul>
-						<li class="col-md-3 col-sm-6 col-xs-12 fish_row"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller1.jpg" alt="" title="" class="img-responsive" /></a>
+				<div class="home_list col-sm-12">
+					<ul id="owl-seller" class="owl-carousel owl-theme">
+						<li class="fish_row item"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller1.jpg" alt="" title="" class="img-responsive" /></a>
 						<div class="caption"><h4>Surmai - King Fish</h4></div>
 						</li>
-						<li class="col-md-3 col-sm-6 col-xs-12 fish_row"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller2.jpg" alt="" title="" class="img-responsive" /></a>
+						<li class="fish_row item"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller2.jpg" alt="" title="" class="img-responsive" /></a>
 						<div class="caption"><h4>Pomfret</h4></div>
 						</li>
-						<li class="col-md-3 col-sm-6 col-xs-12 fish_row"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller3.jpg" alt="" title="" class="img-responsive" /></a>
+						<li class="fish_row item"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller3.jpg" alt="" title="" class="img-responsive" /></a>
 						<div class="caption"><h4>Tiger - Prawns</h4></div>
 						</li>
-						<li class="col-md-3 col-sm-6 col-xs-12 fish_row"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller4.jpg" alt="" title="" class="img-responsive" /></a>
+						<li class="fish_row item"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller4.jpg" alt="" title="" class="img-responsive" /></a>
 						<div class="caption"><h4>Mackerel(Bangada)</h4></div>
 						</li>
 					</ul>
@@ -221,223 +221,6 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 	</div>
 </section>
 
-<!--section start here-->
-<section class="home-area">
-<?php
-	if ($marine_products) {
-?>
-<div class="home_content_1">
-<div class="home_content">
-<div class="container">
-<div class="row">
-<div class="col-sm-12">
-<h2 class="fish_heading_one">Marine Fish</h2></div>
-<div class="home_list">
-	<ul>
-		<?php foreach ($marine_products as $product) { ?>
-			<li class="col-md-3 col-sm-6 col-xs-12 fish_row">
-				<div class="thumbnail">
-				<a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a>
-				<div class="caption">
-				<h3 class="fish_heading"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?> </a><span class="second_text">(<?php echo $product['size']; ?>) </span></h3>
-				<h3 class="fish_type_marathi">( <?php echo $product['sku']; ?> )  </h3>
-				<?php if ($product['price']) { ?>
-                <h3 class="price" id="pricer_<?php echo $product['product_id']; ?>" alt="<?php echo $product['only_price']; ?>">
-                  <?php if (!$product['special']) { ?>
-                  <?php echo 'Rs. '.round($product['only_price']/2); ?>
-                  <?php } else { ?>
-                  <span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
-                  <?php } ?>
-                <!--<span class="kg">(Per Kg) </span>--> </h3>
-                <?php } ?>
-				
-				<span class="details_gm">( <?php echo $product['approx']; ?> ) </span>
-				<div class="quantity_box">	
-				<input type="number" alt="<?php echo $product['product_id']; ?>" min="0.5" max="5" value="0.5" />
-				<span class="kg">Kg </span>
-				</div>
-				<a href="<?php echo $product['href']; ?>" role="button" class="add_to_cart">View Details</a>
-				</div>
-				</div>
-			</li>
-		<?php 
-			}
-		?>                          
-	</ul>
-</div>                            
-                      
-</div>
-   
-</div>
-<div class="view">
-<div class="view_arrow"><a href="/marine-fish"> View More  </a> </p>
-</div> 
-</div>
-</div>
-</div>
-<?php } ?>
-
-<?php
-	if ($shell_products) {
-?>
-<div class="home_content_2">
-<div class="home_content">
-<div class="container">
-<div class="row">
-<div class="col-sm-12">
-<h2 class="fish_heading_one">Crustaceans</h2></div>
-<div class="home_list">
-	<ul>
-		<?php foreach ($shell_products as $product) { ?>
-			<li class="col-md-3 col-sm-6 col-xs-12 fish_row">
-				<div class="thumbnail">
-				<a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a>
-				<div class="caption">
-				<h3 class="fish_heading"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?> </a>
-				<span class="second_text">(<?php echo $product['size']; ?>) </span></h3>
-				<h3 class="fish_type_marathi">( <?php echo $product['sku']; ?> )  </h3>
-				<?php if ($product['price']) { ?>
-                <h3 class="price" id="pricer_<?php echo $product['product_id']; ?>" alt="<?php echo $product['only_price']; ?>">
-                  <?php if (!$product['special']) { ?>
-                  <?php echo 'Rs. '.round($product['only_price']/2); ?>
-                  <?php } else { ?>
-                  <span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
-                  <?php } ?>
-                <!--<span class="kg">(Per Kg) </span>--> </h3>
-                <?php } ?>
-				
-				<span class="details_gm">( <?php echo $product['approx']; ?> ) </span>
-				<div class="quantity_box">	
-				<input type="number" alt="<?php echo $product['product_id']; ?>" min="0.5" max="5" value="0.5" />
-				<span class="kg">Kg </span>
-				</div>
-				<a href="<?php echo $product['href']; ?>" role="button" class="add_to_cart">View Details</a>
-				</div>
-				</div>
-			</li>
-		<?php 
-			}
-		?>                          
-	</ul>
-</div>                            
-                      
-</div>
-   
-</div>
-<div class="view">
-<div class="view_arrow"><a href="/shell-fish"> View More  </a> </p>
-</div> 
-</div>
-</div>
-</div>
-<?php } ?>
-
-
-<?php
-	if ($fillet_products) {
-?>
-<div class="home_content_3">
-<div class="home_content">
-<div class="container">
-<div class="row">
-<div class="col-sm-12">
-<h2 class="fish_heading_one">Fillet</h2></div>
-<div class="home_list">
-	<ul>
-		<?php foreach ($fillet_products as $product) { ?>
-			<li class="col-md-3 col-sm-6 col-xs-12 fish_row">
-				<div class="thumbnail">
-				<a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a>
-				<div class="caption">
-				<h3 class="fish_heading"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?> </a>
-				<!--<span class="second_text">(<?php echo $product['size']; ?>) </span>--></h3>
-				<h3 class="fish_type_marathi">( <?php echo $product['sku']; ?> )  </h3>
-				<?php if ($product['price']) { ?>
-                <h3 class="price" id="pricer_<?php echo $product['product_id']; ?>" alt="<?php echo $product['only_price']; ?>">
-                  <?php if (!$product['special']) { ?>
-                  <?php echo 'Rs. '.round($product['only_price']/2); ?>
-                  <?php } else { ?>
-                  <span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
-                  <?php } ?>
-                <!--<span class="kg">(Per Kg) </span>--> </h3>
-                <?php } ?>
-				
-				<!--<span class="details_gm">( <?php echo $product['approx']; ?> ) </span>-->
-				<div class="quantity_box">	
-				<input type="number" alt="<?php echo $product['product_id']; ?>" min="0.5" max="5" value="0.5" />
-				<span class="kg">Kg </span>
-				</div>
-				<a href="<?php echo $product['href']; ?>" role="button" class="add_to_cart">View Details</a>
-				</div>
-				</div>
-			</li>
-		<?php 
-			}
-		?>                          
-	</ul>
-</div>                            
-                      
-</div>
-   
-</div>
-<div class="view">
-<div class="view_arrow"><a href="/fillet-fish"> View More  </a> </p>
-</div> 
-</div>
-</div>
-</div>
-<?php } ?>
- 
-<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
-<script>
-(function($) {
-	$.fn.spinner = function() {
-		this.each(function() {
-			var el = $(this);
-
-			// add elements
-			el.wrap('<span class="spinner"></span>');     
-			el.before('<span class="sub">-</span>');
-			el.after('<span class="add">+</span>');
-
-			// substract
-			el.parent().on('click', '.sub', function () {
-				if (el.val() > parseFloat(el.attr('min')))
-				el.val( function(i, oldval) {
-					var finalval = parseFloat(oldval)-0.5;
-					var alter = el.attr('alt');
-					var quantity = finalval;
-					
-					var pricer = $("#pricer_"+alter).attr('alt');
-					var total = quantity * pricer;
-					$("#pricer_"+alter).html('Rs. '+total+' ');
-		
-					return finalval;
-				});
-			});
-
-			// increment
-			el.parent().on('click', '.add', function () {
-				if (el.val() < parseFloat(el.attr('max')))
-				el.val( function(i, oldval) {
-					var finalval = parseFloat(oldval)+0.5;
-					var alter = el.attr('alt');
-					var quantity = finalval;
-					
-					var pricer = $("#pricer_"+alter).attr('alt');
-					var total = quantity * pricer;
-					$("#pricer_"+alter).html('Rs. '+total+' ');
-		
-					return finalval;
-				});
-			});
-	    });
-	};
-})(jQuery);
-
-$('input[type=number]').spinner();
-</script>
-</section>
 
 <div class="boxes_area">
             <div class="container">
@@ -481,13 +264,13 @@ $('input[type=number]').spinner();
 				<h3 class="order_heading">Benefits </h3>
 				<div class="col-sm-12">
 				<p>Fish is loaded with important nutrients that is beneficial to health like Omega 3 fatty acids and Vitamins D and B2. Fish is rich in calcium and phosphorus. Fish is also a great source of minerals such as  iron, zinc, iodine, magnesium and potassium. Most Health organisations have recommended eating fish atleast twice a week. Here's a list of health benefits from consuming fish.</p>
-				<div class="row">
-					<div class="col-sm-2"><div class="col-sm-12 well well-blue box">It lowers risk of Heart diseases</div></div>
-					<div class="col-sm-2"><div class="col-sm-12 well well-blue box">It reduces risk of Alzheimer's disease</div></div>
-					<div class="col-sm-2"><div class="col-sm-12 well well-blue box">It can help lower symptoms of Depression</div></div>
-					<div class="col-sm-2"><div class="col-sm-12 well well-blue box">It’s a great source of Vitamin D</div></div>
-					<div class="col-sm-2"><div class="col-sm-12 well well-blue box">It helps improves Vision and Eye Health</div></div>
-					<div class="col-sm-2"><div class="col-sm-12 well well-blue box">It helps improves Vision and Eye Health</div></div>
+				<div class="row owl-carousel owl-theme" id="owl-benefits">
+					<div class="well well-blue box">It lowers risk of Heart diseases</div>
+					<div class="well well-blue box">It reduces risk of Alzheimer's disease</div>
+					<div class="well well-blue box">It can help lower symptoms of Depression</div>
+					<div class="well well-blue box">It’s a great source of Vitamin D</div>
+					<div class="well well-blue box">It helps improves Vision and Eye Health</div>
+					<div class="well well-blue box">It helps improves Vision and Eye Health</div>
 				</div>
 				</div>
 			</div>
@@ -643,5 +426,49 @@ $("#newsletter_form").on('submit',(function(e) {
 	});
 	return false;
 }));
+</script>
+<script type="text/javascript">
+$(document).ready(function () {
+$('#owl-seller').owlCarousel({
+	items:4,
+    loop:false,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
+})
+$('#owl-benefits').owlCarousel({
+    loop:false,
+	items:6,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:5
+        },
+        1000:{
+            items:6
+        }
+    }
+})
+
+
+});
 </script>
 <?php echo $footer; ?>

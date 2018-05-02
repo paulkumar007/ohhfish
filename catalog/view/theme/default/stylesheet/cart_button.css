@@ -60,7 +60,7 @@ a.cart_link:hover{
 
 
 .bck_lamp{
-	background: #ff9150;
+	/* background: #ff9150; */
     width: 80px;
     height: 80px;
     border-radius:50%;
@@ -71,7 +71,7 @@ a.cart_link:hover{
 }
 
 .bck_lamp:hover{
-  background-color:#fb641b;
+  /* background-color:#fb641b; */
 }
 
 .add_text{
