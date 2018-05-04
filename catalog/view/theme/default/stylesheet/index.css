@@ -801,8 +801,20 @@ box-shadow:         1px 1px 5px 0px rgba(165, 165, 165, 0.75); /* Make elements 
 .shopbycat img.img-responsive{width:99%}
 .shopbycat > .container > .row > .col-sm-6 > .row > .col-sm-12:first-child  > img, .shopbycat > .container > .row > .col-sm-6 > .row > .col-sm-12:nth-child(2)  > img{ padding-bottom:7%; }
 .shopbycat-info {position: absolute;z-index: 2;color: #fff;top: 39%;left: 0;right: 0;text-align: center;}
-.tab-section {background:url(../image/homepage_icons/about_us.jpg) no-repeat;background-size:cover;}
+.tab-section {background:url(../image/homepage_icons/about_us.jpg) no-repeat;background-size:cover; margin-bottom: 30px; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); }
+.tab-inner {width:90%; margin:0 auto; padding:30px 0;}
+.tab-section .nav-tabs { border-bottom: 2px solid #2196f3; font-size: 16px;}
+.tab-section .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+.tab-section .nav-tabs > li > a { border: none; color: #666; }
+.tab-section .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #fff !important; background: #2196f3; }
+.tab-section .nav-tabs > li > a::after { content: ""; background: #4285F4; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.tab-section .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.tab-section .tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+.tab-section .tab-pane { padding: 15px 0;color:#fff }
+.tab-content{padding:20px}
+
 .well-blue {background-color: #3677e4 !important;color: #fff;min-height: 100px !important;}
+.well-testimonial {background-color: #fff !important;box-shadow: 0 3px 16px 0 rgba(0, 0, 0, .11)!important;transition: box-shadow 0.2s ease-in-out!important;}
 @media (min-width: 767px) and (max-width: 992px ){
 
 .fish_heading_one{

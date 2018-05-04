@@ -1104,8 +1104,7 @@ header{
 
 }
 #tabs{
-	background: #007b5e;
-    color: #eee;
+	/* background: #007b5e;  color: #eee; */
 }
 #tabs h6.section-title{
     color: #eee;
