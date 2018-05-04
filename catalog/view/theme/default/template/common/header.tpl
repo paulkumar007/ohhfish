@@ -68,14 +68,15 @@
          <div class="container topm">
                <div class="row">
                     <div class="col-sm-6 left_b">
-                        <ul class="top_ul">
-						<li class="toplist"><a href="tel:+919619713413"> <i class="fa fa-phone" aria-hidden="true"></i> +91 9619713413 </a></li>
-						<li class="toplist"> | </li>
-						<li class="toplist"><a href="mailto:customercare@fishgeniee.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> customercare@fishgeniee.com </a></li>
-					</ul>
+                        
                     </div>
                     <div class="col-sm-6 right_b">
-                        <ul class="top_ul_r">                      
+					 <ul class="top_ul">
+						<li class="toplist"><a href="mailto:customercare@ohhfish.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> customercare@ohhfish.com </a></li>
+						<li class="toplist"> | </li>
+						<li class="toplist"><a href="tel:+919619713413"> <i class="fa fa-phone" aria-hidden="true"></i> +91 9821325268 </a></li>
+					</ul>
+                        <!-- <ul class="top_ul_r">                      
 							<li class="toplist_r"><a href="javascript:void(0);">Refer to neighbour</a></li>
 							<li class="vertical_line"> | </li>
 							<?php if ($logged) { ?>
@@ -89,17 +90,15 @@
 							<li class="toplist_r"><a href="index.php?route=account/register">Register</a></li>
 							<li class="vertical_line"> | </li>
 							<?php } ?>
-							<li class="toplist_r"><a href="index.php?route=checkout/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart</a></li>
+							<!-- <li class="toplist_r"><a href="index.php?route=checkout/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart</a></li> -->
 							<!-- <li class="vertical_line"> | </li>
 							<li class="toplist_r">
 							<div class="white">
 							<form method="get" action="index.php?route=product/search" id="search">
 								<input name="search" id="searcher" type="text" size="40" placeholder="Search..." />
 							</form>
-							</div></li> -->
-
-
-                        </ul>                        
+							</div></li>
+                        </ul>-->                      
                     </div>
                 </div>
             </div>
@@ -107,7 +106,7 @@
 	<div class="cd-popup-container">
 		<div  class="login_box">
 		<div class="head_h"><h3 class="login_heading">Log In</h3>
-		<a href="#0" class="cd-popup-close img-replace">Close</a>
+			<a href="#0" class="cd-popup-close img-replace">Close</a>
 		</div>
 		<div class="middle_box">
 		<div class="left_info">
@@ -160,6 +159,18 @@
 	<form method="get" action="index.php?route=product/search" id="search">
 		<input name="search" id="searcher" type="text" size="40" placeholder="Search what you like..." />
 	</form>
+	</div>
+	<div class="visible-inline-block">
+	<ul class="top_ul_r">
+		<?php if ($logged) { ?>
+		<li class="toplist_r"> <a href="index.php?route=account/account"> <?php if($customer_name != '') { echo $customer_name; } else { echo 'My Account'; } ?></a></li>
+		<li class="vertical_line"> | </li>
+		<li class="toplist_r"><a href="index.php?route=account/logout">Log Out</a></li>
+		<?php } else { ?>
+		<li class="toplist_r"> <a href="#0" class="cd-popup-trigger"><i class="fa fa-user-o" aria-hidden="true"></i> <?php echo $customer_name; ?></a></li>
+		<li class="toplist_r"><a href="index.php?route=account/register">Register</a></li>
+		<?php } ?>
+	</ul>  
 	</div>
 </div>
 <?php if ($categories) { ?>
