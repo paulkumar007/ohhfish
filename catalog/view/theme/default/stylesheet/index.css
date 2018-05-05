@@ -792,11 +792,7 @@ span.spinner > .add:hover {
     border-spacing: 1em;
 }
 
-.col {
-    display: table-cell;background: #fff;width:24%;-webkit-box-shadow: 1px 1px 5px 0px rgba(165, 165, 165, 0.75);
--moz-box-shadow:    1px 1px 5px 0px rgba(165, 165, 165, 0.75);
-box-shadow:         1px 1px 5px 0px rgba(165, 165, 165, 0.75); /* Make elements inside the container behave like table cells */
-}
+.col { display: table-cell;background: #fff;width:24%;-webkit-box-shadow: 1px 1px 5px 0px rgba(165, 165, 165, 0.75); -moz-box-shadow: 1px 1px 5px 0px rgba(165, 165, 165, 0.75); box-shadow: 1px 1px 5px 0px rgba(165, 165, 165, 0.75); /* Make elements inside the container behave like table cells */}
 
 .shopbycat img.img-responsive{width:99%}
 .shopbycat > .container > .row > .col-sm-6 > .row > .col-sm-12:first-child  > img, .shopbycat > .container > .row > .col-sm-6 > .row > .col-sm-12:nth-child(2)  > img{ padding-bottom:7%; }
@@ -1082,5 +1078,11 @@ box-shadow:         1px 1px 5px 0px rgba(165, 165, 165, 0.75); /* Make elements 
 	.col { 
         display: block;
         width: 100%;
+		margin-bottom:66px;
     }
+	.box_orange p {padding:0 30px 20px;}
+}
+
+@media screen and (max-width:480px) {
+	.shopbycat-info {top:25%;}
 }

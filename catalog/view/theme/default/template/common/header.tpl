@@ -160,7 +160,7 @@
 		<input name="search" id="searcher" type="text" size="40" placeholder="Search what you like..." />
 	</form>
 	</div>
-	<div class="visible-inline-block">
+	<div class="inlineBlock">
 	<ul class="top_ul_r">
 		<?php if ($logged) { ?>
 		<li class="toplist_r"> <a href="index.php?route=account/account"> <?php if($customer_name != '') { echo $customer_name; } else { echo 'My Account'; } ?></a></li>
@@ -344,7 +344,7 @@ function go_back(){
 <style type="text/css">
 [name=search] {  outline: none;}
 #livesearch /*#livesearch **/ {  margin: 0;  padding: 0;  list-style: none; width:600px;}
-#livesearch {  position: absolute;  width: 100% !important; max-width:420px;  top: 0px;  background: #ffffff;  z-index: 100000;  box-shadow: 0px 10px 30px rgba(0,0,0,.5); margin-top:20px; }
+#livesearch {  position: absolute;  width: 100% !important; max-width:569px;  top: 0px;  background: #ffffff;  z-index: 100000;  box-shadow: 0px 10px 30px rgba(0,0,0,.5); margin-top:0px; }
 #livesearch li {  border-top: 1px solid #eeeeee;}
 #livesearch a {  display: block;  clear: both;  overflow: hidden;  /*line-height: 20px;  padding: 10px;*/  text-decoration: none;color: #333141;}
 /*#livesearch a:hover, #livesearch li.active a { background: #F0EEED;  color:#000;}*/
