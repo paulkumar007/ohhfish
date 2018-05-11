@@ -30,7 +30,7 @@
 <div class="product_d">
 <div class="container">
 <div class="row">
-<div class="col-sm-8">
+<div class="col-sm-6">
 
 <!--https://bootsnipp.com/snippets/xBdN link for jquery-->
 
@@ -82,14 +82,14 @@
 
 </div>
 
-<div class="col-sm-4">
+<div class="col-sm-6">
 <div class="product_info" id="product">
 
-	<h3 class="product_heading">Product ID: <span id="model_no"><?php echo $model; ?></span></h3>
+	<!--<h3 class="product_heading">Product ID: <span id="model_no"><?php// echo $model; ?></span></h3>-->
 	<h3 class="fish_heading"> <?php echo $heading_title; ?>  <span class="fish_type_marathi"> ( <?php echo $sku; ?> ) </span>  </h3>
+	<span class="details_gm"> <?php if($approx != '') { echo '( '.$approx.' )'; } ?> </span>
 	<h3 class="price" id="pricer_<?php echo $product_id; ?>" alt="<?php echo $only_price; ?>"><?php echo $price; ?> <!--<span class="kg">(Per Kg) </span>--> </h3>
 	<h3 class="available">Availibility: <span class="stock"><?php echo $stock; ?></span></h3>
-	<span class="details_gm"> <?php if($approx != '') { echo '( '.$approx.' )'; } ?> </span>
 	<div class="quantity_box">
 		<input type="number" name="quantity" alt="<?php echo $product_id; ?>" min="0.5" max="5" value="0.5" /><span class="kg_a">Kg </span>
 		<input type="hidden" id="hidden_size" value="<?php echo $size; ?>" />
@@ -232,16 +232,17 @@
 			<a href="javascript:void(0);" role="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="cd-popup-triggerd">Add to Cart</a>
 			<!--<a href="#" class="add_to_cart_b" role="button">Checkout</a>-->
 		</div>
-<div class="cd-popupd" role="alert">
-	<div class="cd-popupd-container">
-		<p class="text_p">Product was successfully added to your shopping cart.</p>
-		<ul class="cd-buttonsd">
-			<li><a href="index.php"> Continue Shopping</a></li>
-			<li><a href="index.php?route=checkout/cart"> View Cart & Checkout</a></li>
-		</ul>
-		<a href="javascript:void(0);" class="cd-popupd-close img-replace">Close</a>
-	</div>
-</div>
+		<div style="margin-top:20px;"><img src="catalog/view/theme/default/image/secure.png" style="vertical-align:top;"/><span style="padding-left:15px;display:inline-block;">Safe and secure Payments.<br>100% Fresh Products</span></div>
+		<div class="cd-popupd" role="alert">
+			<div class="cd-popupd-container">
+				<p class="text_p">Product was successfully added to your shopping cart.</p>
+				<ul class="cd-buttonsd">
+					<li><a href="index.php"> Continue Shopping</a></li>
+					<li><a href="index.php?route=checkout/cart"> View Cart & Checkout</a></li>
+				</ul>
+				<a href="javascript:void(0);" class="cd-popupd-close img-replace">Close</a>
+			</div>
+		</div>
 	</div>
 </div>
 </div>

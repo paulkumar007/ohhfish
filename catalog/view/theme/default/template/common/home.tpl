@@ -17,7 +17,7 @@
 ?>
 <link href="catalog/view/theme/default/stylesheet/index.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/font-awesome.min.css" rel="stylesheet">
-<link href="catalog/view/theme/default/stylesheet/font-awesome.css" rel="stylesheet">
+<!--<link href="catalog/view/theme/default/stylesheet/font-awesome.css" rel="stylesheet">-->
 <script src="catalog/view/javascript/index.js" type="text/javascript"></script>
 
 
@@ -143,33 +143,18 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 			<div class="row">
 				<div class="col-sm-12">
 				<div class="tab-section">
-				  <div class="tab-inner">
-					<ul class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#Pescetarian" aria-controls="Pescetarian" role="tab" data-toggle="tab">Why a Pescetarian</a></li>
-						<li role="presentation"><a href="#ourstory" aria-controls="ourstory" role="tab" data-toggle="tab">Our story</a></li>
-					</ul>
-
-					<!-- Tab panes -->
-					<div class="tab-content">
-						<div role="tabpanel" class="tab-pane active" id="Pescetarian">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br/><br/>
-						
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br/><br/>
-						
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br/><br/>
-						
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br/><br/>
-						
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br/><br/>
-						</div>
-						<div role="tabpanel" class="tab-pane" id="ourstory">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-						
-						
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br/><br/>
-						
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage..
-						</div>
+					<div id="tabs">
+					  <ul>
+						<li><a href="#tabs-1">Nunc tincidunt</a></li>
+						<li><a href="#tabs-2">Proin dolor</a></li>
+					  </ul>
+					  <div id="tabs-1">
+						<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+					  </div>
+					  <div id="tabs-2">
+						<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+					  </div>
 					</div>
-				  </div>
 				</div>
 				</div>
 			</div>
@@ -279,7 +264,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 				<h3 class="order_heading">Benefits </h3>
 				<div class="col-sm-12">
 				<p>Fish is loaded with important nutrients that is beneficial to health like Omega 3 fatty acids and Vitamins D and B2. Fish is rich in calcium and phosphorus. Fish is also a great source of minerals such as  iron, zinc, iodine, magnesium and potassium. Most Health organisations have recommended eating fish atleast twice a week. Here's a list of health benefits from consuming fish.</p>
-				<div class="row owl-carousel owl-theme" id="owl-benefits">
+				<div class="owl-carousel owl-theme" id="owl-benefits">
 					<div class="well well-blue">It lowers risk of Heart diseases</div>
 					<div class="well well-blue">It reduces risk of Alzheimer's disease</div>
 					<div class="well well-blue">It can help lower symptoms of Depression</div>
@@ -311,38 +296,38 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 
 <!--join us start here-->
 <div class="join_us">
-	<div class="container">
-		<div class="row">
-			<h3 class="order_heading">What people are saying </h3>
-			<div class="col-sm-4 text-center center-block">
-				<div class="col-sm-12 well well-lg well-testimonial">
-					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
-					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
-					<p><strong>Rupesh Karbate</strong></p>
-					<p> Mumbai, Dadar</p>
-				</div>
-			</div>
-			<div class="col-sm-4 text-center center-block">
-				<div class="col-sm-12 well well-lg well-testimonial">
-					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
-					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
-					<p><strong>Rupesh Karbate</strong></p>
-					<p> Mumbai, Dadar</p>
-				</div>
-			</div>
-			<div class="col-sm-4 text-center center-block">
-				<div class="col-sm-12 well well-lg well-testimonial">
-					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
-					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
-					<p><strong>Rupesh Karbate</strong></p>
-					<p> Mumbai, Dadar</p>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="container">
+<div class="row">
+<h3 class="order_heading">What people are saying </h3>
+<div class="col-sm-4 text-center center-block">
+<div class="col-sm-12  well well-lg">
+<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+<p><strong>Rupesh Karbate</strong></p>
+<p> Mumbai, Dadar</p>
+</div>
+</div>
+<div class="col-sm-4 text-center center-block">
+<div class="col-sm-12  well well-lg">
+<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+<p><strong>Rupesh Karbate</strong></p>
+<p> Mumbai, Dadar</p>
+</div>
+</div>
+<div class="col-sm-4 text-center center-block">
+<div class="col-sm-12  well well-lg">
+<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+<p><strong>Rupesh Karbate</strong></p>
+<p> Mumbai, Dadar</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 
 <div class="order_process">

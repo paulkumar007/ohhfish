@@ -52,6 +52,7 @@ xnugget info
 .cd-popup-triggerd {
 	margin:0 auto;
 	position:relative;
+	border-radius:5px;
 }
 
 a.cd-popup-triggerd:link,

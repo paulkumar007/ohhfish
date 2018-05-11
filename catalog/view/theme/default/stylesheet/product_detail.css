@@ -3,7 +3,7 @@
 body {
   margin: 0 auto;
   background-color:#fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
   overflow-x:hidden;
 }
 .img_slot{
@@ -24,7 +24,7 @@ body {
 }
 
 ul.breadcrumb_b{
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	list-style-type:none;
 	margin:0;
 	background:#fff;
@@ -38,7 +38,7 @@ ul.breadcrumb_b li{
 ul.breadcrumb_b a:link,
 ul.breadcrumb_b a:active,
 ul.breadcrumb_b a:visited{
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:1em;
 	color:#333;
 	text-decoration:none;
@@ -61,7 +61,7 @@ ul.breadcrumb_b a:hover{
 }
 .product_heading{
 	padding:20px 0px 10px 0px;
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:left;
 	color:#555;
 	font-weight:400;
@@ -70,17 +70,20 @@ ul.breadcrumb_b a:hover{
 }
 .fish_heading{
 	padding:0%;
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:left;
-	color:#555;
+	color:#000;
 	font-weight:400;
 	font-size:2.1em;
 	padding:0px 0px 10px 0px;
 	text-decoration:none;
 	margin:0px;
 }
+.details_gm {
+	color:#898989;
+}
 .second_text{
-	font-family:'Lato', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	color:#888;
 	font-weight:400;
 	font-size:0.385em;
@@ -96,7 +99,7 @@ ul.breadcrumb_b a:hover{
 	padding:0%;
 }
 .kg{
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:left;
 	color:#f07830;
 	font-weight:400;
@@ -106,7 +109,7 @@ ul.breadcrumb_b a:hover{
 }
 .kg_a{
 	position:relative;
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	color:#333;
 	font-weight:400;
 	font-size:1em;
@@ -115,25 +118,25 @@ ul.breadcrumb_b a:hover{
 	margin:0px 0px 0px 0px;
 }
 .price{
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:left;
-	color:#2c97de;
+	color:#000;
 	font-weight:700;
 	font-size:2em;
 	padding:2% 0% 0% 0%;
 	margin:0% 0% 0% 0%;
 }
 .available{
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:left;
 	color:#555;
 	font-weight:700;
 	font-size:1em;
 }
 .stock{
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align:left;
-	color:#2c97de;
+	color:#00a651;
 	font-weight:400;
 	font-size:1em;
 }
@@ -159,7 +162,7 @@ input[type=number] {
   float:left;
   width:60px;
   height:33px;
-  font-family: Lato;
+  font-family: 'Roboto Slab', serif;
   font-weight:700;
   font-size: 1.2em;
   text-transform: uppercase;
@@ -185,7 +188,7 @@ span.spinner > .add {
   width: 35px;
   height: 33px;
   text-align: center;
-  font-family: Lato;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
   font-size: 1.2em;
   line-height:33px;
@@ -215,7 +218,7 @@ a.add_to_cart_b:hover{
 }
 .cuts{
 	display:block;
-	font-family:Lato, Sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size:14px;
 	padding:30px 0px 0px 0px;
 	text-decoration:none;
@@ -223,7 +226,7 @@ a.add_to_cart_b:hover{
 	color:#333;
 }
 .radio{
-	font-family: Lato, Sans-serif;    font-size: 14px;    font-weight: 400;    padding: 14px 0px 0px 0px;    text-decoration: none;    margin: 1% auto;    color: #333;
+	font-family: 'Roboto Slab', serif;    font-size: 14px;    font-weight: 400;    padding: 14px 0px 0px 0px;    text-decoration: none;    margin: 1% auto;    color: #333;
 }
 .p_line{
 	position:absolute;
@@ -261,7 +264,7 @@ a.add_to_cart_b:hover{
 }
 
 .img_l_heading{
-	font-family:'Lato', sans-serif;	text-align:left;	color:#fff;	font-weight:400;	font-size:1.2em;	padding:10px 0px 10px 20px;	text-decoration:none;	margin:0px;
+	font-family: 'Roboto Slab', serif;	text-align:left;	color:#fff;	font-weight:400;	font-size:1.2em;	padding:10px 0px 10px 20px;	text-decoration:none;	margin:0px;
 }
 .carousel-indicators {  position: absolute;  bottom: 0;
   right: 0;
@@ -288,12 +291,12 @@ a:hover,a:focus{    outline: none;    text-decoration: none;}
 .tab .tab-content h3{ font-size: 20px;font-weight: bold;margin-top: 0;}
 
 .recipe{width:100%;	position:relative;}
-.recipe{width:100%;	position:relative;font-family:'Lato', sans-serif;	text-align:left;color:#333;	font-weight:400;font-size:1.2em;padding:0px;margin:0px;}
-.re_para{width:100%;position:relative;	font-family:'Lato', sans-serif;text-align:left;color:#333;font-weight:400;font-size:0.775em;padding:15px 10px 0px 0px; }
+.recipe{width:100%;	position:relative;font-family: 'Roboto Slab', serif;	text-align:left;color:#333;	font-weight:400;font-size:1.2em;padding:0px;margin:0px;}
+.re_para{width:100%;position:relative;	font-family: 'Roboto Slab', serif;text-align:left;color:#333;font-weight:400;font-size:0.775em;padding:15px 10px 0px 0px; }
 ul.list_of_step{	position:relative;	padding:2px 18px;	margin:0px;	left:0;}
-.in_b{position:relative;font-family:'Lato', sans-serif;	text-align:left;color:#2c97de;font-weight:700;line-height:1.3em;font-size:0.875em;padding:10px 0px ;margin:0px;}
+.in_b{position:relative;font-family: 'Roboto Slab', serif;	text-align:left;color:#2c97de;font-weight:700;line-height:1.3em;font-size:0.875em;padding:10px 0px ;margin:0px;}
 
-.ingre{	list-style-type:disc;position:relative;	font-family:'Lato', sans-serif;	text-align:justify;	color:#333;	line-height:1.8em;font-weight:400;font-size:0.775em;
+.ingre{	list-style-type:disc;position:relative;	font-family: 'Roboto Slab', serif;	text-align:justify;	color:#333;	line-height:1.8em;font-weight:400;font-size:0.775em;
 }
 .re_img{
 	margin:2% 0% 1% 0%;}@media (min-width: 767px) and (max-width: 992px ){
