@@ -1,13 +1,13 @@
 <?php
-	echo $header; 
-	
+	echo $header;
+
 	$popup_session = 'no';
 	if(isset($_SESSION['fish_popup'])){
 		$popup_session = 'no';
 	} else {
 		$_SESSION['fish_popup'] = 'yes';
 	}
-	
+
 	/*
 	$popup_cookie = 'yes';
 	if(isset($_COOKIE['fishgeniee_popup'])){
@@ -17,7 +17,7 @@
 ?>
 <link href="catalog/view/theme/default/stylesheet/index.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/font-awesome.min.css" rel="stylesheet">
-<!--<link href="catalog/view/theme/default/stylesheet/font-awesome.css" rel="stylesheet">-->
+<link href="catalog/view/theme/default/stylesheet/font-awesome.css" rel="stylesheet">
 <script src="catalog/view/javascript/index.js" type="text/javascript"></script>
 
 
@@ -30,7 +30,7 @@
 
 <script type="text/javascript">
 	$(document).ready(function(){
-		
+
 		var popup = '<?php echo $popup_session; ?>';
 		if(popup == 'yes'){
 			$.colorbox({width:"45%", height:"85%", href:"popup.html"});
@@ -42,7 +42,7 @@
 				dataType: 'json',
 				data: 'flag=add_cookie',
 				success: function(data) {
-					
+
 				}
 			});
 			*/
@@ -56,9 +56,9 @@
 
 <div class="img_slot">
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
-  
+
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -92,8 +92,8 @@
         </div>-->
       </div>
     </div>
-  </div>	
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> 
+  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
   <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
   </div>
 
@@ -114,7 +114,7 @@
 
 
 <div class="ticker__item"><a href="#">Slot 2: 4.30pm to 8.30pm (Order accepted same day before 12.00pm)</a> </div>
-  
+
 </div>
 </div>
 
@@ -128,7 +128,7 @@
 <div class="col-sm-12">
 <h3 class="article_text">
 We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
-<p class="doorstep">ORDER... COOK... EAT..<br>from the sea, to your plate. 
+<p class="doorstep">ORDER... COOK... EAT..<br>from the sea, to your plate.
 </p>
 
 </div>
@@ -143,18 +143,38 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 			<div class="row">
 				<div class="col-sm-12">
 				<div class="tab-section">
-					<div id="tabs">
-					  <ul>
-						<li><a href="#tabs-1">Nunc tincidunt</a></li>
-						<li><a href="#tabs-2">Proin dolor</a></li>
-					  </ul>
-					  <div id="tabs-1">
-						<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
-					  </div>
-					  <div id="tabs-2">
-						<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-					  </div>
+				  <div class="tab-inner">
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#Pescetarian" aria-controls="Pescetarian" role="tab" data-toggle="tab">Why a Pescetarian</a></li>
+						<li role="presentation"><a href="#ourstory" aria-controls="ourstory" role="tab" data-toggle="tab">Our story</a></li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="Pescetarian">
+						<strong>What is Pescetarianism ?</strong><br/>
+						Pescetarianism, or pesco-vegetarianism, means being vegetarian while still including seafood in your diet. One still cuts out red meat, pork, poultry, etc. from his or her diet like a vegetarian, but does not cut out fish and other seafood.<br/>
+
+						<strong>Why turn Pescetarian ?</strong><br/>
+						With the increase of fresh fish and vegetables in your diet, we believe that you’ll feel healthier, experience less headaches and sickness as well as increased energy levels. In the long-term, you may also improve your weight, the health of your brain and heart, hair and even your skin. A pescetarian diet may not only reduce your risk for heart disease and other cardiovascular diseases, but stroke, osteoporosis, obesity, diabetes, arthritis, high blood pressure and some types of cancer.<br/>
+
+						<strong>What the experts say ?</strong><br/>
+						Experts say that up to 80 percent of cancer cases are preventable through healthy diets that contain low amounts of fats and oils, and high amounts of fiber — the model pescetarian diet.<br/>
+
+						<strong>Are we experiencing a revolution ?</strong><br/>
+						More and more people around the world are turning Pescetarian including the die-hard vegetarians with increased awareness of the innumerable health benefits. With the amount of exposure on print and social media platforms educating people of the risks of eating red-meat and hybrid poultry, people are becoming health conscious. They're trying to cut on the unhealthy foods and making all efforts to remain fit at any cost.<br/>
+
+						</div>
+						<div role="tabpanel" class="tab-pane" id="ourstory">We have been in the seafood business for three generations, indulged in retail, wholesale and exports and understand the true meaning of <strong>FRESH</strong>. Seafood being highly perishable item needs utmost care in preserving and hygene, especially, when it comes to exports, since the consignments have to maintain it's freshness until it reaches the shores and finally to the end consumer. But, we think otherwise; why should only export items be fresh? why deprive our citizens the right to the best quality food. With this mindset, <strong>Ohh Fish</strong> came into existence. We are based right at the heart of all the action - the BMC Fish Market at CSMT. We also have our own modern processing, packaging and logistics centre with a fleet of refrigerated trucks to take care of the delivery of our consignments. We also have highly trained and experienced staff to manage every aspect of this food chain including procuring, processing, cutting, packaging, quality control and transporting. We live by the mantra that our products will be nothing but the <strong>BEST.</strong><br/><br/>
+
+						Our <strong>Aim</strong> is to provide export quality seafood to every consumer - the freshest seafood money can buy. Having said that, we ensure all this comes at a fair price.<br/><br/>
+
+						It's our <strong>Mission</strong> to change the unhealthy food habbits and inculcate a sense of eating healthy food. Today, India ranks 154th amongst the 195 countries in the World Health Index and is the Diabetes & Heart Disease capital of the world, all this due to the unhealthy diet.<br/><br/>
+
+						It is our <strong>Vision</strong> to see our country rank amongst the healthiest nations on the planet. We pledge to achieve this together !<br/><br/>
+						</div>
 					</div>
+				  </div>
 				</div>
 				</div>
 			</div>
@@ -230,7 +250,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
                         <div class="box_orange center-block">
 						 <div class="box_orange_img text-center">
 							<img src="catalog/view/theme/default/image/homepage_icons/why_sec1.png"/><br/></div>
-                         <h3 class="box_heading">Delivery at Your<br/>Door Step</h3>  
+                         <h3 class="box_heading">Delivery at Your<br/>Door Step</h3>
 						 <p>Our customers enjoy fresh pick every day sitting right at home, without witnessing the market chaos, polluted lanes, contaminated containers, bullying vendors and soaring prices.Our customers enjoy fresh pick every day sitting right at home, without witnessing the market chaos, polluted lanes, contaminated containers, bullying vendors and soaring prices.</p>
                         </div>
                     </div>
@@ -238,8 +258,8 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
                         <div class="box_orange center-block">
 						<div class="box_orange_img text-center">
 							<img src="catalog/view/theme/default/image/homepage_icons/why_sec2.png"/><br/></div>
-                           <h3 class="box_heading">Best Price for<br/>Best Catch</h3> 
-							<p>We offer best value for money deals in line with the excellent quality product vis-a-vis market offer.</p>				   
+                           <h3 class="box_heading">Best Price for<br/>Best Catch</h3>
+							<p>We offer best value for money deals in line with the excellent quality product vis-a-vis market offer.</p>
                         </div>
                     </div>
                     <div class="col">
@@ -264,7 +284,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 				<h3 class="order_heading">Benefits </h3>
 				<div class="col-sm-12">
 				<p>Fish is loaded with important nutrients that is beneficial to health like Omega 3 fatty acids and Vitamins D and B2. Fish is rich in calcium and phosphorus. Fish is also a great source of minerals such as  iron, zinc, iodine, magnesium and potassium. Most Health organisations have recommended eating fish atleast twice a week. Here's a list of health benefits from consuming fish.</p>
-				<div class="owl-carousel owl-theme" id="owl-benefits">
+				<div class="row owl-carousel owl-theme" id="owl-benefits">
 					<div class="well well-blue">It lowers risk of Heart diseases</div>
 					<div class="well well-blue">It reduces risk of Alzheimer's disease</div>
 					<div class="well well-blue">It can help lower symptoms of Depression</div>
@@ -296,38 +316,38 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 
 <!--join us start here-->
 <div class="join_us">
-<div class="container">
-<div class="row">
-<h3 class="order_heading">What people are saying </h3>
-<div class="col-sm-4 text-center center-block">
-<div class="col-sm-12  well well-lg">
-<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
-<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
-<p><strong>Rupesh Karbate</strong></p>
-<p> Mumbai, Dadar</p>
-</div>
-</div>
-<div class="col-sm-4 text-center center-block">
-<div class="col-sm-12  well well-lg">
-<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
-<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
-<p><strong>Rupesh Karbate</strong></p>
-<p> Mumbai, Dadar</p>
-</div>
-</div>
-<div class="col-sm-4 text-center center-block">
-<div class="col-sm-12  well well-lg">
-<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
-<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
-<p><strong>Rupesh Karbate</strong></p>
-<p> Mumbai, Dadar</p>
-</div>
-</div>
-</div>
-</div>
+	<div class="container">
+		<div class="row">
+			<h3 class="order_heading">What people are saying </h3>
+			<div class="col-sm-4 text-center center-block">
+				<div class="col-sm-12 well well-lg well-testimonial">
+					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+					<p><strong>Rupesh Karbate</strong></p>
+					<p> Mumbai, Dadar</p>
+				</div>
+			</div>
+			<div class="col-sm-4 text-center center-block">
+				<div class="col-sm-12 well well-lg well-testimonial">
+					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+					<p><strong>Rupesh Karbate</strong></p>
+					<p> Mumbai, Dadar</p>
+				</div>
+			</div>
+			<div class="col-sm-4 text-center center-block">
+				<div class="col-sm-12 well well-lg well-testimonial">
+					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+					<p><strong>Rupesh Karbate</strong></p>
+					<p> Mumbai, Dadar</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="order_process">
@@ -394,7 +414,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 
 <script type="text/javascript">
 $("#newsletter_form").on('submit',(function(e) {
-	e.preventDefault();	
+	e.preventDefault();
 	$.ajax({
 		url: 'index.php?route=common/home/newsletterForm', // Url to which the request is send
 		type: "POST",             // Type of request to be send, called as method
@@ -419,7 +439,7 @@ $("#newsletter_form").on('submit',(function(e) {
 		    if (data['success']) {
 				$('#newsletter_form').before('<div class="success" style="color:white;margin-bottom:10px;">' + data['success'] + '</div>');
 				$("#newsletter_subscriber").val('');
-				
+
 				return false;
 		    }
 		}

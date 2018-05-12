@@ -65,7 +65,7 @@
 <body class="<?php echo $class; ?>">
 <header>
         <div class="top_bar">
-         <div class="container topm">
+         <div class="container">
                <div class="row">
                     <div class="col-sm-6 left_b">
                         
