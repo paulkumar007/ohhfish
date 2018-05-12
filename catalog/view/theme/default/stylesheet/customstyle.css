@@ -6,7 +6,8 @@ body {
   font-family: 'Roboto Slab', serif;
   overflow-x:hidden;
 }
-
+.green {color:green;}
+.red {color:red;}
 .modal-open {
   overflow: hidden;
 }
