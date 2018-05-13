@@ -44,7 +44,22 @@
 <div class="marine_fish_one">
 <h2 class="fish_heading_one"><?php echo $heading_title; ?></h2>
 </div>
-
+<div class="row">
+	<div class="col-md-4 col-xs-6">
+	  <div class="form-group input-group input-group-sm">
+	    <label class="input-group-addon" for="input-sort"><?php echo $text_sort; ?></label>
+	    <select id="input-sort" class="form-control" onchange="location = this.value;">
+	      <?php foreach ($sorts as $sorts) { ?>
+	      <?php if ($sorts['value'] == $sort . '-' . $order) { ?>
+	      <option value="<?php echo $sorts['href']; ?>" selected="selected"><?php echo $sorts['text']; ?></option>
+	      <?php } else { ?>
+	      <option value="<?php echo $sorts['href']; ?>"><?php echo $sorts['text']; ?></option>
+	      <?php } ?>
+	      <?php } ?>
+	    </select>
+	  </div>
+	</div>
+</div>
 <?php
 	if ($products) { 
 	$p = 1;
