@@ -153,13 +153,13 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane active" id="Pescetarian">
 						<strong>What is Pescetarianism ?</strong><br/>
-						Pescetarianism, or pesco-vegetarianism, means being vegetarian while still including seafood in your diet. One still cuts out red meat, pork, poultry, etc. from his or her diet like a vegetarian, but does not cut out fish and other seafood.<br/>
+						Pescetarianism, or pesco-vegetarianism, means being vegetarian while still including seafood in your diet. One still cuts out red meat, pork, poultry, etc. from his or her diet like a vegetarian, but does not cut out fish and other seafood.<br/><br/>
 
 						<strong>Why turn Pescetarian ?</strong><br/>
-						With the increase of fresh fish and vegetables in your diet, we believe that you’ll feel healthier, experience less headaches and sickness as well as increased energy levels. In the long-term, you may also improve your weight, the health of your brain and heart, hair and even your skin. A pescetarian diet may not only reduce your risk for heart disease and other cardiovascular diseases, but stroke, osteoporosis, obesity, diabetes, arthritis, high blood pressure and some types of cancer.<br/>
+						With the increase of fresh fish and vegetables in your diet, we believe that you’ll feel healthier, experience less headaches and sickness as well as increased energy levels. In the long-term, you may also improve your weight, the health of your brain and heart, hair and even your skin. A pescetarian diet may not only reduce your risk for heart disease and other cardiovascular diseases, but stroke, osteoporosis, obesity, diabetes, arthritis, high blood pressure and some types of cancer.<br/><br/>
 
 						<strong>What the experts say ?</strong><br/>
-						Experts say that up to 80 percent of cancer cases are preventable through healthy diets that contain low amounts of fats and oils, and high amounts of fiber — the model pescetarian diet.<br/>
+						Experts say that up to 80 percent of cancer cases are preventable through healthy diets that contain low amounts of fats and oils, and high amounts of fiber — the model pescetarian diet.<br/><br/>
 
 						<strong>Are we experiencing a revolution ?</strong><br/>
 						More and more people around the world are turning Pescetarian including the die-hard vegetarians with increased awareness of the innumerable health benefits. With the amount of exposure on print and social media platforms educating people of the risks of eating red-meat and hybrid poultry, people are becoming health conscious. They're trying to cut on the unhealthy foods and making all efforts to remain fit at any cost.<br/>
@@ -351,65 +351,63 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 </div>
 
 <div class="order_process">
-<div class="container">
-<div class="col-sm-12">
-<h3 class="order_heading">How to Order? </h3>
+	<div class="container">
+		<div class="col-sm-12">
+			<h3 class="order_heading">How to Order? </h3>
+			<div class="row seven-cols">
+			<div class="circle_pro">
+			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
+			<div class="circle_one">
+				<img src="catalog/view/theme/default/image/login.png" alt="login" class="order_icons">
+			</div>
+			<p class="login_tx">Login to <br>www.fishgeniee.com</p>
+			</div>
+
+			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
+			<div class="circle_one">
+				<img src="catalog/view/theme/default/image/f_fish.png" alt="login" class="order_icons">
+			</div>
+			<p class="login_tx">Select<br> Favourite Fish</p>
+			</div>
+
+			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
+			<div class="circle_one">
+			<img src="catalog/view/theme/default/image/location.png" alt="login" class="order_icons">
+			</div>
+			<h4 class="login_tx">Check pincode <br> service & availibility</h4>
+			</div>
+
+			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
+			<div class="circle_one">
+			<img src="catalog/view/theme/default/image/d_slot.png" alt="login" class="order_icons">
+			</div>
+			<h4 class="login_tx">Select delivery <br> date & slot </h4>
+			</div>
 
 
-<div class="row seven-cols">
-<div class="circle_pro">
-<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
-<div class="circle_one">
-<img src="catalog/view/theme/default/image/login.png" alt="login" class="order_icons">
-</div>
-<p class="login_tx">Login to <br>www.fishgeniee.com</p>
-</div>
-
-<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
-<div class="circle_one">
-<img src="catalog/view/theme/default/image/f_fish.png" alt="login" class="order_icons">
-</div>
-<p class="login_tx">Select<br> Favourite Fish</p>
-</div>
-
-<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
-<div class="circle_one">
-<img src="catalog/view/theme/default/image/location.png" alt="login" class="order_icons">
-</div>
-<h4 class="login_tx">Check pincode <br> service & availibility</h4>
-</div>
-
-<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
-<div class="circle_one">
-<img src="catalog/view/theme/default/image/d_slot.png" alt="login" class="order_icons">
-</div>
-<h4 class="login_tx">Select delivery <br> date & slot </h4>
-</div>
+			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
+			<div class="circle_one">
+			<img src="catalog/view/theme/default/image/pay.png" alt="login" class="order_icons">
+			</div>
+			<h4 class="login_tx">Pay securely</h4>
+			</div>
 
 
-<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
-<div class="circle_one">
-<img src="catalog/view/theme/default/image/pay.png" alt="login" class="order_icons">
-</div>
-<h4 class="login_tx">Pay securely</h4>
-</div>
+			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
+			<div class="circle_one">
+			<img src="catalog/view/theme/default/image/home_delivery.png" alt="login" class="order_icons">
+			</div>
+			<h4 class="login_tx">Ready to receive <br>home delivery</h4>
+			</div>
 
+			<!--<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_help">
+			<img src="catalog/view/theme/default/image/helpyou.png"  class="help" alt="geniee">
+			</div>-->
 
-<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
-<div class="circle_one">
-<img src="catalog/view/theme/default/image/home_delivery.png" alt="login" class="order_icons">
-</div>
-<h4 class="login_tx">Ready to receive <br>home delivery</h4>
-</div>
-
-<!--<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_help">
-<img src="catalog/view/theme/default/image/helpyou.png"  class="help" alt="geniee">
-</div>-->
-
-</div>
-</div>
-</div>
-</div>
+			</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <script type="text/javascript">

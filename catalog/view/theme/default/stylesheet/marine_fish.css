@@ -77,17 +77,18 @@ section{	position:relative;
 	margin:0 auto;	padding:0px;
 }
 .fish_heading_one{
-	font-family:'Lato', sans-serif;
-	text-align:center;
+	font-family: 'Roboto Slab', serif;
+	text-align:left;
 	color:#333;
 	font-weight:300;
 	font-size:2.6em;
-	padding:2% 0%;
+	padding:1% 0% 0;
 }
 .fish_heading{
 	padding:0px;
 	margin:4px 0px;
 }
+.pad20 {padding-bottom:30px;}
 .fish_heading a:link,
 .fish_heading a:active,
 .fish_heading a:visited{

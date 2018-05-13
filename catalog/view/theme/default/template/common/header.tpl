@@ -67,29 +67,27 @@
         <div class="top_bar">
          <div class="container">
                <div class="row">
-                    <div class="col-sm-6 left_b">
-                        
-                    </div>
+                    <div class="col-sm-6 left_b"></div>
                     <div class="col-sm-6 right_b">
 					 <ul class="top_ul">
 						<li class="toplist"><a href="mailto:customercare@ohhfish.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> customercare@ohhfish.com </a></li>
 						<li class="toplist"> | </li>
 						<li class="toplist"><a href="tel:+919619713413"> <i class="fa fa-phone" aria-hidden="true"></i> +91 9821325268 </a></li>
 					</ul>
-                        <!-- <ul class="top_ul_r">                      
+                        <!-- <ul class="top_ul_r">
 							<li class="toplist_r"><a href="javascript:void(0);">Refer to neighbour</a></li>
 							<li class="vertical_line"> | </li>
-							<?php if ($logged) { ?>
-							<li class="toplist_r"> <a href="index.php?route=account/account"> <?php if($customer_name != '') { echo $customer_name; } else { echo 'My Account'; } ?></a></li>
+							<?php //if ($logged) { ?>
+							<li class="toplist_r"> <a href="index.php?route=account/account"> <?php //if($customer_name != '') { echo $customer_name; } else { echo 'My Account'; } ?></a></li>
 							<li class="vertical_line"> | </li>
 							<li class="toplist_r"><a href="index.php?route=account/logout">Log Out</a></li>
 							<li class="vertical_line"> | </li>
-							<?php } else { ?>
-							<li class="toplist_r"> <a href="#0" class="cd-popup-trigger"><i class="fa fa-user-o" aria-hidden="true"></i> <?php echo $customer_name; ?></a></li>
+							<?php //} else { ?>
+							<li class="toplist_r"> <a href="#0" class="cd-popup-trigger"><i class="fa fa-user-o" aria-hidden="true"></i> <?php // echo $customer_name; ?></a></li>
 							<li class="vertical_line"> | </li>
 							<li class="toplist_r"><a href="index.php?route=account/register">Register</a></li>
 							<li class="vertical_line"> | </li>
-							<?php } ?>
+							<?php //} ?>
 							<!-- <li class="toplist_r"><a href="index.php?route=checkout/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart</a></li> -->
 							<!-- <li class="vertical_line"> | </li>
 							<li class="toplist_r">
@@ -98,7 +96,7 @@
 								<input name="search" id="searcher" type="text" size="40" placeholder="Search..." />
 							</form>
 							</div></li>
-                        </ul>-->                      
+                        </ul>-->
                     </div>
                 </div>
             </div>
@@ -112,7 +110,7 @@
 		<div class="left_info">
 		<h3 class="get_off">Get Exciting offer Log in Today</h3>
 		</div>
-		
+
 		<div class="right_info">
 		<form id="log_one" action="index.php?route=account/login" autocomplete="off" method="post" enctype="multipart/form-data">
 		<div class="login">
@@ -125,7 +123,7 @@
 		<div class="login-check">
  			 <label class="checkbox">
 			 <input type="checkbox" name="checkbox"> Remember Me</label>
- 		  </div>  
+ 		  </div>
 		<div class="clear"> </div>
 		</div>
 		<div class="login-bwn">
@@ -134,19 +132,19 @@
 		</form>
 		<div class="login-para">
  			<p><a href="index.php?route=account/forgotten"> Forgot Password? </a></p>
- 		 </div>
-		 
-		 <div class="register">
- 			<p class="register_p">Don't have an Account?<a href="index.php?route=account/register" target="_blank"> Register Now </a></p>
- 		 </div>
+ 		</div>
+
+		<div class="register">
+			<p class="register_p">Don't have an Account?<a href="index.php?route=account/register" target="_blank"> Register Now </a></p>
+ 		</div>
 		</div>
-	
+
 		</div>
 		</div>
-		
+
 	</div> <!-- cd-popup-container -->
 </div>
-</div>		
+</div>
 </header>
 
 <div class="box_navigation">
@@ -170,7 +168,7 @@
 		<li class="toplist_r"> <a href="#0" class="cd-popup-trigger"><i class="fa fa-user-o" aria-hidden="true"></i> <?php echo $customer_name; ?></a></li>
 		<li class="toplist_r"><a href="index.php?route=account/register">Register</a></li>
 		<?php } ?>
-	</ul>  
+	</ul>
 	</div>
 </div>
 <?php if ($categories) { ?>
@@ -211,7 +209,7 @@
 </div>
 <script type="text/javascript"><!--
 
-$('#button-login').on('click', function() { 
+$('#button-login').on('click', function() {
   $.ajax({
     url: 'index.php?route=account/login/confirm',
     type: 'post',
@@ -242,7 +240,7 @@ $('#button-login').on('click', function() {
         $('input[name=\'email\']').val('');
         $('input[name=\'password\']').val('');
         $(".close").trigger('click');
-        
+
 		if(json['redirect']){
 			location.href= json['redirect'];
 			return false;
@@ -287,7 +285,7 @@ $('#button-register').on('click', function() {
 			location.href= json['redirect'];
 			return false;
 		}
-		
+
       }
     }
   });
@@ -368,15 +366,15 @@ $(function(){
 	    timer = setTimeout(callback, ms);
 	  };
 	})();
-	
+
 /* Desktop Search */
 var a = (!!$("#livesearch").length ? $("#livesearch") : $("<ul id='livesearch' class='searchresult-listing'></ul>") ), b = $("#searcher");
 function repositionLivesearch() {
 	var winwidth = $(window).width();
 	if(winwidth < 768){
-		a.css({ top: (b.offset().top+b.outerHeight()), left:0, width: winwidth }); 
+		a.css({ top: (b.offset().top+b.outerHeight()), left:0, width: winwidth });
 	} else {
-		a.css({ top: (b.offset().top+b.outerHeight()), left:b.offset().left, width: b.outerWidth() }); 
+		a.css({ top: (b.offset().top+b.outerHeight()), left:b.offset().left, width: b.outerWidth() });
 	}
 }
 $(window).resize(function(){ repositionLivesearch(); });
@@ -390,13 +388,13 @@ b.keyup(function(e){
 					dataType: 'html',
 					data: 'search=' + b.val(),
 					beforeSend: function() {
-						
+
 					},
 					complete: function() {
-						
+
 					},
 					success: function(response) {
-					
+
 					}
 
 				});
@@ -424,7 +422,7 @@ b.keyup(function(e){
 							a.append("<li>"+(k == 5 ? "<div class='btnwrap'><span><a class='btn blackbtn' href='"+v.href+"'><span>"+v.name+"</span></a></span><span><input type='button' onclick='$(\"#livesearch\").hide();' name='close' id='close' class='btn blackbtn' value='Close' /></span></div>" : "<a href='"+v.href+"'>"+(v.thumb ? "<div class='proimg'><img src='"+v.thumb+"' alt='"+v.name+"'></div>" : '')+"<div class='proinfo' "+(v.thumb ? '' : "style='float:left;width:100%;'" )+"><h4>"+v.name+(v.size ? "<span> ("+v.size+")</span>" : '')+(v.sku ? "<small>"+v.sku+"</small>" : '')+"</h4><p>"+(v.price ? v.price : '')+"</p></div></a>")+"</li>");
 						});
 						a.remove(); $("body").prepend(a); repositionLivesearch();
-						
+
 						$("ul#livesearch li a").click(function(){
 							b.val($(this).text());
 							$(".searchMeme-button-icon").click();
@@ -437,13 +435,13 @@ b.keyup(function(e){
 									dataType: 'html',
 									data: 'search=' + query,
 									beforeSend: function() {
-										
+
 									},
 									complete: function() {
-										
+
 									},
 									success: function(response) {
-									
+
 									}
 
 								});
@@ -453,7 +451,7 @@ b.keyup(function(e){
 				);
 			}, 500 );
 
-			
+
 		} else {
 			a.empty();
 		}
