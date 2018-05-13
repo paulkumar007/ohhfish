@@ -1,7 +1,7 @@
 <!--footer start here-->
 <div class="cart_box">
 <a href="index.php?route=checkout/cart" class="cart_link">
-<h3 class="add_text">My Cart </h3>
+<!-- <h3 class="add_text">My Cart </h3> -->
 <span class="g_lamp">
 <div class="bck_lamp">
 <img src="catalog/view/theme/default/image/g_lamp.png" width="68px" height="88px" alt="geniee_lamp"></div>

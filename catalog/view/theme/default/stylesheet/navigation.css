@@ -37,7 +37,7 @@
   display: none;
 }
 #cssmenu {
-  font-family:'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size:13px;
   color:#000;
   font-weight:400;
@@ -61,7 +61,7 @@
   float: right;
 }
 #cssmenu > ul > li > a {
-  font-family:'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
   padding:9px 2px 14px;
   font-size:14px;
   font-weight:400;
@@ -144,7 +144,7 @@
 }
 
 #cssmenu ul ul li a {
-  font-family:'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   border-top:1px solid #ececec;
   padding:11px 24px;
   width:365px;
@@ -278,7 +278,7 @@
   display: none;
 }
 #cssmenu.small-screen #menu-button {
-  font-family:'Open Sans',sans-serif;
+  font-family: 'Roboto Slab', serif;
   display: block;
   padding:17px 20px;
   color: #fff;
