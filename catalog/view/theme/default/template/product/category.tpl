@@ -77,6 +77,8 @@
 				<div class="caption">
 				<h3 class="fish_heading"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?> </a><span class="second_text"><?php if($product['size'] != '') { echo '( '.$product['size'].' )'; } ?> </span></h3>
 				<h3 class="fish_type_marathi">( <?php echo $product['sku']; ?> )  </h3>
+				<span class="details_gm"> <?php if($product['approx'] != '') { echo '( '.$product['approx'].' )'; } ?> </span>
+				<div class="availTxt"><i class="fa fa-circle" style="font-size:14px;color:#00a651"></i> Available</div>
 				<?php if ($product['price']) { ?>
                 <h3 class="price" id="pricer_<?php echo $product['product_id']; ?>" alt="<?php echo $product['only_price']; ?>">
                   <?php if (!$product['special']) { ?>
@@ -86,13 +88,12 @@
                   <?php } ?>
                 <!--<span class="kg">(Kg) </span>--> </h3>
                 <?php } ?>
-
-				<span class="details_gm"> <?php if($product['approx'] != '') { echo '( '.$product['approx'].' )'; } ?> </span>
+				
 				<div class="quantity_box">
 				<input type="number" alt="<?php echo $product['product_id']; ?>" min="0.5" max="5" value="0.5" />
 				<span class="kg">Kg </span>
 				</div>
-				<a href="<?php echo $product['href']; ?>" role="button" class="add_to_cart">View Details</a>
+				<a href="<?php echo $product['href']; ?>" role="button" class="add_to_cart">ADD TO CART</a>
 				</div>
 				</div>
 			</li>

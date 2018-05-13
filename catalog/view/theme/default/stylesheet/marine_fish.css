@@ -102,6 +102,7 @@ section{	position:relative;
 .fish_heading a:hover{
 	text-decoration:underline;
 }
+.availTxt {padding:10px 0; color:#00a651; }
 .second_text{
 	font-family: 'Roboto Slab', serif;
 	color:#888;

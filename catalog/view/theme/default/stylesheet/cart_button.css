@@ -25,6 +25,7 @@ a.add_to_cart:visited{
   font-weight:400;
   -webkit-transition: all .2s;
   transition: all .2s;
+  border-radius:5px;
 }
 
 a.add_to_cart:hover{
