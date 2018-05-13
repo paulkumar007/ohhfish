@@ -50,16 +50,14 @@
 <div class="row">
 <div class="col-md-3 col-sm-3 col-xs-12">
   <div class="form-group input-group input-group-sm">
-	<label class="input-group-addon" for="input-sort"><?php echo $text_sort; ?></label>
-	<select id="input-sort" class="form-control" onchange="location = this.value;">
-	  <?php foreach ($sorts as $sorts) { ?>
-	  <?php if ($sorts['value'] == $sort . '-' . $order) { ?>
-	  <option value="<?php echo $sorts['href']; ?>" selected="selected"><?php echo $sorts['text']; ?></option>
-	  <?php } else { ?>
-	  <option value="<?php echo $sorts['href']; ?>"><?php echo $sorts['text']; ?></option>
-	  <?php } ?>
-	  <?php } ?>
-	</select>
+	<label class="input-group-addon" for="input-sort">Filter By</label>
+	<?php foreach ($sorts as $sorts) { ?>
+	<?php if ($sorts['value'] == $sort . '-' . $order) { ?>
+		<div><input type="checkbox" name="sorter[]" value="<?php echo $sorts['href']; ?>" CHECKED onchange="location = this.value;" /> <?php echo $sorts['text']; ?></div>
+	<?php } else { ?>
+		<div><input type="checkbox" name="sorter[]" value="<?php echo $sorts['href']; ?>" onchange="location = this.value;" /> <?php echo $sorts['text']; ?></div>
+	<?php } ?>
+	<?php } ?>
   </div>
 </div>
 <div class="col-sm-9 col-md-9 col-xs-12">
