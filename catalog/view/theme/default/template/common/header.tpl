@@ -24,7 +24,7 @@
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/customstyle.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/navigation.css" rel="stylesheet">
