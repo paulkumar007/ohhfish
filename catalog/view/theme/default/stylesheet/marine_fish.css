@@ -272,8 +272,44 @@ span.spinner > .add:hover {
 	padding-left: 5px;
 	position: relative;
 }
+.checkbox label {
+    cursor: pointer;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: -27px;
+    background: #fff;
+    border: 1px solid #ddd;
+    transition: all .4s 0 ease;
+    -webkit-transition: all .4s 0 ease;
+    -moz-transition: all .4s 0 ease;
+}
+.checkbox label:after {
+    opacity: .05;
+    content: '';
+    position: absolute;
+    width: 11px;
+    height: 7px;
+    background: 0 0;
+    top: 4px;
+    left: 5px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
 
-
+.checkbox{
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 @media (min-width: 767px) and (max-width: 992px ){
 }

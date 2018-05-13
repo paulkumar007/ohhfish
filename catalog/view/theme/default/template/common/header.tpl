@@ -155,7 +155,10 @@
 <div>
 	<div class="white">
 	<form method="get" action="index.php?route=product/search" id="search">
-		<input name="search" id="searcher" type="text" size="40" placeholder="Search what you like..." />
+		<select class="selectpicker">
+		  <option data-icon="glyphicon-heart">Choose Location</option>
+		</select>
+<input name="search" id="searcher" type="text" size="40" placeholder="Search what you like..." />
 	</form>
 	</div>
 	<div class="inlineBlock">

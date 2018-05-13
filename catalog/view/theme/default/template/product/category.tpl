@@ -48,16 +48,16 @@
 <div class="top_row_1">
 <div class="container">
 <div class="row">
-<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="col-md-3 col-sm-3 col-xs-12" style="background-color:#fafafa;">
   <div class="form-group input-group input-group-sm">
-	<label class="input-group-addon" for="input-sort">Filter By</label>
-	<?php foreach ($sorts as $sorts) { ?>
+	Filter By
+	<?php foreach ($sorts as $sorts) { $i = 1; ?>
 	<?php if ($sorts['value'] == $sort . '-' . $order) { ?>
-		<div><input type="checkbox" name="sorter[]" value="<?php echo $sorts['href']; ?>" CHECKED onchange="location = this.value;" /> <?php echo $sorts['text']; ?></div>
+		<div class="checkbox"><input type="checkbox" name="sorter[]" value="<?php echo $sorts['href']; ?>" CHECKED onchange="location = this.value;" id="checkid_<?php echo $i; ?>" /> <label for="checkid_<?php echo $i; ?>"></label><span><?php echo $sorts['text']; ?></span></div>
 	<?php } else { ?>
-		<div><input type="checkbox" name="sorter[]" value="<?php echo $sorts['href']; ?>" onchange="location = this.value;" /> <?php echo $sorts['text']; ?></div>
+		<div class="checkbox"><input type="checkbox" name="sorter[]" value="<?php echo $sorts['href']; ?>" onchange="location = this.value;" id="checkid_<?php echo $i; ?>" /> <label for="checkid_<?php echo $i; ?>"></label> <span> <?php echo $sorts['text']; ?></span></div>
 	<?php } ?>
-	<?php } ?>
+	<?php $i++ ;} ?>
   </div>
 </div>
 <div class="col-sm-9 col-md-9 col-xs-12">
