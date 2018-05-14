@@ -15,7 +15,7 @@
 <!-- imgage start here-->
 <div class="image_slot">
 <div class="row">
-	<img src="<?php echo $thumb;?>" alt="<?php echo $product['name']; ?>" class="img-fluid"/>
+	<img src="<?php echo $thumb;?>" alt="" class="img-fluid"/>
 </div>
 </div>
 
@@ -51,13 +51,19 @@
 <div class="col-md-3 col-sm-3 col-xs-12" style="background-color:#fafafa;">
   <div class="form-group input-group input-group-sm">
 	Filter By
-	<?php foreach ($sorts as $sorts) { $i = 1; ?>
+	<?php foreach ($sorts as $sorts) { ?>
 	<?php if ($sorts['value'] == $sort . '-' . $order) { ?>
-		<div class="checkbox"><input type="checkbox" name="sorter[]" value="<?php echo $sorts['href']; ?>" CHECKED onchange="location = this.value;" id="checkid_<?php echo $i; ?>" /> <label for="checkid_<?php echo $i; ?>"></label><span><?php echo $sorts['text']; ?></span></div>
+		 <label class="check_container"><?php echo $sorts['text']; ?>
+			<input type="checkbox" name="sorter[]" value="<?php echo $sorts['href']; ?>" CHECKED onchange="location = this.value;" />
+			<span class="checkmark"></span>
+		 </label>
 	<?php } else { ?>
-		<div class="checkbox"><input type="checkbox" name="sorter[]" value="<?php echo $sorts['href']; ?>" onchange="location = this.value;" id="checkid_<?php echo $i; ?>" /> <label for="checkid_<?php echo $i; ?>"></label> <span> <?php echo $sorts['text']; ?></span></div>
+		<label class="check_container"><?php echo $sorts['text']; ?>
+			<input type="checkbox" name="sorter[]" value="<?php echo $sorts['href']; ?>" onchange="location = this.value;" />
+			<span class="checkmark"></span>
+		</label>
 	<?php } ?>
-	<?php $i++ ;} ?>
+	<?php } ?>
   </div>
 </div>
 <div class="col-sm-9 col-md-9 col-xs-12">
@@ -171,6 +177,9 @@
 
 $('input[type=number]').spinner();
 </script>
+</div>
+</div>
+</div>
 </section>
 <section>
 <div class="order_process">
@@ -183,7 +192,7 @@ $('input[type=number]').spinner();
 			<div class="circle_one">
 				<img src="catalog/view/theme/default/image/login.png" alt="login" class="order_icons">
 			</div>
-			<p class="login_tx">Login to <br>www.fishgeniee.com</p>
+			<p class="login_tx">Login to <br>www.ohhfish.com</p>
 			</div>
 
 			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">

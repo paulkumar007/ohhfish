@@ -360,7 +360,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 			<div class="circle_one">
 				<img src="catalog/view/theme/default/image/login.png" alt="login" class="order_icons">
 			</div>
-			<p class="login_tx">Login to <br>www.fishgeniee.com</p>
+			<p class="login_tx">Login to <br>www.ohhfish.com</p>
 			</div>
 
 			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
@@ -486,7 +486,83 @@ $('#owl-benefits').owlCarousel({
     }
 })
 
-
+ $( ".owl-prev").html('<i class="fa fa-arrow-left fa-1x"></i>');
+ $( ".owl-next").html('<i class="fa fa-arrow-right fa-1x"></i>');
 });
 </script>
+<style>
+.owl-carousel .owl-nav .owl-next {
+    right: 70px;
+    left: auto;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+.owl-carousel .owl-nav .owl-prev {
+    left: 70px;
+    right: auto;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+.owl-carousel .owl-nav button {
+    border: 2px solid #000000;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out 0s;
+    -moz-transition: all 400ms ease-in-out 0s;
+    -o-transition: all 400ms ease-in-out 0s;
+    -ms-transition: all 400ms ease-in-out 0s;
+    text-shadow: none;
+    opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    -webkit-opacity: 0;
+}
+.owl-carousel:hover .owl-nav button {
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+}
+.owl-carousel:hover .owl-nav .owl-next {
+    right: 50px;
+    left: auto;
+}
+.owl-carousel:hover .owl-nav .owl-prev {
+    left: 50px;
+    right: auto;
+}
+
+.owl-carousel .owl-nav button:hover {
+    background: #000000;
+    border-color: #000000;
+    color: #FFF;
+}
+.owl-carousel .owl-nav i {
+    display: none;
+}
+.owl-carousel .owl-nav .owl-next::after {
+    bottom: auto;
+    color: #000000;
+    content: "\f105";
+    font-family: fontawesome;
+    font-size: 22px;
+    font-weight: 600;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+
+.owl-carousel .owl-nav .owl-prev:hover::after, .owl-carousel .owl-nav .owl-next:hover::after {
+    color: #fff;
+}
+</style>
 <?php echo $footer; ?>

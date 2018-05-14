@@ -272,44 +272,61 @@ span.spinner > .add:hover {
 	padding-left: 5px;
 	position: relative;
 }
-.checkbox label {
-    cursor: pointer;
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    top: 0;
-    left: -27px;
-    background: #fff;
-    border: 1px solid #ddd;
-    transition: all .4s 0 ease;
-    -webkit-transition: all .4s 0 ease;
-    -moz-transition: all .4s 0 ease;
-}
-.checkbox label:after {
-    opacity: .05;
-    content: '';
-    position: absolute;
-    width: 11px;
-    height: 7px;
-    background: 0 0;
-    top: 4px;
-    left: 5px;
-    border: 3px solid #333;
-    border-top: none;
-    border-right: none;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
 
-.checkbox{
-    position: relative;
+/* check_container starts checkbox code */
+.check_container {
     display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	font-family: 'Roboto Slab', serif;
+    font-size: 1em;
 }
+.check_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 21px;
+    width: 21px;
+    background-color: #fff;
+	border:1px solid #b0b0b0;
+}
+.check_container:hover input ~ .checkmark {
+    background-color: #fafafa;
+}
+.check_container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.check_container input:checked ~ .checkmark:after {
+    display: block;
+}
+.check_container .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/* check_container ends checkbox code */
 
 @media (min-width: 767px) and (max-width: 992px ){
 }
