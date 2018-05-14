@@ -18,7 +18,6 @@
 	<img src="<?php echo $thumb;?>" alt="" class="img-fluid"/>
 </div>
 </div>
-
 <!--bread_area start here-->
 <div class="bread_area">
         <div class="container">
