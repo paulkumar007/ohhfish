@@ -87,18 +87,18 @@ $(document).ready(function(){
 
 <script>
 $( document ).ready(function() {
-	var talktwidth=500;
+	var talktwidth=800;
 	var windotalkwd=$(window).width();
 	if(windotalkwd<=768){
 		talktwidth=320;
 	}
 	$('.policy').colorbox({
-		href:function(){ return '/faq' },
+		href:function(){ return 'index.php?route=information/privacy' },
 		width: talktwidth,
 		close:'&times;',
 	});
 	$('.tnc').colorbox({
-		href:function(){ return '/terms-and-conditions' },
+		href:function(){ return 'index.php?route=information/tnc' },
 		width: talktwidth,
 		close:'&times;',
 	});

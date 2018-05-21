@@ -2,7 +2,7 @@
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <link href="catalog/view/theme/default/stylesheet/marine_fish.css" rel="stylesheet">
 <section>
-<div class="container">
+<div class="container-fluid">
 <div class="row">
 <div class="col-sm-6">
 <p>1. The website <a href="www.ohhfish.in">www.ohhfish.in</a> and its contents and system operational software is the sole ownership of Ohh Fish.</p>
