@@ -24,9 +24,9 @@
 		<ul class="footer_list">
 			<li><a href="/about-us">Delivery Information</a></li>
 			<li>|</li>
-			<li><a href="/faq">Privacy Policy</a></li>
+			<li><a href="javascript:void(0);" class="policy">Privacy Policy</a></li>
 			<li>|</li>
-			<li><a href="/terms-and-conditions">Terms & Conditions</a></li>
+			<li><a href="javascript:void(0);" class="tnc">Terms & Conditions</a></li>
 		</ul>
 		<ul class="footer_list">
 			<li><a href="/about-us">Area of Operations</a></li>
@@ -82,6 +82,26 @@ $(document).ready(function(){
         $("html, body").animate({ scrollTop: 0 }, 200); 
         return false; 
     }); 
+});
+</script>
+
+<script>
+$( document ).ready(function() {
+	var talktwidth=500;
+	var windotalkwd=$(window).width();
+	if(windotalkwd<=768){
+		talktwidth=320;
+	}
+	$('.policy').colorbox({
+		href:function(){ return '/faq' },
+		width: talktwidth,
+		close:'&times;',
+	});
+	$('.tnc').colorbox({
+		href:function(){ return '/terms-and-conditions' },
+		width: talktwidth,
+		close:'&times;',
+	});
 });
 </script>
 </body>
