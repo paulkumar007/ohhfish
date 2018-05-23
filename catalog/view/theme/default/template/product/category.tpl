@@ -49,7 +49,7 @@
 <div class="row">
 <div class="col-md-3 col-sm-3 col-xs-12" style="background-color:#fafafa;">
   <div class="form-group input-group input-group-sm">
-	Filter By
+	<div class="filterbyCls" style="margin:10px 0;">Filter By</div>
 	<?php foreach ($sorts as $sorts) { ?>
 	<?php if ($sorts['value'] == $sort . '-' . $order) { ?>
 		 <label class="check_container"><?php echo $sorts['text']; ?>

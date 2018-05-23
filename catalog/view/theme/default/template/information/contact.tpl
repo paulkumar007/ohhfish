@@ -136,7 +136,7 @@
         </fieldset>
         <div class="buttons">
           <div class="pull-right">
-            <input class="btn btn-primary" type="submit" value="<?php echo $button_submit; ?>" />
+            <input class="btn btn-primary" type="submit" value="<?php echo $button_submit; ?>" style="margin-bottom: 20px;"/>
           </div>
         </div>
       </form>
