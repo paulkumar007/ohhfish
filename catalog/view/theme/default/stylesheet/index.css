@@ -301,7 +301,7 @@ article{
     margin-left:0;
 }
 
-form {
+/* form {
   width:140px;
   position:relative;
   top: 0;
@@ -309,7 +309,7 @@ form {
   left:0;
   height:30px;
   padding:6px 0px 0px 0px; 
-}
+} */
 
 input[type=number] {
   float:left;

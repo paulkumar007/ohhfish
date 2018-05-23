@@ -24,27 +24,32 @@
 		<ul class="footer_list">
 			<li><a href="/about-us">Delivery Information</a></li>
 			<li>|</li>
-			<li><a href="javascript:void(0);" class="policy">Privacy Policy</a></li>
+			<li><a href="/privacy-policy">Privacy Policy</a></li>
 			<li>|</li>
 			<li><a href="javascript:void(0);" class="tnc">Terms & Conditions</a></li>
 		</ul>
 		<ul class="footer_list">
 			<li><a href="/about-us">Area of Operations</a></li>
 			<li>|</li>
-			<li><a href="/faq">How to Order</a></li>
+			<li><a href="javascript:void(0);" class="faq">How to Order</a></li>
+		</ul>
+		<ul class="footer_list" style="color:#fff;">
+			<li><a href="mailto:customercare@ohhfish.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> customercare@ohhfish.com </a></li>
+			<li>|</li>
+			<li><a href="tel:+919619713413"> <i class="fa fa-phone" aria-hidden="true"></i> +91 9821325268 </a></li>
 		</ul>
 		</div>
 		<div class="col-sm-2 col-xs-12 center-block text-center footer_socials">
-		<div>Connect with us:</div>
+		<div style="margin: 0px 0 10px;"><strong>Connect with us:</strong></div>
 		<img src="catalog/view/theme/default/image/homepage_icons/whatsapp.png"/>
 		<img src="catalog/view/theme/default/image/homepage_icons/facebook.png"/>
 		<img src="catalog/view/theme/default/image/homepage_icons/twitter.png"/>
 		</div>
 		<div class="col-sm-5 col-xs-12">
-			<h3 class="join_text">Join Ohhfish today To get special Offers </h3>   
+			<h3 class="join_text"><strong>Join Ohhfish today To get special Offers </strong></h3>   
 			<div class="w3ls-form">
 				<form action="#" method="post" class="subscribe_form" name="newsletter_form" id="newsletter_form">
-					<input type="email" name="newsletter_subscriber" id="newsletter_subscriber" placeholder="Email Id" required />
+					<input type="email" name="newsletter_subscriber" id="newsletter_subscriber" placeholder="Enter your Email Id" required />
 					<button type="submit" id="newsletter_btn" class="btn1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
 				</form>
 			</div>
@@ -92,7 +97,7 @@ $( document ).ready(function() {
 	if(windotalkwd<=768){
 		talktwidth=320;
 	}
-	$('.policy').colorbox({
+	$('.faq').colorbox({
 		href:function(){ return 'index.php?route=information/privacy' },
 		width: talktwidth,
 		close:'&times;',

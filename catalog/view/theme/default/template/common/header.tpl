@@ -34,6 +34,7 @@
 <link href="catalog/view/theme/default/stylesheet/register.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/owl.carousel.min.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/owl.theme.default.min.css" rel="stylesheet">
+<link href="catalog/view/theme/default/stylesheet/index.css" rel="stylesheet">
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>

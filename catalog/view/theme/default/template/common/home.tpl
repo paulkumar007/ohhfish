@@ -15,7 +15,6 @@
 	}
 	*/
 ?>
-<link href="catalog/view/theme/default/stylesheet/index.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/font-awesome.min.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/font-awesome.css" rel="stylesheet">
 <script src="catalog/view/javascript/index.js" type="text/javascript"></script>
@@ -284,13 +283,27 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 				<h3 class="order_heading">Benefits </h3>
 				<div class="col-sm-12">
 				<p>Fish is loaded with important nutrients that is beneficial to health like Omega 3 fatty acids and Vitamins D and B2. Fish is rich in calcium and phosphorus. Fish is also a great source of minerals such as  iron, zinc, iodine, magnesium and potassium. Most Health organisations have recommended eating fish atleast twice a week. Here's a list of health benefits from consuming fish.</p>
-				<div class="row owl-carousel owl-theme" id="owl-benefits">
+				<div class="owl-carousel owl-theme" id="owl-benefits">
 					<div class="well well-blue">It lowers risk of Heart diseases</div>
 					<div class="well well-blue">It reduces risk of Alzheimer's disease</div>
 					<div class="well well-blue">It can help lower symptoms of Depression</div>
 					<div class="well well-blue">It’s a great source of Vitamin D</div>
 					<div class="well well-blue">It helps improves Vision and Eye Health</div>
-					<div class="well well-blue">It helps improves Vision and Eye Health</div>
+					<div class="well well-blue">It can help you Sleep Better</div>
+					<div class="well well-blue">It helps fight Acne</div>
+					<div class="well well-blue">It's helpful in alleviating Rheumatoid Arthritis</div>
+					<div class="well well-blue">It's a Lean Meat</div>
+					<div class="well well-blue">It helps lower Cholesterol</div>
+					<div class="well well-blue">It decrease risk of Heart Failure</div>
+					<div class="well well-blue">It lowers risk of Strokes</div>
+					<div class="well well-blue">It decreases the risk of Autoimmune disease</div>
+					<div class="well well-blue">It lowes risk of Cancer</div>
+					<div class="well well-blue">It speeds up your Metabolism</div>
+					<div class="well well-blue">It lowers Blood Pressure</div>
+					<div class="well well-blue">It increase Concentration and Attention Span</div>
+					<div class="well well-blue">It Alleviates PMS Symptoms</div>
+					<div class="well well-blue">It helps treat Liver disease</div>
+					<div class="well well-blue">It helps Athelets recover faster</div>
 				</div>
 				</div>
 			</div>
@@ -452,6 +465,7 @@ $('#owl-seller').owlCarousel({
     loop:false,
     margin:10,
     responsiveClass:true,
+	dots: false,
     responsive:{
         0:{
             items:1,
@@ -473,6 +487,7 @@ $('#owl-benefits').owlCarousel({
 	items:6,
     margin:10,
     nav:true,
+	dots: false,
     responsive:{
         0:{
             items:2
@@ -530,6 +545,8 @@ $('#owl-benefits').owlCarousel({
     -moz-opacity: 1;
     -khtml-opacity: 1;
     -webkit-opacity: 1;
+	border: 1px solid #000000;
+	border-radius: 50%;
 }
 .owl-carousel:hover .owl-nav .owl-next {
     right: 50px;
@@ -540,12 +557,16 @@ $('#owl-benefits').owlCarousel({
     right: auto;
 }
 
-.owl-carousel .owl-nav button:hover {
-    background: #000000;
+#owl-benefits.owl-carousel .owl-nav [class*="owl-"]:hover {
+    background: #000000!important;
     border-color: #000000;
     color: #FFF;
 }
-.owl-carousel .owl-nav i {
+#owl-benefits.owl-carousel .owl-nav {}
+#owl-benefits.owl-carousel .owl-nav .owl-next {position: absolute;right: -20px; top: -45%;}
+#owl-benefits.owl-carousel .owl-nav .owl-prev {position: absolute;left: -20px;top: -45%;}
+
+/*.owl-carousel .owl-nav i {
     display: none;
 }
 .owl-carousel .owl-nav .owl-next::after {
@@ -559,7 +580,7 @@ $('#owl-benefits').owlCarousel({
     position: absolute;
     right: 0;
     top: 8px;
-}
+}*/
 
 .owl-carousel .owl-nav .owl-prev:hover::after, .owl-carousel .owl-nav .owl-next:hover::after {
     color: #fff;
