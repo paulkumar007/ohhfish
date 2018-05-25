@@ -22,7 +22,7 @@
 		<div class="row">
 		<div class="col-sm-5 col-xs-12">
 		<ul class="footer_list">
-			<li><a href="/about-us">Delivery Information</a></li>
+			<li><a href="/delivery">Delivery Information</a></li>
 			<li>|</li>
 			<li><a href="/privacy">Privacy Policy</a></li>
 			<li>|</li>
