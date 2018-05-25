@@ -71,9 +71,9 @@
                     <div class="col-sm-6 left_b"></div>
                     <div class="col-sm-6 right_b">
 					 <ul class="top_ul">
-						<li class="toplist"><a href="mailto:customercare@ohhfish.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> customercare@ohhfish.com </a></li>
+						<li class="toplist"><a href="mailto:care@ohhfish.in"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@ohhfish.in </a></li>
 						<li class="toplist"> | </li>
-						<li class="toplist"><a href="tel:+919619713413"> <i class="fa fa-phone" aria-hidden="true"></i> +91 9821325268 </a></li>
+						<li class="toplist"><a href="tel:8104464146"> <i class="fa fa-phone" aria-hidden="true"></i> +91 8104-46-41-46 </a></li>
 					</ul>
                         <!-- <ul class="top_ul_r">
 							<li class="toplist_r"><a href="javascript:void(0);">Refer to neighbour</a></li>
@@ -148,7 +148,8 @@
 </div>
 </header>
 
-<div class="box_navigation">
+<div class="box_navigation" id="box_navigation">
+<div class="container">
 <div id="top_left_n">
 <a href="index.php">
 <img src="catalog/view/theme/default/image/ohhfish_logo.png" alt="Ohhfish_logo"></a></div>
@@ -209,6 +210,7 @@
 	</script>
 	</div>
 <?php } ?>
+</div>
 </div>
 </div>
 <script type="text/javascript"><!--
@@ -464,3 +466,29 @@ b.keyup(function(e){
 }).blur(function(){ setTimeout(function(){  },500); }).focus(function(){ repositionLivesearch(); a.show(); });
 });
 </script>
+<script>
+if(window.width() > 768) {
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("box_navigation");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+}
+</script>
+<style>
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	background: #fff;
+}
+</style>

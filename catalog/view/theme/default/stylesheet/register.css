@@ -12,6 +12,7 @@ body {
 	position:relative;
 	overflow:hidden;
 	clear:both;
+	margin-top:0px;
 }
 
 .img-fluid{
@@ -372,7 +373,7 @@ input.input-text,. select, textarea {
 }
 
 input.input-text, select, textarea {
-	width:300px;
+	/* width:300px; */
     padding: 5px 10px;
     border: 1px solid #e1e1e1;
     height:30px;

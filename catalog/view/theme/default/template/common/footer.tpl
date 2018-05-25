@@ -24,19 +24,19 @@
 		<ul class="footer_list">
 			<li><a href="/about-us">Delivery Information</a></li>
 			<li>|</li>
-			<li><a href="/privacy-policy">Privacy Policy</a></li>
+			<li><a href="/privacy">Privacy Policy</a></li>
 			<li>|</li>
 			<li><a href="javascript:void(0);" class="tnc">Terms & Conditions</a></li>
 		</ul>
 		<ul class="footer_list">
-			<li><a href="/about-us">Area of Operations</a></li>
-			<li>|</li>
-			<li><a href="javascript:void(0);" class="faq">How to Order</a></li>
+			<!-- <li><a href="/about-us">Area of Operations</a></li>
+			<li>|</li> -->
+			<li><a href="javascript:void(0);" class="faq">FAQs</a></li>
 		</ul>
 		<ul class="footer_list" style="color:#fff;">
-			<li><a href="mailto:customercare@ohhfish.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> customercare@ohhfish.com </a></li>
+			<li><a href="mailto:care@ohhfish.in"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@ohhfish.in </a></li>
 			<li>|</li>
-			<li><a href="tel:+919619713413"> <i class="fa fa-phone" aria-hidden="true"></i> +91 9821325268 </a></li>
+			<li><a href="tel:+918104464146"> <i class="fa fa-phone" aria-hidden="true"></i> +91 8104-46-41-46 </a></li>
 		</ul>
 		</div>
 		<div class="col-sm-2 col-xs-12 center-block text-center footer_socials">
@@ -46,7 +46,7 @@
 		<img src="catalog/view/theme/default/image/homepage_icons/twitter.png"/>
 		</div>
 		<div class="col-sm-5 col-xs-12">
-			<h3 class="join_text"><strong>Join Ohhfish today To get special Offers </strong></h3>   
+			<h3 class="join_text"><strong>Join OhhFish today to get special offers</strong></h3>   
 			<div class="w3ls-form">
 				<form action="#" method="post" class="subscribe_form" name="newsletter_form" id="newsletter_form">
 					<input type="email" name="newsletter_subscriber" id="newsletter_subscriber" placeholder="Enter your Email Id" required />

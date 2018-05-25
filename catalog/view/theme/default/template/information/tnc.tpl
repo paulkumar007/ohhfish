@@ -4,6 +4,7 @@
 <section>
 <div class="container-fluid">
 <div class="row">
+<div class="col-sm-12" style="background:#f2f2f2;padding:10px;margin-bottom: 20px;"><h3><span style="color:#2196f3">OhhFish</span> Terms and Conditions</h3></div>
 <div class="col-sm-6">
 <p>1. The website <a href="www.ohhfish.in">www.ohhfish.in</a> and its contents and system operational software is the sole ownership of Ohh Fish.</p>
 <p>2. You can place your order either via online or on a phone call.</p>
@@ -26,7 +27,7 @@
 <p>15. Any disputes regarding your order or other services provided by us shall be resolved within 3 working days.</p>
 <p>16. We accept cancellations 2 hours prior to the delivery time selected by you.</p>
 <p>17. We take the utmost care to provide best product to our customers. However if you find that the products are damaged or have any quality issues, immediately report this to delivery staff. We will replace it for you at the next earliest delivery time or day. Any claims thereafter would not be entertained.</p>
-<p>In case of any queries or concerns, or for giving us feedback, please feel free to contact our customer support on +919876543210 or email us on care@ohhfish.in</p>
+<p>In case of any queries or concerns, or for giving us feedback, please feel free to contact our customer support on +91-8104-46-41-46 or email us on care@ohhfish.in</p>
 </div>
 </div>
 </div>

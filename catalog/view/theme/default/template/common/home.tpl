@@ -73,7 +73,7 @@
         </div>-->
       </div>
     </div>
-    <div class="item"> <img src="catalog/view/theme/default/image/slides/home_02.jpg" style="width:100%" data-src="" alt="Second    slide">
+    <div class="item"> <img src="catalog/view/theme/default/image/slides/home_02.jpg" style="width:100%" data-src="" alt="Second slide">
       <div class="container">
        <!-- <div class="carousel-caption">
           <h1>Slide 2</h1>
@@ -102,17 +102,15 @@
 
 <div class="ticker-wrap">
 <div class="ticker">
-<div class="ticker__item"><a href="#">Delivery available in two slot*</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="ticker__item"><a href="#">Delivery available in two slots:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <span class="line">|</span>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
 
-<div class="ticker__item"><a href="#">Slot 1: 8.30am to 12.30pm (Order accepted before one day till 8.00pm) </a>
+<div class="ticker__item"><a href="#">Slot 1: 9am to 2pm / Slot 2: 3pm to 6pm  (both orders accepted until 6pm pervious day) </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<span class="line">|</span>
+<!-- <span class="line">|</span>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-
-
-<div class="ticker__item"><a href="#">Slot 2: 4.30pm to 8.30pm (Order accepted same day before 12.00pm)</a> </div>
+<div class="ticker__item"><a href="#">Slot 2: 4.30pm to 8.30pm (Order accepted same day before 12.00pm)</a> --> </div>
 
 </div>
 </div>
@@ -151,16 +149,16 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 					<!-- Tab panes -->
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane active" id="Pescetarian">
-						<strong>What is Pescetarianism ?</strong><br/>
+						<strong style="color:#2196f3">What is Pescetarianism ?</strong><br/>
 						Pescetarianism, or pesco-vegetarianism, means being vegetarian while still including seafood in your diet. One still cuts out red meat, pork, poultry, etc. from his or her diet like a vegetarian, but does not cut out fish and other seafood.<br/><br/>
 
-						<strong>Why turn Pescetarian ?</strong><br/>
+						<strong style="color:#2196f3">Why turn Pescetarian ?</strong><br/>
 						With the increase of fresh fish and vegetables in your diet, we believe that you’ll feel healthier, experience less headaches and sickness as well as increased energy levels. In the long-term, you may also improve your weight, the health of your brain and heart, hair and even your skin. A pescetarian diet may not only reduce your risk for heart disease and other cardiovascular diseases, but stroke, osteoporosis, obesity, diabetes, arthritis, high blood pressure and some types of cancer.<br/><br/>
 
-						<strong>What the experts say ?</strong><br/>
+						<strong style="color:#2196f3">What the experts say ?</strong><br/>
 						Experts say that up to 80 percent of cancer cases are preventable through healthy diets that contain low amounts of fats and oils, and high amounts of fiber — the model pescetarian diet.<br/><br/>
 
-						<strong>Are we experiencing a revolution ?</strong><br/>
+						<strong style="color:#2196f3">Are we experiencing a revolution ?</strong><br/>
 						More and more people around the world are turning Pescetarian including the die-hard vegetarians with increased awareness of the innumerable health benefits. With the amount of exposure on print and social media platforms educating people of the risks of eating red-meat and hybrid poultry, people are becoming health conscious. They're trying to cut on the unhealthy foods and making all efforts to remain fit at any cost.<br/>
 
 						</div>
@@ -186,6 +184,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 	<div class="home_content shopbycat">
 		<div class="container">
 			<div class="row">
+			<div class="col-sm-12"><h2 class="fish_heading_one" style="color:#2196f3;">Shop by Category</h2></div>
 				<div class="col-sm-6">
 					<div class="row">
 					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-seafish.jpg" class="img-responsive"/>
@@ -280,7 +279,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
             </div>
 			<div class="clear"></div>
 			<div class="row">
-				<h3 class="order_heading">Benefits </h3>
+				<h3 class="order_heading">Health Benefits </h3>
 				<div class="col-sm-12">
 				<p>Fish is loaded with important nutrients that is beneficial to health like Omega 3 fatty acids and Vitamins D and B2. Fish is rich in calcium and phosphorus. Fish is also a great source of minerals such as  iron, zinc, iodine, magnesium and potassium. Most Health organisations have recommended eating fish atleast twice a week. Here's a list of health benefits from consuming fish.</p>
 				<div class="owl-carousel owl-theme" id="owl-benefits">
@@ -331,7 +330,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 <div class="join_us">
 	<div class="container">
 		<div class="row">
-			<h3 class="order_heading">What people are saying </h3>
+			<h3 class="order_heading">What people are saying? </h3>
 			<div class="col-sm-4 text-center center-block">
 				<div class="col-sm-12 well well-lg well-testimonial">
 					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
@@ -387,7 +386,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 			<div class="circle_one">
 			<img src="catalog/view/theme/default/image/location.png" alt="login" class="order_icons">
 			</div>
-			<h4 class="login_tx">Check pincode <br> service & availibility</h4>
+			<h4 class="login_tx">Check pincode <br> service & availability</h4>
 			</div>
 
 			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">
@@ -501,8 +500,8 @@ $('#owl-benefits').owlCarousel({
     }
 })
 
- $( ".owl-prev").html('<i class="fa fa-arrow-left fa-1x"></i>');
- $( ".owl-next").html('<i class="fa fa-arrow-right fa-1x"></i>');
+ $( ".owl-prev").html('<i class="fa fa-angle-left fa-2x"></i>');
+ $( ".owl-next").html('<i class="fa fa-angle-right fa-2x"></i>');
 });
 </script>
 <style>
@@ -521,7 +520,7 @@ $('#owl-benefits').owlCarousel({
     bottom: 0;
 }
 .owl-carousel .owl-nav button {
-    border: 2px solid #000000;
+    border: 2px solid #fff;
     height: 40px;
     width: 40px;
     text-align: center;
@@ -545,8 +544,9 @@ $('#owl-benefits').owlCarousel({
     -moz-opacity: 1;
     -khtml-opacity: 1;
     -webkit-opacity: 1;
-	border: 1px solid #000000;
+	border: 1px solid #fff;
 	border-radius: 50%;
+	background:#fff
 }
 .owl-carousel:hover .owl-nav .owl-next {
     right: 50px;
@@ -563,8 +563,8 @@ $('#owl-benefits').owlCarousel({
     color: #FFF;
 }
 #owl-benefits.owl-carousel .owl-nav {}
-#owl-benefits.owl-carousel .owl-nav .owl-next {position: absolute;right: -20px; top: -45%;}
-#owl-benefits.owl-carousel .owl-nav .owl-prev {position: absolute;left: -20px;top: -45%;}
+#owl-benefits.owl-carousel .owl-nav .owl-next {position: absolute;right: -20px; top: -25%;}
+#owl-benefits.owl-carousel .owl-nav .owl-prev {position: absolute;left: -20px;top: -25%;}
 
 /*.owl-carousel .owl-nav i {
     display: none;

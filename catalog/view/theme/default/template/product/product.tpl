@@ -261,7 +261,7 @@
 		<!-- Nav tabs -->
 		<ul class="nav nav-tabs" role="tablist">
 			<li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab"> Nutrition</a></li>
-			<li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab"> Recepie</a></li>
+			<li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab"> Recipe</a></li>
 			<li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab"> Review</a></li>
 		</ul>
 		<!-- Tab panes -->

@@ -4,6 +4,7 @@
 <section>
 <div class="container-fluid">
 <div class="row">
+<div class="col-sm-12" style="background:#f2f2f2;padding:10px;margin-bottom: 20px;"><h3><span style="color:#2196f3">OhhFish</span> FAQs</h3></div>
 <div class="col-sm-6">
 <p><strong><span class="red">Q.</span>	Are the seafood delivered by OhhFish guaranteed for 100% freshness and quality?</strong></p>
 <p><strong><span class="green">A.</span></strong>	Yes, our seafood is guaranteed for 100% freshness and superior quality. All products are purchased directly from the source and utmost precaution is taken to maintain the freshness.</p><br>

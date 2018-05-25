@@ -96,7 +96,7 @@
 				<input type="number" alt="<?php echo $product['product_id']; ?>" min="0.5" max="5" value="0.5" />
 				<span class="kg">Kg </span>
 				</div>
-				<a href="<?php echo $product['href']; ?>" role="button" class="add_to_cart">ADD TO CART</a>
+				<a href="<?php echo $product['href']; ?>" role="button" class="add_to_cart">Show Details</a>
 				</div>
 				</div>
 			</li>
