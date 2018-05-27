@@ -1,6 +1,7 @@
 <?php echo $header; ?>
 <link href="catalog/view/theme/default/stylesheet/product_detail.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/add_to_cart_popup.css" rel="stylesheet">
+<link href="catalog/view/theme/default/stylesheet/marine_fish.css" rel="stylesheet">
 <script src="catalog/view/javascript/cart_popup.js" type="text/javascript"></script>
 <!-- imgage start here
 <div class="image_slot">
@@ -297,12 +298,65 @@
 		</div>
 	</div>
 </div>
-
+<?php if ($products) { ?>
+      <h3>People who bought <?php echo $heading_title; ?> also bought</h3>
+      <?php
+      $p = 1;
+    ?>
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <ul class="row" style="list-style-type: none;">
+        <?php foreach ($products as $product) { ?>
+          <li class="col-md-4 col-sm-6 col-xs-6">
+            <div class="thumbnail">
+            <a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a>
+            <div class="caption">
+            <h3 class="fish_heading"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?> </a><span class="second_text"><?php if($product['size'] != '') { echo '( '.$product['size'].' )'; } ?> </span></h3>
+            <h3 class="fish_type_marathi">( <?php echo $product['sku']; ?> )  </h3>
+            <span class="details_gm"> <?php if($product['approx'] != '') { echo '( '.$product['approx'].' )'; } ?> </span>
+            <div class="availTxt"><i class="fa fa-circle" style="font-size:14px;color:#00a651"></i> Available</div>
+            <?php if ($product['price']) { ?>
+                    <h3 class="price" id="pricer_<?php echo $product['product_id']; ?>" alt="<?php echo $product['only_price']; ?>">
+                      <?php if (!$product['special']) { ?>
+                      <?php echo 'Rs. '.round($product['only_price']/2); ?>
+                      <?php } else { ?>
+                      <span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
+                      <?php } ?>
+                    <!--<span class="kg">(Kg) </span>--> </h3>
+                    <?php } ?>
+            
+            <div class="quantity_box">
+            <input type="number" id="quantity_<?php echo $product['product_id']; ?>" alt="<?php echo $product['product_id']; ?>" min="0.5" max="5" value="0.5" />
+            <span class="kg">Kg </span>
+            </div>
+            <a href="javascript:void(0);" role="button" class="add_to_cart" onclick="show_details('<?php echo $product['href']; ?>','<?php echo $product['product_id']; ?>');">Show Details</a>
+            </div>
+            </div>
+          </li>
+        <?php
+            $p++;
+          }
+        ?>
+      </ul>
+    </div>
+    <?php } ?>
 </div>
 </div>
 </section>
 
 <script type="text/javascript"><!--
+
+function show_details(product_href,product_id) {
+  var quantity = $("#quantity_"+product_id).val();
+  if(product_href.indexOf("?") == '-1'){
+    location.href = product_href+'?quantity='+quantity;
+    return false;
+  } else {
+    location.href = product_href+'&quantity='+quantity;
+    return false;
+  }
+  
+}
+
 $('select[name=\'recurring_id\'], input[name="quantity"]').change(function(){
 	$.ajax({
 		url: 'index.php?route=product/product/getRecurringDescription',
