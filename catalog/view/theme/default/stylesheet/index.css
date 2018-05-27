@@ -620,8 +620,8 @@ span.spinner > .add:hover {
     text-align: center;
 	cursor:pointer;
     text-decoration: none;
-    background:#ff9150;
-    border: solid 1px #ff9150;
+    background:#EF5B2C;
+    border: solid 1px #EF5B2C;
 	border-radius: 3px;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -802,8 +802,8 @@ span.spinner > .add:hover {
 .tab-section .nav-tabs { border-bottom: 2px solid #2196f3; font-size: 16px;}
 .tab-section .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
 .tab-section .nav-tabs > li > a { border: none; color: #666; }
-.tab-section .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #fff !important; background: #2196f3; }
-.tab-section .nav-tabs > li > a::after { content: ""; background: #4285F4; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.tab-section .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #EF5B2C !important; background: transparent; }
+.tab-section .nav-tabs > li > a::after { content: ""; background: #EF5B2C; height: 3px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
 .tab-section .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
 .tab-section .tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
 .tab-section .tab-pane { padding: 15px 0;color:#fff }

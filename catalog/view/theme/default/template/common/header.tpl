@@ -165,9 +165,8 @@
 		  	<?php } ?>
 		  <?php } ?>
 		</select>
-<input name="search" id="searcher" type="text" size="40" placeholder="Search what you like..." />
+		<input name="search" id="searcher" type="text" size="40" placeholder="Search what you like..." />
 	</form>
-	</div>
 	<div class="inlineBlock">
 	<ul class="top_ul_r">
 		<?php if ($logged) { ?>
@@ -179,6 +178,7 @@
 		<li class="toplist_r"><a href="index.php?route=account/register">Register</a></li>
 		<?php } ?>
 	</ul>
+	</div>
 	</div>
 </div>
 <?php if ($categories) { ?>
@@ -492,7 +492,7 @@ b.keyup(function(e){
 });
 </script>
 <script>
-if(window.width() > 768) {
+if($( window ).width() > 768) {
 window.onscroll = function() {myFunction()};
 
 var header = document.getElementById("box_navigation");

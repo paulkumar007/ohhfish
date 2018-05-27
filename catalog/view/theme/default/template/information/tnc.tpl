@@ -8,7 +8,7 @@
 <div class="col-sm-6">
 <p>1. The website <a href="www.ohhfish.in">www.ohhfish.in</a> and its contents and system operational software is the sole ownership of Ohh Fish.</p>
 <p>2. You can place your order either via online or on a phone call.</p>
-<p>3. We accept orders over the phone from 9am to 9pm, all seven days of the week.</p>
+<p>3. We accept orders over the phone from 9am to 6pm, all seven days of the week.</p>
 <p>4. Minimum order value must be Rs 600/-</p>
 <p>5. Product weight may vary.</p>
 <p>6. Billing would be as per the product pack MRP only, unless running a promotional offer.</p>

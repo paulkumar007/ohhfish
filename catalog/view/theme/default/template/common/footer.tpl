@@ -43,7 +43,7 @@
 		<div style="margin: 0px 0 10px;"><strong>Connect with us:</strong></div>
 		<img src="catalog/view/theme/default/image/homepage_icons/whatsapp.png"/>
 		<img src="catalog/view/theme/default/image/homepage_icons/facebook.png"/>
-		<img src="catalog/view/theme/default/image/homepage_icons/twitter.png"/>
+		<img src="catalog/view/theme/default/image/instalogo.png"/>
 		</div>
 		<div class="col-sm-5 col-xs-12">
 			<h3 class="join_text"><strong>Join OhhFish today to get special offers</strong></h3>   

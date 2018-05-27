@@ -172,9 +172,10 @@ header{
 .toplist a:active,
 .toplist a:visited{
 	font-family: 'Roboto Slab', serif;
-	font-size:0.875em;
+	font-size:0.975em;
 	text-decoration:none;
-	color:#000;
+	color:#EF5B2C;
+	font-weight:700;
 }
 
 .toplist a:hover{
@@ -276,7 +277,7 @@ header{
 
 #top_left_n img{
 	width:100%;
-	max-width:128px;
+	max-width:144px;
 	vertical-align:top;
 }
 
@@ -629,7 +630,7 @@ header{
 .toplist a:active,
 .toplist a:visited{
 	font-family: 'Roboto Slab', serif;
-	font-size:2em;
+	font-size:1em;
 	text-decoration:none;
 	color:#ff961b;
 }
@@ -785,7 +786,7 @@ header{
 .top_ul li{
 	width:100%;
 	list-style-type:none;
-	display:block;
+	display:inline;
 	text-align:center;
 }
 
@@ -809,7 +810,7 @@ header{
 .toplist a:active,
 .toplist a:visited{
 	font-family: 'Roboto Slab', serif;
-	font-size:2em;
+	font-size:1em;
 	text-decoration:none;
 	color:#ff961b;
 }
@@ -1060,13 +1061,13 @@ header{
 #top_left_n img{
 	width:100%;
 	text-align:center;
-	padding-top:15px;
+	padding-top:0px;
 }
 
 #top_right_n{
 	width:100%;
 	float:none;
-	padding:2% 0% 0% 0%;
+	padding:0% 0% 0% 0%;
 }
 
 #navigation{

@@ -19,13 +19,13 @@
 <p><strong><span class="green">A.</span></strong>	All our products are to be consumed within 24 hrs of delivery. We request you to please refrigerate the delivered products if you're not consuming immediately.</p><br>
 
 <p><strong><span class="red">Q.</span>	Does OhhFish provide home delivery all over Mumbai and Navi Mumbai?</strong></p>
-<p><strong><span class="green">A.</span></strong>	No, presently our service is confined to only pin codes mentioned on our website, However, if you have an urgent and large requirement, please do give us a call on +91-9876543210</p><br>
+<p><strong><span class="green">A.</span></strong>	No, presently our service is confined to only pin codes mentioned on our website, However, if you have an urgent and large requirement, please do give us a call on +91 8104-46-41-46</p><br>
 
 <p><strong><span class="red">Q.</span>	Can I order by phone or Whatsapp?</strong></p>
 <p><strong><span class="green">A.</span></strong>	Yes. We are open to receiving orders from any of the mediums listed above along with our website</p><br>
 
 <p><strong><span class="red">Q.</span>	Why is there a difference in the amount charged in my final invoice?</strong></p>
-<p><strong><span class="green">A.</span></strong>	There will be a difference in the invoice amount during placing an order and the final order. Because the size of fish may vary. It could be 100/200 grams less or more according to the availability of the fish. This can be notified to you if its a Cash on Delivery order.</p><br>
+<p><strong><span class="green">A.</span></strong>	There will be a difference in the invoice amount during placing an order and the final order because the size of fish may vary. It could be 100/200 grams less or more according to the availability of the fish. This can be notified to you if its a Cash on Delivery order.</p><br>
 </div><div class="col-sm-6">
 <p><strong><span class="red">Q.</span>	What are the payment options?</strong></p>
 <p><strong><span class="green">A.</span></strong>You can pay us using Credit/Debit card, Cash or Paytm.</p><br>
@@ -34,7 +34,7 @@
 <p><strong><span class="green">A.</span></strong>	We put in our best effort to only take orders of the products that we have or will have in stock or are available in that particular season. In the rare event that the order is out of stock, we shall inform you and you may have the choice of either cancelling your order or we will try to deliver the same on the following day.</p><br>
 
 <p><strong><span class="red">Q.</span>	What happens if my delivery is late or not received?</strong></p>
-<p><strong><span class="green">A.</span></strong>	We will try and deliver always on time, but in the case due to unavoidable circumstance, if we delay, the customer has a right to reject the consignment. In case your order is not received at the time communicated, please do let us know</p><br>
+<p><strong><span class="green">A.</span></strong>	We will try and deliver always on time, but incase of unavoidable circumstances, if we delay, the customer has a right to reject the consignment. In case your order is not received at the time communicated, please do let us know</p><br>
 
 <p><strong><span class="red">Q.</span>	Can I schedule in advance to have an order delivered?</strong></p>
 <p><strong><span class="green">A.</span></strong>	Yes, please feel free to let us know your requirements in advance so that we may ensure that the same is met.</p><br>

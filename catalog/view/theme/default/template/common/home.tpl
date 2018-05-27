@@ -104,9 +104,9 @@
 <div class="ticker">
 <div class="ticker__item"><a href="#">Delivery available in two slots:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <span class="line">|</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+&nbsp;&nbsp;&nbsp;&nbsp;</div>
 
-<div class="ticker__item"><a href="#">Slot 1: 9am to 2pm / Slot 2: 3pm to 6pm  (both orders accepted until 6pm pervious day) </a>
+<div class="ticker__item"><a href="#">Slot 1: 9am to 2pm / Slot 2: 3pm to 6pm  (both orders accepted until 6pm previous day) </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <!-- <span class="line">|</span>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
@@ -142,8 +142,8 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 				<div class="tab-section">
 				  <div class="tab-inner">
 					<ul class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#Pescetarian" aria-controls="Pescetarian" role="tab" data-toggle="tab">Why a Pescetarian</a></li>
-						<li role="presentation"><a href="#ourstory" aria-controls="ourstory" role="tab" data-toggle="tab">Our story</a></li>
+						<li role="presentation" class="active"><a href="#Pescetarian" aria-controls="Pescetarian" role="tab" data-toggle="tab">Why a Pescetarian ?</a></li>
+						<li role="presentation"><a href="#ourstory" aria-controls="ourstory" role="tab" data-toggle="tab">Our Story</a></li>
 					</ul>
 
 					<!-- Tab panes -->
@@ -188,7 +188,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 				<div class="col-sm-6">
 					<div class="row">
 					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-seafish.jpg" class="img-responsive"/>
-					<div class="shopbycat-info"><a href="/seawater-fish" alt="" style="color:#fff;text-decoration:none;">SeawaterFish <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></a></div>
+					<div class="shopbycat-info"><a href="/seawater-fish" alt="" style="color:#fff;text-decoration:none;">Seawater Fish <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></a></div>
 					</div>
 					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-seafoods.jpg" class="img-responsive"/>
 					<div class="shopbycat-info"><a href="/frozen-seafood" alt="" style="color:#fff;text-decoration:none;">Frozen Seafood <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></a></div>
@@ -230,7 +230,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 						<div class="caption"><h4>Tiger - Prawns</h4></div>
 						</li>
 						<li class="fish_row item"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller4.jpg" alt="" title="" class="img-responsive" /></a>
-						<div class="caption"><h4>Mackerel(Bangada)</h4></div>
+						<div class="caption"><h4>Mackerel(Bangda)</h4></div>
 						</li>
 					</ul>
 				</div>
@@ -242,7 +242,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 
 <div class="boxes_area">
             <div class="container">
-				<h3 class="order_heading">Why Only <strong>ohh fish </strong> Seafoods? </h3>
+				<h3 class="order_heading">Why only <strong>Ohhfish </strong>Seafoods?</h3>
                 <div class="col-container">
                     <div class="col">
                         <div class="box_orange center-block">
