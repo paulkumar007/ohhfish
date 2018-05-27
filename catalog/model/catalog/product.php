@@ -53,7 +53,8 @@ class ModelCatalogProduct extends Model {
 				'status'           => $query->row['status'],
 				'date_added'       => $query->row['date_added'],
 				'date_modified'    => $query->row['date_modified'],
-				'viewed'           => $query->row['viewed']
+				'viewed'           => $query->row['viewed'],
+				'best_seller'      => $query->row['best_seller']
 			);
 		} else {
 			return false;
@@ -155,6 +156,10 @@ class ModelCatalogProduct extends Model {
 
 		if (!empty($data['filter_manufacturer_id'])) {
 			$sql .= " AND p.manufacturer_id = '" . (int)$data['filter_manufacturer_id'] . "'";
+		}
+
+		if (!empty($data['filter_best_seller'])) {
+			$sql .= " AND p.best_seller = '" . (int)$data['filter_best_seller'] . "'";
 		}
 
 		$sql .= " GROUP BY p.product_id";
@@ -512,6 +517,10 @@ class ModelCatalogProduct extends Model {
 
 		if (!empty($data['filter_manufacturer_id'])) {
 			$sql .= " AND p.manufacturer_id = '" . (int)$data['filter_manufacturer_id'] . "'";
+		}
+
+		if (!empty($data['filter_best_seller'])) {
+			$sql .= " AND p.best_seller = '" . (int)$data['filter_best_seller'] . "'";
 		}
 
 		$query = $this->db->query($sql);

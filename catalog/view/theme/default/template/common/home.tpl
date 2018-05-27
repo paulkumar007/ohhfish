@@ -213,14 +213,15 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 	</div>
 </section>
 
+<?php if($best_seller){ ?>
 <section class="home-area" style="background:#aae7ff">
 	<div class="home_content shopbycat" style="padding-bottom:100px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12"><h2 class="fish_heading_one">Best Sellers</h2></div>
 				<div class="home_list col-sm-12">
-					<ul id="owl-seller" class="owl-carousel owl-theme">
-						<li class="fish_row item"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller1.jpg" alt="" title="" class="img-responsive" /></a>
+					<ul id="owl-seller" class="owl-carousel owl-theme">						
+						<!--<li class="fish_row item"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller1.jpg" alt="" title="" class="img-responsive" /></a>
 						<div class="caption"><h4>Surmai - King Fish</h4></div>
 						</li>
 						<li class="fish_row item"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller2.jpg" alt="" title="" class="img-responsive" /></a>
@@ -231,14 +232,19 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 						</li>
 						<li class="fish_row item"><a href="#"><img src="catalog/view/theme/default/image/homepage_icons/bestseller4.jpg" alt="" title="" class="img-responsive" /></a>
 						<div class="caption"><h4>Mackerel(Bangda)</h4></div>
+						</li>-->
+						<?php foreach($best_seller as $product){ ?>
+						<li class="fish_row item"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="" title="" class="img-responsive" /></a>
+						<div class="caption"><h4><?php echo $product['name']; ?></h4></div>
 						</li>
+						<?php } ?>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
+<?php } ?>
 
 <div class="boxes_area">
             <div class="container">

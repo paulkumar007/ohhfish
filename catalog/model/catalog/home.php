@@ -44,5 +44,15 @@ class ModelCatalogHome extends Model {
 			return array();
 		}
 	}
+
+	public function getBestSeller() {
+		
+		$get_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "product WHERE best_seller = '1' ORDER BY sort_order ");
+		if($get_query->num_rows > 0){
+			return $get_query->rows;
+		} else {
+			return array();
+		}
+	}
 	
 }
