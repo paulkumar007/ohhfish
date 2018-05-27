@@ -188,23 +188,23 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 				<div class="col-sm-6">
 					<div class="row">
 					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-seafish.jpg" class="img-responsive"/>
-					<div class="shopbycat-info">SeawaterFish <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></div>
+					<div class="shopbycat-info"><a href="/seawater-fish" alt="" style="color:#fff;text-decoration:none;">SeawaterFish <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></a></div>
 					</div>
 					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-seafoods.jpg" class="img-responsive"/>
-					<div class="shopbycat-info">Frozen Seafood <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></div>
+					<div class="shopbycat-info"><a href="/frozen-seafood" alt="" style="color:#fff;text-decoration:none;">Frozen Seafood <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></a></div>
 					</div>
 					</div>
 				</div>
 				<div class="col-sm-6">
 					<div class="row">
 					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-fish.jpg" class="img-responsive"/>
-					<div class="shopbycat-info">Freshwater Fish <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></div>
+					<div class="shopbycat-info"><a href="/freshwater-fish" alt="" style="color:#fff;text-decoration:none;">Freshwater Fish <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></a></div>
 					</div>
 					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-exotic.jpg" class="img-responsive"/>
-					<div class="shopbycat-info">Exotic <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></div>
+					<div class="shopbycat-info"><a href="/exotic" alt="" style="color:#fff;text-decoration:none;">Exotic <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></a></div>
 					</div>
 					<div class="col-sm-12"><img src="catalog/view/theme/default/image/homepage_icons/shop-by-cat-prawns.jpg" class="img-responsive"/>
-					<div class="shopbycat-info">Prawns <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></div>
+					<div class="shopbycat-info"><a href="/prawns" alt="" style="color:#fff;text-decoration:none;">Prawns <img src="catalog/view/theme/default/image/homepage_icons/shopbycat_arrow.png" class=""/></a></div>
 					</div>
 					</div>
 				</div>

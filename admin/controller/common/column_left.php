@@ -141,6 +141,14 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => array()		
 				);					
 			}
+
+			if ($this->user->hasPermission('access', 'catalog/city')) {		
+				$catalog[] = array(
+					'name'	   => 'Available Location',
+					'href'     => $this->url->link('catalog/city', 'token=' . $this->session->data['token'], true),
+					'children' => array()		
+				);					
+			}
 			
 			if ($catalog) {
 				$data['menus'][] = array(

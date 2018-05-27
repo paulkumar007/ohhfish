@@ -157,8 +157,13 @@
 <div>
 	<div class="white">
 	<form method="get" action="index.php?route=product/search" id="search">
-		<select class="selectpicker">
-		  <option data-icon="glyphicon-heart">Choose Location</option>
+		<select class="selectpicker" name="selectlocation" id="selectlocation" onchange="choose_location(this.value);">
+		  <option data-icon="glyphicon-heart" value="">Choose Location</option>
+		  <?php if(!empty($locations)){ ?>
+		  	<?php foreach($locations as $location){ ?>
+		  <option value="<?php echo $location['name']; ?>" <?php if($chose_location == $location['name']){ echo 'SELECTED'; } ?>><?php echo $location['name']; ?></option>
+		  	<?php } ?>
+		  <?php } ?>
 		</select>
 <input name="search" id="searcher" type="text" size="40" placeholder="Search what you like..." />
 	</form>
@@ -214,6 +219,26 @@
 </div>
 </div>
 <script type="text/javascript"><!--
+function choose_location(name){
+	$.ajax({
+	    url: 'index.php?route=common/header/saveLocation',
+	    type: 'post',
+	    dataType: 'json',
+	    data: 'location_name='+name,
+	    beforeSend: function() {
+	      
+	    },
+	    complete: function() {
+	      
+	    },
+	    success: function(json) {
+	      if (json['success']) {
+				location.reload(true);
+				return false;
+	      }
+	    }
+	  });
+}
 
 $('#button-login').on('click', function() {
   $.ajax({

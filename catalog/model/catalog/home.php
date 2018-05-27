@@ -34,5 +34,15 @@ class ModelCatalogHome extends Model {
 			$ipaddress = 'UNKNOWN';
 		return $ipaddress;
 	}
+
+	public function getAvailableLocations() {
+		
+		$get_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "city WHERE status = '1' ORDER BY name ");
+		if($get_query->num_rows > 0){
+			return $get_query->rows;
+		} else {
+			return array();
+		}
+	}
 	
 }

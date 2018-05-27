@@ -14,6 +14,14 @@ class ControllerCommonHeader extends Controller {
 			}
 		}
 
+		$this->load->model('catalog/home');
+		$data['locations'] = $this->model_catalog_home->getAvailableLocations();
+
+		$data['chose_location'] = '';
+		if(isset($this->session->data['location'])){
+			$data['chose_location'] = $this->session->data['location'];
+		}
+
 		if ($this->request->server['HTTPS']) {
 			$server = $this->config->get('config_ssl');
 		} else {
@@ -148,5 +156,19 @@ class ControllerCommonHeader extends Controller {
 		}
 
 		return $this->load->view('common/header', $data);
+	}
+
+	public function saveLocation(){
+
+		$json = array();
+		if(isset($this->request->post['location_name'])){
+
+			$this->session->data['location'] = $this->request->post['location_name'];
+
+			$json['success'] = '1';
+		}
+
+		$this->response->addHeader('Content-Type: application/json');
+		$this->response->setOutput(json_encode($json));		
 	}
 }
