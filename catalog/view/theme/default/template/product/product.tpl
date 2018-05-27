@@ -91,7 +91,7 @@
 	<h3 class="price" id="pricer_<?php echo $product_id; ?>" alt="<?php echo $only_price; ?>"><?php echo $price; ?> <!--<span class="kg">(Per Kg) </span>--> </h3>
 	<h3 class="available">Availibility: <span class="stock"><?php echo $stock; ?></span></h3>
 	<div class="quantity_box">
-		<input type="number" name="quantity" alt="<?php echo $product_id; ?>" min="0.5" max="5" value="0.5" /><span class="kg_a">Kg </span>
+		<input type="number" name="quantity" alt="<?php echo $product_id; ?>" min="0.5" max="5" value="<?php echo $quantity; ?>" /><span class="kg_a">Kg </span>
 		<input type="hidden" id="hidden_size" value="<?php echo $size; ?>" />
 		<input type="hidden" name="product_code" id="product_code" value="" />
 	</div>
@@ -575,5 +575,8 @@ $(document).ready(function() {
 })(jQuery);
 
 $('input[type=number]').spinner();
+
+$(".add").click();
+$(".sub").click();
 </script>
 <?php echo $footer; ?>

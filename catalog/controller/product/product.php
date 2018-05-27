@@ -154,6 +154,12 @@ class ControllerProductProduct extends Controller {
 			$product_id = 0;
 		}
 
+		if (isset($this->request->get['quantity'])) {
+			$data['quantity'] = $this->request->get['quantity'];
+		} else {
+			$data['quantity'] = 0.5;
+		}
+
 		$this->load->model('catalog/product');
 
 		$product_info = $this->model_catalog_product->getProduct($product_id);

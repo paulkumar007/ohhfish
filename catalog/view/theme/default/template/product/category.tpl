@@ -93,10 +93,10 @@
                 <?php } ?>
 				
 				<div class="quantity_box">
-				<input type="number" alt="<?php echo $product['product_id']; ?>" min="0.5" max="5" value="0.5" />
+				<input type="number" id="quantity_<?php echo $product['product_id']; ?>" alt="<?php echo $product['product_id']; ?>" min="0.5" max="5" value="0.5" />
 				<span class="kg">Kg </span>
 				</div>
-				<a href="<?php echo $product['href']; ?>" role="button" class="add_to_cart">Show Details</a>
+				<a href="javascript:void(0);" role="button" class="add_to_cart" onclick="show_details('<?php echo $product['href']; ?>','<?php echo $product['product_id']; ?>');">Show Details</a>
 				</div>
 				</div>
 			</li>
@@ -129,6 +129,18 @@
 
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
 <script>
+function show_details(product_href,product_id) {
+	var quantity = $("#quantity_"+product_id).val();
+	if(product_href.indexOf("?") == '-1'){
+		location.href = product_href+'?quantity='+quantity;
+		return false;
+	} else {
+		location.href = product_href+'&quantity='+quantity;
+		return false;
+	}
+	
+}
+
 (function($) {
 	$.fn.spinner = function() {
 		this.each(function() {
