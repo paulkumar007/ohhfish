@@ -330,7 +330,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 		<div class="owl-carousel owl-theme" id="owl-testimonial">
 			<div class="text-center center-block">
 				<div class="well well-lg well-testimonial">
-					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png" class="img-responsive"/><br/><br/>
+					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"  class="img-responsive"/><br/><br/>
 					<p>Thanks to OhhFish for changing the way I buy my fish. I can now order online sitting in my office or on my way home for an express delivery and still enjoy my favourite fish over dinner.</p><br/>
 					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
 					<p><strong>Mr. & Mrs. Kushal Saraf</strong></p>
