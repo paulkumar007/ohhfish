@@ -801,9 +801,9 @@ span.spinner > .add:hover {
 .tab-inner {width:90%; margin:0 auto; padding:30px 0;}
 .tab-section .nav-tabs { border-bottom: 2px solid #2196f3; font-size: 16px;}
 .tab-section .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
-.tab-section .nav-tabs > li > a { border: none; color: #666; }
-.tab-section .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #EF5B2C !important; background: transparent; }
-.tab-section .nav-tabs > li > a::after { content: ""; background: #EF5B2C; height: 3px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.tab-section .nav-tabs > li > a { border: none; color: #EF5B2C; }
+.tab-section .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #fff !important; background: #2196f3; }
+.tab-section .nav-tabs > li > a::after { content: ""; background: #2196f3; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
 .tab-section .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
 .tab-section .tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
 .tab-section .tab-pane { padding: 15px 0;color:#fff }
@@ -1085,4 +1085,83 @@ span.spinner > .add:hover {
 
 @media screen and (max-width:480px) {
 	.shopbycat-info {top:25%;}
+}
+
+.owl-carousel .owl-nav .owl-next {
+    right: 70px;
+    left: auto;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+.owl-carousel .owl-nav .owl-prev {
+    left: 70px;
+    right: auto;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+.owl-carousel .owl-nav button, .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    border: 2px solid #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out 0s;
+    -moz-transition: all 400ms ease-in-out 0s;
+    -o-transition: all 400ms ease-in-out 0s;
+    -ms-transition: all 400ms ease-in-out 0s;
+    text-shadow: none;
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+	background:#fff
+}
+.owl-carousel:hover .owl-nav button {
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+}
+.owl-carousel:hover .owl-nav .owl-next {
+    right: 50px;
+    left: auto;
+}
+.owl-carousel:hover .owl-nav .owl-prev {
+    left: 50px;
+    right: auto;
+}
+
+#owl-benefits.owl-carousel .owl-nav [class*="owl-"]:hover {
+    background: #000000!important;
+    border-color: #000000;
+    color: #FFF;
+}
+#owl-benefits.owl-carousel .owl-nav {}
+#owl-benefits.owl-carousel .owl-nav .owl-next {position: absolute;right: -20px; top: -25%;}
+#owl-benefits.owl-carousel .owl-nav .owl-prev {position: absolute;left: -20px;top: -25%;}
+
+/*.owl-carousel .owl-nav i {
+    display: none;
+}
+.owl-carousel .owl-nav .owl-next::after {
+    bottom: auto;
+    color: #000000;
+    content: "\f105";
+    font-family: fontawesome;
+    font-size: 22px;
+    font-weight: 600;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 8px;
+}*/
+
+.owl-carousel .owl-nav .owl-prev:hover::after, .owl-carousel .owl-nav .owl-next:hover::after {
+    color: #fff;
 }

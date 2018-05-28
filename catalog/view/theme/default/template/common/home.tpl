@@ -15,8 +15,6 @@
 	}
 	*/
 ?>
-<link href="catalog/view/theme/default/stylesheet/font-awesome.min.css" rel="stylesheet">
-<link href="catalog/view/theme/default/stylesheet/font-awesome.css" rel="stylesheet">
 <script src="catalog/view/javascript/index.js" type="text/javascript"></script>
 
 
@@ -244,33 +242,33 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
                     <div class="col">
                         <div class="box_orange center-block">
 						 <div class="box_orange_img text-center">
-							<img src="catalog/view/theme/default/image/homepage_icons/why_sec1.png"/><br/></div>
-                         <h3 class="box_heading">Delivery at Your<br/>Door Step</h3>
-						 <p>Our customers enjoy fresh pick every day sitting right at home, without witnessing the market chaos, polluted lanes, contaminated containers, bullying vendors and soaring prices.Our customers enjoy fresh pick every day sitting right at home, without witnessing the market chaos, polluted lanes, contaminated containers, bullying vendors and soaring prices.</p>
+							<img src="catalog/view/theme/default/image/homepage_icons/why_sec4.png"/><br/></div>
+                         <h3 class="box_heading">Direct<br/>Sourcing</h3>
+						 <p>OhhFish Seafoods does sourcing for all it's prducts directly through the fishermen. We have the manpower and the infrastructure to handle all aspects of business from the port to the customer's plate. We have a strict 'No Middle-man' policy to ensure only the freshest catch reaches our customer and at the right price.</p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="box_orange center-block">
 						<div class="box_orange_img text-center">
-							<img src="catalog/view/theme/default/image/homepage_icons/why_sec2.png"/><br/></div>
-                           <h3 class="box_heading">Best Price for<br/>Best Catch</h3>
-							<p>We offer best value for money deals in line with the excellent quality product vis-a-vis market offer.</p>
+							<img src="catalog/view/theme/default/image/homepage_icons/why_sec1.png"/><br/></div>
+                           <h3 class="box_heading">Doorstep<br/>Delivery</h3>
+							<p>Our customers can now stop worrying about visiting the chaotic and stingy markets and having to haggle with the bullying vendors for a bargain. Your fresh pick will now be delivered to your doorstep.</p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="box_orange center-block">
 							<div class="box_orange_img text-center">
-							<img src="catalog/view/theme/default/image/homepage_icons/why_sec3.png"/><br/></div>
-                         <h3 class="box_heading">Your Wish is Our<br/>Command</h3>
-						 <p>Our customers have an upper hand in choosing their most favoured cuts and slices, be it fillet, steaks or anything.</p>
+							<img src="catalog/view/theme/default/image/homepage_icons/why_sec2.png"/><br/></div>
+                         <h3 class="box_heading">Freshness at your<br/> fingertips</h3>
+						 <p>Your fresh pick is now only a few clicks away. No need to worry for tendering exact change. Make cashless transactions for hassle free and best deals</p>
 						</div>
 					</div>
                     <div class="col">
                         <div class="box_orange center-block">
 							<div class="box_orange_img text-center">
-							<img src="catalog/view/theme/default/image/homepage_icons/why_sec4.png"/><br/></div>
-                         <h3 class="box_heading">No Middle man Policy</h3>
-						 <p>At ohh fish Sea Foods sourcing of fishes, prawns & crabs are directly done by us. We have the infrastructure and manpower to handle the business right from the port. We have a strict policy of...Readmore</p>
+							<img src="catalog/view/theme/default/image/homepage_icons/why_sec3.png"/><br/></div>
+                         <h3 class="box_heading">Choose<br/>your Cut</h3>
+						 <p>Choose your favourite cut or slice; be it fillets or steaks, for no exrta cost.</p>
 						</div>
 					</div>
             </div>
@@ -326,35 +324,48 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 <!--join us start here-->
 <div class="join_us">
 	<div class="container">
+		<h3 class="order_heading">What people are saying? </h3>
 		<div class="row">
-			<h3 class="order_heading">What people are saying? </h3>
-			<div class="col-sm-4 text-center center-block">
-				<div class="col-sm-12 well well-lg well-testimonial">
-					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+		<div class="col-sm-12">
+		<div class="owl-carousel owl-theme" id="owl-testimonial">
+			<div class="text-center center-block">
+				<div class="well well-lg well-testimonial">
+					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png" class="img-responsive"/><br/><br/>
+					<p>Thanks to OhhFish for changing the way I buy my fish. I can now order online sitting in my office or on my way home for an express delivery and still enjoy my favourite fish over dinner.</p><br/>
 					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
-					<p><strong>Rupesh Karbate</strong></p>
-					<p> Mumbai, Dadar</p>
+					<p><strong>Mr. & Mrs. Kushal Saraf</strong></p>
+					<p> Vile Parle, Mumbai</p>
 				</div>
 			</div>
-			<div class="col-sm-4 text-center center-block">
-				<div class="col-sm-12 well well-lg well-testimonial">
+			<div class="text-center center-block">
+				<div class="well well-lg well-testimonial">
 					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+					<p>Who says seafood parties are only enjoyed at restaurants by footing big bills and reserving tables. Ohh Fish has come as a saviour; we can now order from OhhFish in bulk quantities at great prices and showcase our culinary skills to our guests at the comfort of our homes.</p><br/>
 					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
-					<p><strong>Rupesh Karbate</strong></p>
-					<p> Mumbai, Dadar</p>
+					<p><strong>Mr. & Mrs. Rohit & Jolene Serrao</strong></p>
+					<p> Andheri, Mumbai</p>
 				</div>
 			</div>
-			<div class="col-sm-4 text-center center-block">
-				<div class="col-sm-12 well well-lg well-testimonial">
+			<div class="text-center center-block">
+				<div class="well well-lg well-testimonial">
 					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p><br/>
+					<p>I prefer to personally visit OhhFish, not just for the wide variety of seafood and great ambience, but also for the friendly staff and the freshness tips that I get which is priceless.</p><br/>
 					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
-					<p><strong>Rupesh Karbate</strong></p>
-					<p> Mumbai, Dadar</p>
+					<p><strong>Mr. Shahzad Shaikh</strong></p>
+					<p> Mira Road, Mumbai</p>
 				</div>
 			</div>
+			<div class="text-center center-block">
+				<div class="well well-lg well-testimonial">
+					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+					<p>Being a working couple, we're always on the move and hardly get time to pick our favourite stuff, as our weekends are spent on completing household chores. With OhhFish at our disposal, we can now order fresh seafood on the go at great prices.</p><br/>
+					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+					<p><strong>Mr. & Mrs. Rupesh & Trupti Karbate</strong></p>
+					<p> Worli, Mumbai</p>
+				</div>
+			</div>
+		</div>
+		</div>
 		</div>
 	</div>
 </div>
@@ -477,7 +488,7 @@ $('#owl-seller').owlCarousel({
             loop:false
         }
     }
-})
+});
 $('#owl-benefits').owlCarousel({
     loop:false,
 	items:6,
@@ -495,92 +506,30 @@ $('#owl-benefits').owlCarousel({
             items:6
         }
     }
+});
+$('#owl-testimonial').owlCarousel({
+    loop:false,
+	items:3,
+    margin:10,
+    nav:true,
+	dots: false,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:5
+        },
+        1000:{
+            items:3
+        }
+    }
 })
-
  $( ".owl-prev").html('<i class="fa fa-angle-left fa-2x"></i>');
  $( ".owl-next").html('<i class="fa fa-angle-right fa-2x"></i>');
 });
 </script>
 <style>
-.owl-carousel .owl-nav .owl-next {
-    right: 70px;
-    left: auto;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-}
-.owl-carousel .owl-nav .owl-prev {
-    left: 70px;
-    right: auto;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-}
-.owl-carousel .owl-nav button {
-    border: 2px solid #fff;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -khtml-border-radius: 50%;
-    transition: all 400ms ease-in-out 0s;
-    -webkit-transition: all 400ms ease-in-out 0s;
-    -moz-transition: all 400ms ease-in-out 0s;
-    -o-transition: all 400ms ease-in-out 0s;
-    -ms-transition: all 400ms ease-in-out 0s;
-    text-shadow: none;
-    opacity: 0;
-    -moz-opacity: 0;
-    -khtml-opacity: 0;
-    -webkit-opacity: 0;
-}
-.owl-carousel:hover .owl-nav button {
-    opacity: 1;
-    -moz-opacity: 1;
-    -khtml-opacity: 1;
-    -webkit-opacity: 1;
-	border: 1px solid #fff;
-	border-radius: 50%;
-	background:#fff
-}
-.owl-carousel:hover .owl-nav .owl-next {
-    right: 50px;
-    left: auto;
-}
-.owl-carousel:hover .owl-nav .owl-prev {
-    left: 50px;
-    right: auto;
-}
 
-#owl-benefits.owl-carousel .owl-nav [class*="owl-"]:hover {
-    background: #000000!important;
-    border-color: #000000;
-    color: #FFF;
-}
-#owl-benefits.owl-carousel .owl-nav {}
-#owl-benefits.owl-carousel .owl-nav .owl-next {position: absolute;right: -20px; top: -25%;}
-#owl-benefits.owl-carousel .owl-nav .owl-prev {position: absolute;left: -20px;top: -25%;}
-
-/*.owl-carousel .owl-nav i {
-    display: none;
-}
-.owl-carousel .owl-nav .owl-next::after {
-    bottom: auto;
-    color: #000000;
-    content: "\f105";
-    font-family: fontawesome;
-    font-size: 22px;
-    font-weight: 600;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 8px;
-}*/
-
-.owl-carousel .owl-nav .owl-prev:hover::after, .owl-carousel .owl-nav .owl-next:hover::after {
-    color: #fff;
-}
 </style>
 <?php echo $footer; ?>

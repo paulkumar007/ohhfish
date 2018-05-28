@@ -26,15 +26,16 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+<link href="catalog/view/theme/default/stylesheet/owl.carousel.min.css" rel="stylesheet">
+<link href="catalog/view/theme/default/stylesheet/owl.theme.default.min.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/customstyle.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/navigation.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/popup.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/cart_button.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/colorbox.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/register.css" rel="stylesheet">
-<link href="catalog/view/theme/default/stylesheet/owl.carousel.min.css" rel="stylesheet">
-<link href="catalog/view/theme/default/stylesheet/owl.theme.default.min.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/index.css" rel="stylesheet">
+
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
