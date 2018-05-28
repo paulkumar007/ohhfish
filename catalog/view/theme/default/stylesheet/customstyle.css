@@ -233,7 +233,7 @@ header{
 	font-size:12px;
     color: #bebebe;width:53%;
 	line-height:25px;
-    /* width:150px; 
+    /* width:150px;
     -webkit-border-radius:10px;
     -moz-border-radius:10x;
     border-radius:10px;
@@ -417,7 +417,7 @@ header{
 footer{
 	background: #123e86;
 	padding:10px 0 0;
-	width: 100%; 
+	width: 100%;
 }
 
 .footer_links{
@@ -445,12 +445,12 @@ footer{
 .footer_list a:visited{
 	font-family: 'Roboto Slab', serif;
 	font-size:1.2em;
-	color:#fff;
+	color:#2196f3;
 	text-decoration:none;
 }
 
 .footer_list a:hover{
-	color:#ff933c;
+	color:#EF5B2C;
 	text-decoration:underline;
 }
 
@@ -523,10 +523,6 @@ a.copyright_a:hover{
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
-
-
-
-
 
 /* Hero */
 .hero_area {background-image: url(../image/hero.jpg);background-position: center center;background-repeat: no-repeat;background-size: cover;height: 475px;padding: 0;}
@@ -603,7 +599,7 @@ header{
 }
 
 
-.top_ul li{/* 
+.top_ul li{/*
 	width:100%;
 	display:block; */
 	list-style-type:none;

@@ -313,7 +313,7 @@ article{
 
 input[type=number] {
   float:left;
-  width:60px;
+/*   width:60px; */
   height:33px;
   font-family: 'Roboto Slab', serif;
   font-weight:700;

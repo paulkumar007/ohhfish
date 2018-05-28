@@ -15,7 +15,7 @@
 <!-- imgage start here-->
 <div class="image_slot">
 <div class="row">
-	<img src="<?php echo $thumb;?>" alt="" class="img-fluid"/>
+	<img src="<?php echo $thumb;?>" alt="" class="img-fluid" style="width: 100%;"/>
 </div>
 </div>
 <!--bread_area start here-->
@@ -217,7 +217,7 @@ $('input[type=number]').spinner();
 			<div class="circle_one">
 				<img src="catalog/view/theme/default/image/location.png" alt="login" class="order_icons">
 			</div>
-			<h4 class="login_tx">Check pincode <br> service & availibility</h4>
+			<h4 class="login_tx">Check pincode <br> service & availability</h4>
 			</div>
 
 			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">

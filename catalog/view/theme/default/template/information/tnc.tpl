@@ -15,7 +15,7 @@
 <p>7. All orders can be paid in Cash or via Credit or Debit Card.</p>
 <p>8. In case of customized orders such as prawns/fish fillets/cubes, slices, steaks etc. the charges on the order will be based upon the unprocessed fish and not on the final customized order.</p>
 <p>9. During the year, certain kinds of fish are seasonal and may not be available. More over, the quantity you have ordered may not be available to be supplied to you. In which case, we shall inform you of making an alternative order booking that may match your needs to the closest possible fish and quantity that you need.</p>
-<p>10.We reserve the right to refuse or cancel any order placed for a product that is listed at an incorrect price or ‘Out of Stock’ status. This shall be regardless of whether the order has been confirmed for delivery from our side.</p>
+<p>10.We reserve the right to refuse or cancel any order placed for a product that is listed at an incorrect price or ‘Out of Stock’ status. This shall be regardless of whether the order has been confirmed for delivery from our side.Express delivery charge of Rs.100/- to be paid in cash.</p>
 </div>
 
 <div class="col-sm-6">

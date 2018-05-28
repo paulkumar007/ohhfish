@@ -109,7 +109,7 @@
 		</div>
 		<div class="middle_box">
 		<div class="left_info">
-		<h3 class="get_off">Get Exciting offer Log in Today</h3>
+		<h3 class="get_off">Log In to get exciting offers</h3>
 		</div>
 
 		<div class="right_info">

@@ -127,11 +127,11 @@ a.close_b:hover{
 </script>
 
 <!-- image start here-->
-<div class="image_slot">
+<!-- <div class="image_slot">
 <div class="row"> 
 <img src="catalog/view/theme/default/image/register.jpg" class="img-fluid" alt="Responsive image">
 </div>
-</div>
+</div> -->
 
 <div class="bread_area">
 	<div class="container">
