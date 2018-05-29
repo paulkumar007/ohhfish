@@ -327,7 +327,7 @@ $(window).load(function(){
 <div class="safe_row">
 <div class="hygine">
 <img src="catalog/view/theme/default/image/hygine.png" class="shield_i">
-<span class="hygine_text">Safe and Secure Payments. 100% hygine.</span>
+<span class="hygine_text">Safe and Secure Payments. 100% hygiene.</span>
 </div>
 </div>
 

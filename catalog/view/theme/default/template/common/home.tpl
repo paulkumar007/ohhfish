@@ -87,23 +87,8 @@
 
 <!--news-->
 <div id="news">
-
-
-<div class="ticker-wrap">
-<div class="ticker">
-<div class="ticker__item"><a href="#">Delivery available in two slots:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<span class="line">|</span>
-&nbsp;&nbsp;&nbsp;&nbsp;</div>
-
-<div class="ticker__item"><a href="#">Slot 1: 9am to 2pm / Slot 2: 3pm to 6pm  (both orders accepted until 6pm previous day) </a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<!-- <span class="line">|</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-<div class="ticker__item"><a href="#">Slot 2: 4.30pm to 8.30pm (Order accepted same day before 12.00pm)</a> --> </div>
-
-</div>
-</div>
-
+<marquee bgcolor="#2196f3" style="color: #FFFFFF;padding:10px" behavior="scroll" scrolldelay="100"> Delivery available in two slots: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span class="line">|</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Slot 1: 9am to 2pm / Slot 2: 3pm to 6pm  (both orders accepted until 6pm previous day) </marquee>
 </div>
 
 <main class="site-main">
