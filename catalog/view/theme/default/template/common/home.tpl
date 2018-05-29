@@ -330,36 +330,36 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 		<div class="owl-carousel owl-theme" id="owl-testimonial">
 			<div class="text-center center-block">
 				<div class="well well-lg well-testimonial">
-					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"  class="img-responsive"/><br/><br/>
+					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"  class="img-responsive center-block" style="width:auto"/><br/><br/>
 					<p>Thanks to OhhFish for changing the way I buy my fish. I can now order online sitting in my office or on my way home for an express delivery and still enjoy my favourite fish over dinner.</p><br/>
-					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+					<img src="catalog/view/theme/default/image/testimonial/testi3.jpg" class="img-responsive center-block" style="width:auto"/><br/><br/>
 					<p><strong>Mr. & Mrs. Kushal Saraf</strong></p>
 					<p> Vile Parle, Mumbai</p>
 				</div>
 			</div>
 			<div class="text-center center-block">
 				<div class="well well-lg well-testimonial">
-					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png" class="img-responsive center-block" style="width:auto"/><br/><br/>
 					<p>Who says seafood parties are only enjoyed at restaurants by footing big bills and reserving tables. Ohh Fish has come as a saviour; we can now order from OhhFish in bulk quantities at great prices and showcase our culinary skills to our guests at the comfort of our homes.</p><br/>
-					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+					<img src="catalog/view/theme/default/image/testimonial/testi1.jpg" class="img-responsive center-block" style="width:auto"/><br/><br/>
 					<p><strong>Mr. & Mrs. Rohit & Jolene Serrao</strong></p>
 					<p> Andheri, Mumbai</p>
 				</div>
 			</div>
 			<div class="text-center center-block">
 				<div class="well well-lg well-testimonial">
-					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png" class="img-responsive center-block" style="width:auto"/><br/><br/>
 					<p>I prefer to personally visit OhhFish, not just for the wide variety of seafood and great ambience, but also for the friendly staff and the freshness tips that I get which is priceless.</p><br/>
-					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+					<img src="catalog/view/theme/default/image/testimonial/testi2.jpg" class="img-responsive center-block" style="width:auto"/><br/><br/>
 					<p><strong>Mr. Shahzad Shaikh</strong></p>
 					<p> Mira Road, Mumbai</p>
 				</div>
 			</div>
 			<div class="text-center center-block">
 				<div class="well well-lg well-testimonial">
-					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png"/><br/><br/>
+					<img src="catalog/view/theme/default/image/homepage_icons/blockquotes.png" class="img-responsive center-block" style="width:auto"/><br/><br/>
 					<p>Being a working couple, we're always on the move and hardly get time to pick our favourite stuff, as our weekends are spent on completing household chores. With OhhFish at our disposal, we can now order fresh seafood on the go at great prices.</p><br/>
-					<img src="catalog/view/theme/default/image/homepage_icons/testimonial_noimage.png"/><br/><br/>
+					<img src="catalog/view/theme/default/image/testimonial/testi4.jpg" class="img-responsive center-block" style="width:auto"/><br/><br/>
 					<p><strong>Mr. & Mrs. Rupesh & Trupti Karbate</strong></p>
 					<p> Worli, Mumbai</p>
 				</div>

@@ -1142,9 +1142,8 @@ span.spinner > .add:hover {
     border-color: #000000;
     color: #FFF;
 }
-#owl-benefits.owl-carousel .owl-nav {}
-#owl-benefits.owl-carousel .owl-nav .owl-next {position: absolute;right: -20px; top: -25%;}
-#owl-benefits.owl-carousel .owl-nav .owl-prev {position: absolute;left: -20px;top: -25%;}
+#owl-benefits.owl-carousel .owl-nav .owl-next, #owl-testimonial.owl-carousel .owl-nav .owl-next {position: absolute;right: -20px; top: -25%;}
+#owl-benefits.owl-carousel .owl-nav .owl-prev, #owl-testimonial.owl-carousel .owl-nav .owl-prev {position: absolute;left: -20px;top: -25%;}
 
 /*.owl-carousel .owl-nav i {
     display: none;
