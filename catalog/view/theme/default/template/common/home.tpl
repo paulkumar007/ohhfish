@@ -122,7 +122,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 
 					<!-- Tab panes -->
 					<div class="tab-content">
-						<div role="tabpanel" class="tab-pane active" id="Pescetarian">
+						<div role="tabpanel" class="tab-pane active scrollbar" id="Pescetarian">
 						<strong style="color:#2196f3">What is Pescetarianism ?</strong><br/>
 						Pescetarianism, or pesco-vegetarianism, means being vegetarian while still including seafood in your diet. One still cuts out red meat, pork, poultry, etc. from his or her diet like a vegetarian, but does not cut out fish and other seafood.<br/><br/>
 
@@ -136,7 +136,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 						More and more people around the world are turning Pescetarian including the die-hard vegetarians with increased awareness of the innumerable health benefits. With the amount of exposure on print and social media platforms educating people of the risks of eating red-meat and hybrid poultry, people are becoming health conscious. They're trying to cut on the unhealthy foods and making all efforts to remain fit at any cost.<br/>
 
 						</div>
-						<div role="tabpanel" class="tab-pane" id="ourstory">We have been in the seafood business for three generations, indulged in retail, wholesale and exports and understand the true meaning of <strong>FRESH</strong>. Seafood being highly perishable item needs utmost care in preserving and hygene, especially, when it comes to exports, since the consignments have to maintain it's freshness until it reaches the shores and finally to the end consumer. But, we think otherwise; why should only export items be fresh? why deprive our citizens the right to the best quality food. With this mindset, <strong>Ohh Fish</strong> came into existence. We are based right at the heart of all the action - the BMC Fish Market at CSMT. We also have our own modern processing, packaging and logistics centre with a fleet of refrigerated trucks to take care of the delivery of our consignments. We also have highly trained and experienced staff to manage every aspect of this food chain including procuring, processing, cutting, packaging, quality control and transporting. We live by the mantra that our products will be nothing but the <strong>BEST.</strong><br/><br/>
+						<div role="tabpanel" class="tab-pane scrollbar" id="ourstory">We have been in the seafood business for three generations, indulged in retail, wholesale and exports and understand the true meaning of <strong>FRESH</strong>. Seafood being highly perishable item needs utmost care in preserving and hygene, especially, when it comes to exports, since the consignments have to maintain it's freshness until it reaches the shores and finally to the end consumer. But, we think otherwise; why should only export items be fresh? why deprive our citizens the right to the best quality food. With this mindset, <strong>Ohh Fish</strong> came into existence. We are based right at the heart of all the action - the BMC Fish Market at CSMT. We also have our own modern processing, packaging and logistics centre with a fleet of refrigerated trucks to take care of the delivery of our consignments. We also have highly trained and experienced staff to manage every aspect of this food chain including procuring, processing, cutting, packaging, quality control and transporting. We live by the mantra that our products will be nothing but the <strong>BEST.</strong><br/><br/>
 
 						Our <strong>Aim</strong> is to provide export quality seafood to every consumer - the freshest seafood money can buy. Having said that, we ensure all this comes at a fair price.<br/><br/>
 
@@ -515,6 +515,11 @@ $('#owl-testimonial').owlCarousel({
 });
 </script>
 <style>
-
+.scrollbar {height:300px;overflow-y:scroll;}
+.scrollbar::-webkit-scrollbar{width:6px;background-color:#000;}
+.scrollbar::-webkit-scrollbar-thumb{background-color:#ccc;border-radius:10px;}
+.scrollbar::-webkit-scrollbar-thumb:hover{background-color:#ccc;border:1px solid #ccc;}
+.scrollbar::-webkit-scrollbar-thumb:active{background-color:#666666;border:1px solid #fff;}
+.scrollbar::-webkit-scrollbar-track{border:1px #333 solid;-webkit-box-shadow:0 0 2px #333 inset;} 
 </style>
 <?php echo $footer; ?>
