@@ -170,7 +170,7 @@ a.close_b:hover{
 <label><p class="text_l"><em>*</em> Enter your Mobile No.</p></label>
 <div class="box_space"> 
 <div class="form-group">
-<input type="number" id="mobile" maxlength="10" autocomplete="off" placeholder="Enter Mobile No." class="box" value="<?php echo $telephone; ?>" name="telephone" title="Mobile No." required />
+<input type="tel" id="mobile" maxlength="10" autocomplete="off" placeholder="Enter Mobile No." class="box" value="<?php echo $telephone; ?>" name="telephone" title="Mobile No." required />
 </div>
 <button class="continue_b" id="go_next" type="button">Continue </button>
 </div>
@@ -179,7 +179,7 @@ a.close_b:hover{
 <label><p class="text_l"><em>*</em> Enter OTP.</p></label>
 <div class="box_space"> 
 <div class="form-group">
-<input type="number" id="otp" maxlength="6" autocomplete="off" placeholder="Enter OTP" class="box" value="" name="otp" title="OTP" required />
+<input type="tel" id="otp" maxlength="6" autocomplete="off" placeholder="Enter OTP" class="box" value="" name="otp" title="OTP" required />
 </div>
 <button class="continue_b" id="check_otp" type="button">VERIFY </button>
 </div>

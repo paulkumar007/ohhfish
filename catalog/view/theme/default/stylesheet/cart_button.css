@@ -37,7 +37,7 @@ a.add_to_cart:hover{
 .cart_box{
   position:fixed;
   bottom:60px;
-  right:4%;
+  right:0%;
   z-index:1111;
   display: block;
 }
@@ -61,9 +61,9 @@ a.cart_link:hover{
 
 
 .bck_lamp{
-	/* background: #ff9150; */
+	/* background: #ff9150;
     width: 80px;
-    height: 80px;
+    height: 80px; */
     border-radius:50%;
     text-align: center;
     line-height: 80px;
@@ -96,8 +96,8 @@ a.cart_link:hover{
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color:#fff;
-  top: -80px;
-  right: -60px;
+  top: -96px;
+  right: -46px;
   background-color:#EF5B2C;
 }
 
@@ -118,7 +118,7 @@ a.cart_link:hover{
 .cart_box{
   position:fixed;
   bottom:18%;
-  right:6%;
+  right:0%;
   z-index:1111;
   display: block;
 }
@@ -128,7 +128,7 @@ a.cart_link:hover{
 .cart_box{
   position:fixed;
   bottom:18%;
-  right:6%;
+  right:0%;
   z-index:1111;
   display: block;
 }
@@ -145,7 +145,7 @@ a.cart_link:hover{
 .cart_box{
   position:fixed;
   bottom:18%;
-  right:6%;
+  right:0%;
   z-index:1111;;
   display: block;
 }

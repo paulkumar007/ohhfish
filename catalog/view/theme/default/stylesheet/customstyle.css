@@ -694,13 +694,13 @@ header{
 #top_left_n img{
 	width:100%;
 	text-align:center;
-	padding-top:15px;
+	padding-top:1px;
 }
 
 #top_right_n{
 	width:100%;
 	float:none;
-	padding:2% 0% 0% 0%;
+	padding:0% 0% 0% 0%;
 }
 
 #navigation{

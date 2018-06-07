@@ -43,7 +43,7 @@
 <div class="container">
 <form id="cart_form" action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
 <div class="row">
-<div class="col-sm-8 for_992">
+<div class="col-xs-12 col-sm-8 for_992">
 
 <div class="order_box">
 <!--first_row-->
@@ -140,7 +140,7 @@
 </div>
 </div>
 
-<div class="col-sm-4">
+<div class="col-xs-12 col-sm-4">
 <div class="price_box">
 	<div class="head_row">
 		<p class="p_details">PRICE DETAILS </p>
@@ -165,7 +165,7 @@
 <div class="safe_row">
 <div class="hygine">
 <img src="catalog/view/theme/default/image/hygine.png" class="shield_i">
-<span class="hygine_text">Safe and Secure Payments. 100% hygine.</span>
+<span class="hygine_text">Safe and Secure Payments. 100% hygiene.</span>
 </div>
 </div>
 
