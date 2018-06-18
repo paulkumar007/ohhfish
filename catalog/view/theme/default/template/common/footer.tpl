@@ -20,32 +20,7 @@
 		</ul> -->
 		<div class="container">
 		<div class="row">
-		<div class="col-sm-5 col-xs-12">
-		<ul class="footer_list">
-			<li><a href="/delivery">Delivery Information</a></li>
-			<li>|</li>
-			<li><a href="/privacy">Privacy Policy</a></li>
-			<li>|</li>
-			<li><a href="javascript:void(0);" class="tnc">Terms & Conditions</a></li>
-		</ul>
-		<ul class="footer_list">
-			<!-- <li><a href="/about-us">Area of Operations</a></li>
-			<li>|</li> -->
-			<li><a href="javascript:void(0);" class="faq">FAQs</a></li>
-		</ul>
-		<ul class="footer_list" style="color:#fff;">
-			<li><a href="mailto:care@ohhfish.in"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@ohhfish.in </a></li>
-			<li>|</li>
-			<li><a href="tel:+918104464146"> <i class="fa fa-phone" aria-hidden="true"></i> +91 8104-46-41-46 </a></li>
-		</ul>
-		</div>
-		<div class="col-sm-2 col-xs-12 center-block text-center footer_socials">
-		<div style="margin: 0px 0 10px;"><strong>Connect with us:</strong></div>
-		<img src="catalog/view/theme/default/image/homepage_icons/whatsapp.png"/>
-		<img src="catalog/view/theme/default/image/homepage_icons/facebook.png"/>
-		<img src="catalog/view/theme/default/image/instalogo.png"/>
-		</div>
-		<div class="col-sm-5 col-xs-12">
+		<div class="col-sm-5 col-sm-push-7">
 			<h3 class="join_text"><strong>Join OhhFish today to get special offers</strong></h3>   
 			<div class="w3ls-form">
 				<form action="#" method="post" class="subscribe_form" name="newsletter_form" id="newsletter_form">
@@ -54,6 +29,32 @@
 				</form>
 			</div>
 		</div>
+		<div class="col-sm-7 col-sm-pull-5">
+		<div class="row">
+		<div class="col-sm-8 col-xs-12">
+		<ul class="footer_list">
+			<li><a href="/delivery">Delivery Information</a></li>
+			<li>|</li>
+			<li><a href="/privacy">Privacy Policy</a></li>
+			<li>|</li>
+			<li><a href="javascript:void(0);" class="tnc">Terms & Conditions</a></li>
+			<li>|</li>
+			<li><a href="javascript:void(0);" class="faq">FAQs</a></li>
+		</ul>
+		<ul class="footer_list" style="color:#fff;">
+			<li><a href="mailto:care@ohhfish.in"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@ohhfish.in </a></li>
+			<li>|</li>
+			<li><a href="tel:+918104464146"> <i class="fa fa-phone" aria-hidden="true"></i> +91 8104-46-41-46 </a></li>
+		</ul>
+		</div>
+		<div class="col-sm-4 col-xs-12 center-block text-center footer_socials">
+		<div style="margin: 0px 0 10px;"><strong>Connect with us:</strong></div>
+		<img src="catalog/view/theme/default/image/homepage_icons/whatsapp.png"/>
+		<img src="catalog/view/theme/default/image/homepage_icons/facebook.png"/>
+		<img src="catalog/view/theme/default/image/instalogo.png"/>
+		</div>
+		</div>
+		</div>		
 		</div>
 		</div>
 </div>

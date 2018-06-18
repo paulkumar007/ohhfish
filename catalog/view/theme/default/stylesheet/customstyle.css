@@ -419,7 +419,7 @@ footer{
 	padding:10px 0 0;
 	width: 100%;
 }
-
+.footer_socials {padding-bottom: 10px;}
 .footer_links{
 	width:100%;
 	position:relative;
@@ -1087,7 +1087,7 @@ header{
 
 
 .footer_list{
-	padding:4% 0%;
+	padding:1% 0%;
 }
 
 .footer_list li{

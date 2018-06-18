@@ -34,7 +34,7 @@
 <p><strong><span class="green">A.</span></strong>	We put in our best effort to only take orders of the products that we have or will have in stock or are available in that particular season. In the rare event that the order is out of stock, we shall inform you and you may have the choice of either cancelling your order or we will try to deliver the same on the following day.</p><br>
 
 <p><strong><span class="red">Q.</span>	What happens if my delivery is late or not received?</strong></p>
-<p><strong><span class="green">A.</span></strong>	We will try and deliver always on time, but incase of unavoidable circumstances, if we delay, the customer has a right to reject the consignment. In case your order is not received at the time communicated, please do let us know</p><br>
+<p><strong><span class="green">A.</span></strong>	We will try and deliver always on time, but incase of unavoidable circumstances, if we delay, the customer has a right to reject the consignment. In case your order is not received at the time communicated, please do let us know.</p><br>
 
 <p><strong><span class="red">Q.</span>	Can I schedule in advance to have an order delivered?</strong></p>
 <p><strong><span class="green">A.</span></strong>	Yes, please feel free to let us know your requirements in advance so that we may ensure that the same is met.</p><br>

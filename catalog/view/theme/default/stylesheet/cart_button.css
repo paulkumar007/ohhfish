@@ -141,7 +141,13 @@ a.cart_link:hover{
 
 @media screen and (max-width:480px) {
 
-
+.bck_lamp img{
+  width:200px;
+  height:200px;
+  box-sizing:border-box;
+  padding-left: 200px;
+  background: url(http://lorempixel.com/200/200/city/2) left top no-repeat;
+}
 .cart_box{
   position:fixed;
   bottom:18%;

@@ -169,7 +169,7 @@
 		<input name="search" id="searcher" type="text" size="40" placeholder="Search what you like..." />
 	</form>
 	<div class="inlineBlock">
-	<ul class="top_ul_r">
+	<ul class="top_ul_r hidden-sm hidden-xs">
 		<?php if ($logged) { ?>
 		<li class="toplist_r"> <a href="index.php?route=account/account"> <?php if($customer_name != '') { echo $customer_name; } else { echo 'My Account'; } ?></a></li>
 		<li class="vertical_line"> | </li>
