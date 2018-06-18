@@ -101,10 +101,10 @@
 				</div>
 			</li>
 		<?php
-				if($p % 3 == 0){
-					echo '</ul></div><div class="col-md-12 col-sm-12 col-xs-6"><ul style="list-style-type: none;">';
+				/*if($p % 3 == 0){
+					echo '</ul></div><div class="col-md-12 col-sm-12 col-xs-12"><ul style="list-style-type: none;">';
 				}
-				$p++;
+				$p++;*/
 			}
 		?>
 	</ul>
