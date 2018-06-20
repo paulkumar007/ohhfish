@@ -72,9 +72,9 @@
                     <div class="col-sm-6 left_b"></div>
                     <div class="col-sm-6 right_b">
 					 <ul class="top_ul">
-						<li class="toplist"><a href="mailto:care@ohhfish.in"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@ohhfish.in </a></li>
+						<li class="toplist"><a href="mailto:care@ohhfish.in"><i class="fa fa-envelope-o" aria-hidden="true"></i> <?php echo $email; ?> </a></li>
 						<li class="toplist"> | </li>
-						<li class="toplist"><a href="tel:8104464146"> <i class="fa fa-phone" aria-hidden="true"></i> +91 8104-46-41-46 </a></li>
+						<li class="toplist"><a href="tel:8104464146"> <i class="fa fa-phone" aria-hidden="true"></i> <?php echo $telephone; ?> </a></li>
 					</ul>
                         <!-- <ul class="top_ul_r">
 							<li class="toplist_r"><a href="javascript:void(0);">Refer to neighbour</a></li>

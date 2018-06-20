@@ -43,6 +43,16 @@ class ControllerCommonHeader extends Controller {
 		$data['lang'] = $this->language->get('code');
 		$data['direction'] = $this->language->get('direction');
 
+		$data['store'] = $this->config->get('config_name');
+		$data['email'] = $this->config->get('config_email');
+		$data['address'] = nl2br($this->config->get('config_address'));
+		$data['geocode'] = $this->config->get('config_geocode');
+		$data['geocode_hl'] = $this->config->get('config_language');
+		$data['telephone'] = $this->config->get('config_telephone');
+		$data['fax'] = $this->config->get('config_fax');
+		$data['open'] = nl2br($this->config->get('config_open'));
+		$data['comment'] = $this->config->get('config_comment');
+
 		$data['name'] = $this->config->get('config_name');
 
 		if (is_file(DIR_IMAGE . $this->config->get('config_logo'))) {

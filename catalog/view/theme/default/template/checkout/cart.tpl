@@ -77,9 +77,9 @@
 
 <div class="right_delivery">
 <h3 class="deliver_slot_h">Select your delivery Slot </h3>
-<input type="radio" id="first_time" name="delivery_slot" <?php if($today_timeslot == '0'){ echo 'DISABLED'; } ?> class="delivery_timer" alt="" <?php if(isset($products[0]['ship_time']) && $products[0]['ship_time'] == '8:30 am to 12:30 pm'){ echo 'CHECKED'; } ?> value="8:30 am to 12:30 pm" /><span class="delivery_text"> 8:30 am to 12:30 pm </span>
+<input type="radio" id="first_time" name="delivery_slot" <?php if($today_timeslot == '0'){ echo 'DISABLED'; } ?> class="delivery_timer" alt="" <?php if(isset($products[0]['ship_time']) && $products[0]['ship_time'] == '9:00 am to 2:00 pm'){ echo 'CHECKED'; } ?> value="9:00 am to 2:00 pm" /><span class="delivery_text"> 9:00 am to 2:00 pm </span>
 &nbsp; &nbsp;
-<input type="radio" id="second_time" name="delivery_slot" class="delivery_timer" alt="" <?php if(isset($products[0]['ship_time']) && $products[0]['ship_time'] == '4:30 pm to 8:30 pm'){ echo 'CHECKED'; } elseif($today_timeslot == '0'){ echo 'CHECKED'; } ?> value="4:30 pm to 8:30 pm" /><span class="delivery_text"> 4:30 pm to 8:30 pm </span>
+<input type="radio" id="second_time" name="delivery_slot" class="delivery_timer" alt="" <?php if(isset($products[0]['ship_time']) && $products[0]['ship_time'] == '3:00 pm to 6:00 pm'){ echo 'CHECKED'; } elseif($today_timeslot == '0'){ echo 'CHECKED'; } ?> value="3:00 pm to 6:00 pm" /><span class="delivery_text"> 3:00 pm to 6:00 pm </span>
 </div>
 
 </div>
@@ -133,7 +133,7 @@
 <div class="last_box">
 <div class="button_place">
 <a href="<?php echo $continue; ?>" class="b_con" role="button"><i class="fa fa-chevron-left" aria-hidden="true" style="font-size:14px"></i> <?php echo $button_shopping; ?> </a>
-<a href="<?php echo $checkout; ?>" onclick="return validateCart();" class="b_place" role="button"><?php echo $button_checkout; ?> </a>
+<a href="javascript:void(0);" onclick="validateCart();" class="b_place" role="button"><?php echo $button_checkout; ?> </a>
 </div>
 </div>
 
@@ -183,7 +183,7 @@
     // 4=thursday, 5 = friday, 6=saturday
 	var dater = '<?php echo $today_date; ?>';
 	var today_timeslot = '<?php echo $today_timeslot; ?>';
-    var daysToDisable = [1, 2, 4, 6];
+    var daysToDisable = [2];
 			
     $( ".datepicker" ).datepicker({ 
 		dateFormat: 'dd-mm-yy',
@@ -272,11 +272,25 @@ $(function(){
 			alert('Please enter Pincode');
 			return false;
 		}
-		if(pincode == '400060' || pincode == '112233' || pincode == '400615'){
-			$("#available_msg").html('<span style="color:green;">Delivery Available </span>');
-		} else {
-			$("#available_msg").html('<span style="color:red;">Sorry Currently Delivery is not Available in your area!</span>');
-		}
+		$.ajax({
+	        url: 'index.php?route=checkout/cart/validatePincode',
+	        type: 'post',
+	        data: 'pincode='+pincode,
+	        dataType: 'html',
+	        beforeSend: function() {
+	         	
+			},
+	        success: function(output) {
+				if(output == '1'){
+					$("#available_msg").html('<span style="color:green;">Delivery Available </span>');
+				} else {
+					$("#available_msg").html('<span style="color:red;">Sorry Currently Delivery is not Available in your area!</span>');
+				}
+	        },
+	        error: function(xhr, ajaxOptions, thrownError) {
+	            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+	        }
+	    });
 		$(this).text('Change');
 		//$("#pincodeInputId").val('');
 	});
@@ -325,24 +339,40 @@ function validateCart(){
 	if(pincoder == ''){
 		alert('Please enter delivery pincode!');
 		return false;
-	} else if(pincoder == '400060' || pincoder == '112233'){
-		if($(".delivery_timer:checked").length > 0){
-			var del_date = $("#input_delivery_date").val();
-			if(del_date == ''){
-				alert('Please select delivery date!');
-				return false;
+	} 
+
+	$.ajax({
+        url: 'index.php?route=checkout/cart/validatePincode',
+        type: 'post',
+        data: 'pincode='+pincoder,
+        dataType: 'html',
+        beforeSend: function() {
+         	
+		},
+        success: function(output) {
+			if(output == '1'){
+				if($(".delivery_timer:checked").length > 0){
+					var del_date = $("#input_delivery_date").val();
+					if(del_date == ''){
+						alert('Please select delivery date!');
+						return false;
+					} else {
+						location.href = '<?php echo $checkout; ?>';
+						return false;
+					}
+				} else {
+					alert('Please select delivery slot!');
+					return false;
+				}
 			} else {
-				return true;
+				alert('Sorry Currently Delivery is not Available in your area!');
+				return false;
 			}
-		} else {
-			alert('Please select delivery slot!');
-			return false;
-		}
-	} else {
-		alert('Sorry Currently Delivery is not Available in your area!');
-		return false;
-	}
-	return false;
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+        }
+    });
 }
 
 $(".delivery_timer").click(function(){

@@ -42,9 +42,9 @@
 			<li><a href="javascript:void(0);" class="faq">FAQs</a></li>
 		</ul>
 		<ul class="footer_list" style="color:#fff;">
-			<li><a href="mailto:care@ohhfish.in"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@ohhfish.in </a></li>
+			<li><a href="mailto:care@ohhfish.in"><i class="fa fa-envelope-o" aria-hidden="true"></i> <?php echo $email; ?> </a></li>
 			<li>|</li>
-			<li><a href="tel:+918104464146"> <i class="fa fa-phone" aria-hidden="true"></i> +91 8104-46-41-46 </a></li>
+			<li><a href="tel:+918104464146"> <i class="fa fa-phone" aria-hidden="true"></i> <?php echo $telephone; ?> </a></li>
 		</ul>
 		</div>
 		<div class="col-sm-4 col-xs-12 center-block text-center footer_socials">

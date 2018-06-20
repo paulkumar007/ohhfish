@@ -533,6 +533,19 @@ class ControllerCheckoutCart extends Controller {
 		$this->response->setOutput(json_encode($json));
 	}
 	
+	public function validatePincode(){
+		
+		$this->load->model('checkout/order');
+		
+		if (isset($this->request->post['pincode'])) {
+			$pincode = $this->request->post['pincode'];
+		}
+		
+		$get_pincode = $this->model_checkout_order->checkPincode($pincode);
+		
+		echo $get_pincode;
+	}
+
 	public function saveDeliveryDate(){
 		
 		$this->load->model('checkout/order');

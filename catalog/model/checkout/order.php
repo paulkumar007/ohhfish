@@ -1046,4 +1046,29 @@ class ModelCheckoutOrder extends Model {
 			return array();
 		}
 	}
+
+	public function checkPincode($pincode) {
+
+		if(isset($this->session->data['location'])){
+			$city = $this->session->data['location'];
+		} else {
+			$city = '';	
+		}
+			
+		$pincodes_arr = array();
+		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "city WHERE name = '".$city."' ");
+		if($query->num_rows){
+			$pincodes = $query->row['pincodes'];
+
+			$pincodes_arr = explode(",",$pincodes);
+			if(in_array($pincode, $pincodes_arr)){
+				return 1;
+			} else {
+				return 0;
+			}
+		} else {
+			return 0;
+		}
+
+	}
 }

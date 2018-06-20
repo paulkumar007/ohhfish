@@ -20,7 +20,7 @@ class ControllerCommonHome extends Controller {
 			'sort'               => 'p.sort_order',
 			'order'              => 'ASC',
 			'start'              => 0,
-			'limit'              => 4
+			'limit'              => 10
 		);
 		
 		$best_seller_results = $this->model_catalog_product->getProducts($best_seller);
