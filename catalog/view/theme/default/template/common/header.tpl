@@ -494,7 +494,7 @@ b.keyup(function(e){
 });
 </script>
 <script>
-if($( window ).width() > 768) {
+
 window.onscroll = function() {myFunction()};
 
 var header = document.getElementById("box_navigation");
@@ -507,7 +507,7 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
-}
+
 </script>
 <style>
 
