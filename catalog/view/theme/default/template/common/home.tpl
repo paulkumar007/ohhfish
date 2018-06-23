@@ -125,7 +125,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 						<div role="tabpanel" class="tab-pane active scrollbar" id="Pescetarian">
 						<strong style="color:#2196f3">What is Pescetarianism ?</strong><br/>
 						Pescetarianism, or pesco-vegetarianism, means being vegetarian while still including seafood in your diet. One still cuts out red meat, pork, poultry, etc. from his or her diet like a vegetarian, but does not cut out fish and other seafood.<br/><br/>
-
+						<div class="read-more" id="read-more1">
 						<strong style="color:#2196f3">Why turn Pescetarian ?</strong><br/>
 						With the increase of fresh fish and vegetables in your diet, we believe that you’ll feel healthier, experience less headaches and sickness as well as increased energy levels. In the long-term, you may also improve your weight, the health of your brain and heart, hair and even your skin. A pescetarian diet may not only reduce your risk for heart disease and other cardiovascular diseases, but stroke, osteoporosis, obesity, diabetes, arthritis, high blood pressure and some types of cancer.<br/><br/>
 
@@ -134,15 +134,19 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 
 						<strong style="color:#2196f3">Are we experiencing a revolution ?</strong><br/>
 						More and more people around the world are turning Pescetarian including the die-hard vegetarians with increased awareness of the innumerable health benefits. With the amount of exposure on print and social media platforms educating people of the risks of eating red-meat and hybrid poultry, people are becoming health conscious. They're trying to cut on the unhealthy foods and making all efforts to remain fit at any cost.<br/>
-
+						</div>						
+						<button class="hidden-sm hidden-m hidden-lg toggleMore" id="toggleMore1">Read More</button>
 						</div>
-						<div role="tabpanel" class="tab-pane scrollbar" id="ourstory">We have been in the seafood business for three generations, indulged in retail, wholesale and exports and understand the true meaning of <strong>FRESH</strong>. Seafood being highly perishable item needs utmost care in preserving and hygene, especially, when it comes to exports, since the consignments have to maintain it's freshness until it reaches the shores and finally to the end consumer. But, we think otherwise; why should only export items be fresh? why deprive our citizens the right to the best quality food. With this mindset, <strong>Ohh Fish</strong> came into existence. We are based right at the heart of all the action - the BMC Fish Market at CSMT. We also have our own modern processing, packaging and logistics centre with a fleet of refrigerated trucks to take care of the delivery of our consignments. We also have highly trained and experienced staff to manage every aspect of this food chain including procuring, processing, cutting, packaging, quality control and transporting. We live by the mantra that our products will be nothing but the <strong>BEST.</strong><br/><br/>
+						<div role="tabpanel" class="tab-pane scrollbar" id="ourstory">We have been in the seafood business for three generations, indulged in retail, wholesale and exports and understand the true meaning of <strong>FRESH</strong>. Seafood being highly perishable item needs utmost care in preserving and hygene, especially, when it comes to exports, since the consignments have to maintain it's freshness until it reaches the shores and finally to the end consumer. But, we think otherwise; why should only export items be fresh? why deprive our citizens the right to the best quality food.
+						<div class="read-more" id="read-more2">With this mindset, <strong>Ohh Fish</strong> came into existence. We are based right at the heart of all the action - the BMC Fish Market at CSMT. We also have our own modern processing, packaging and logistics centre with a fleet of refrigerated trucks to take care of the delivery of our consignments. We also have highly trained and experienced staff to manage every aspect of this food chain including procuring, processing, cutting, packaging, quality control and transporting. We live by the mantra that our products will be nothing but the <strong>BEST.</strong><br/><br/>
 
 						Our <strong>Aim</strong> is to provide export quality seafood to every consumer - the freshest seafood money can buy. Having said that, we ensure all this comes at a fair price.<br/><br/>
 
 						It's our <strong>Mission</strong> to change the unhealthy food habbits and inculcate a sense of eating healthy food. Today, India ranks 154th amongst the 195 countries in the World Health Index and is the Diabetes & Heart Disease capital of the world, all this due to the unhealthy diet.<br/><br/>
 
 						It is our <strong>Vision</strong> to see our country rank amongst the healthiest nations on the planet. We pledge to achieve this together !<br/><br/>
+						</div>
+						<button class="hidden-sm hidden-m hidden-lg toggleMore" id="toggleMore2">Read More</button>
 						</div>
 					</div>
 				  </div>
@@ -416,6 +420,31 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 </div>
 
 <script type="text/javascript">
+$(document).ready(function() {
+	if($(window).width() < 768) {
+	  $("#toggleMore1").click(function() {
+		var elem = $("#toggleMore1").text();
+		if (elem == "Read More") {
+		  $("#toggleMore1").text("Read Less");
+		  $("#read-more1").slideDown();
+		} else {
+		  $("#toggleMore1").text("Read More");
+		  $("#read-more1").slideUp();
+		}
+	  });
+	  $("#toggleMore2").click(function() {
+		var elem = $("#toggleMore2").text();
+		if (elem == "Read More") {
+		  $("#toggleMore2").text("Read Less");
+		  $("#read-more2").slideDown();
+		} else {
+		  $("#toggleMore2").text("Read More");
+		  $("#read-more2").slideUp();
+		}
+	  });
+	}
+});
+
 $("#newsletter_form").on('submit',(function(e) {
 	e.preventDefault();
 	$.ajax({
@@ -500,10 +529,13 @@ $('#owl-testimonial').owlCarousel({
 	dots: false,
     responsive:{
         0:{
+            items:1
+        },
+        425:{
             items:2
         },
         600:{
-            items:5
+            items:3
         },
         1000:{
             items:3

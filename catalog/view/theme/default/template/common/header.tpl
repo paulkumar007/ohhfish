@@ -70,7 +70,7 @@
          <div class="container">
                <div class="row">
                     <div class="col-sm-6 left_b"></div>
-                    <div class="col-sm-6 right_b">
+                    <div class="col-sm-6 right_b hidden-xs">
 					 <ul class="top_ul">
 						<li class="toplist"><a href="mailto:care@ohhfish.in"><i class="fa fa-envelope-o" aria-hidden="true"></i> <?php echo $email; ?> </a></li>
 						<li class="toplist"> | </li>
@@ -158,7 +158,7 @@
 <div>
 	<div class="white">
 	<form method="get" action="index.php?route=product/search" id="search">
-		<select class="selectpicker" name="selectlocation" id="selectlocation" onchange="choose_location(this.value);">
+		<select class="selectpicker hidden-xs" name="selectlocation" id="selectlocation" onchange="choose_location(this.value);">
 		  <option data-icon="glyphicon-heart" value="">Choose Location</option>
 		  <?php if(!empty($locations)){ ?>
 		  	<?php foreach($locations as $location){ ?>
@@ -167,6 +167,7 @@
 		  <?php } ?>
 		</select>
 		<input name="search" id="searcher" type="text" size="40" placeholder="Search what you like..." />
+		<a href="#" class="detectlocationMob hidden-sm hidden-md hidden-lg" ></a>
 	</form>
 	<div class="inlineBlock">
 	<ul class="top_ul_r hidden-sm hidden-xs">
@@ -210,7 +211,7 @@
 	</div>
 	<script type="text/javascript">
 		$("#cssmenu").menumaker({
-			title: "Menu",
+			title: "",
 			format: "multitoggle"
 		});
 	</script>

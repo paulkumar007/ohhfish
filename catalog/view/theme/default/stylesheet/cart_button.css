@@ -1,107 +1,87 @@
 @chaset"utf-8";
 
 body {
-  margin: 0 auto;
-  background-color:#fff;
-  font-family: 'Open Sans', sans-serif;
-  overflow-x:hidden;
+	margin: 0 auto;
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
 }
-.add_to_cart{
-	position:relative;
-	padding:0px;
-	margin:0px;
+.add_to_cart {
+	position: relative;
+	padding: 0px;
+	margin: 0px;
 }
-
-
 a.add_to_cart:link,
 a.add_to_cart:active,
-a.add_to_cart:visited{
-  display: inline-block;
-  text-decoration:none;
-  padding:0.6em 1.8em;
-  background: #2c97de;
-  color: #ffffff;
-  margin:6px 10px 0px 0px;
-  font-weight:400;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  border-radius:5px;
+a.add_to_cart:visited {
+	display: inline-block;
+	text-decoration: none;
+	padding: 0.6em 1.8em;
+	background: #2c97de;
+	color: #ffffff;
+	margin: 6px 10px 0px 0px;
+	font-weight: 400;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+	border-radius: 5px;
 }
-
-a.add_to_cart:hover{
-	background:#186394;
+a.add_to_cart:hover {
+	background: #186394;
 }
-
-
-
-.cart_box{
-  position:fixed;
-  bottom:60px;
-  right:0%;
-  z-index:1111;
-  display: block;
+.cart_box {
+	position: fixed;
+	bottom: 60px;
+	right: 0%;
+	z-index: 1111;
+	display: block;
 }
-
-
-
 a.cart_link:link,
 a.cart_link:active,
-a.cart_link:visited{
-  display: inline-block;
-  text-decoration:none;
+a.cart_link:visited {
+	display: inline-block;
+	text-decoration: none;
 }
-
-a.cart_link:hover{
-	text-decoration:none;
+a.cart_link:hover {
+	text-decoration: none;
 }
-
-.g_lamp{
-	position:relative;
+.g_lamp {
+	position: relative;
 }
-
-
-.bck_lamp{
+.bck_lamp {
 	/* background: #ff9150;
     width: 80px;
     height: 80px; */
-    border-radius:50%;
-    text-align: center;
-    line-height: 80px;
-    vertical-align: middle;
-    padding:1px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 80px;
+	vertical-align: middle;
+	padding: 1px;
 }
-
-.bck_lamp:hover{
-  /* background-color:#fb641b; */
+.bck_lamp:hover {
+	/* background-color:#fb641b; */
 }
-
-.add_text{
-    display:inline;
-    position: relative;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
-    color:#fff;
-    border-radius: 3px;
-    background-color: #848484;
-    width:20px 40px;
-    padding:5px;
-    margin:0px 0px 0px -55px;
-    top: 50px;
+.add_text {
+	display: inline;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	color: #fff;
+	border-radius: 3px;
+	background-color: #848484;
+	width: 20px 40px;
+	padding: 5px;
+	margin: 0px 0px 0px -55px;
+	top: 50px;
 }
-
-
-
-.loc{
-  position:relative;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  color:#fff;
-  top: -96px;
-  right: -46px;
-  background-color:#EF5B2C;
+.loc {
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #fff;
+	top: -96px;
+	right: -46px;
+	background-color: #EF5B2C;
 }
-
-
 /*
 .cart_box i{
     width: 136px;
@@ -114,49 +94,51 @@ a.cart_link:hover{
     display: block;
 }*/
 
-@media (min-width: 767px) and (max-width: 992px ){
-.cart_box{
-  position:fixed;
-  bottom:18%;
-  right:0%;
-  z-index:1111;
-  display: block;
+@media (min-width: 767px) and (max-width: 992px) {
+	.cart_box {
+		position: fixed;
+		bottom: 18%;
+		right: 0%;
+		z-index: 1111;
+		display: block;
+	}
 }
+@media (min-width: 480px) and (max-width: 768px) {
+	.cart_box {
+		position: fixed;
+		bottom: 18%;
+		right: 0%;
+		z-index: 1111;
+		display: block;
+	}
+	.add_text {
+		display: none;
+	}
 }
-
-@media (min-width:480px) and (max-width:768px) {
-.cart_box{
-  position:fixed;
-  bottom:18%;
-  right:0%;
-  z-index:1111;
-  display: block;
+@media screen and (max-width: 767px) {
+	.bck_lamp img {
+		width: 53px;
+		height: 46px;
+		box-sizing: border-box;
+		padding-left: 73px;
+		background: url(../image/g_lampmob.png) left top no-repeat;
+	}
+	.loc {
+		top: -61px;
+		right: -36px;
+	}
+	.cart_box {
+		position: fixed;
+		bottom: unset;
+		top: 1%;
+		right: 0%;
+		z-index: 1111;
+		;
+		display: block;
+	}
 }
-
-.add_text{
-  display:none;
-}
-}
-
-
-@media screen and (max-width:480px) {
-
-.bck_lamp img{
-  width:200px;
-  height:200px;
-  box-sizing:border-box;
-  padding-left: 200px;
-  background: url(http://lorempixel.com/200/200/city/2) left top no-repeat;
-}
-.cart_box{
-  position:fixed;
-  bottom:18%;
-  right:0%;
-  z-index:1111;;
-  display: block;
-}
-
-.add_text{
-  display:none;
-}
+@media screen and (max-width: 480px) {
+	.add_text {
+		display: none;
+	}
 }
