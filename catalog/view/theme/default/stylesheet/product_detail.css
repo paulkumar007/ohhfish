@@ -1,459 +1,801 @@
 @charset"utf-8";
 
 body {
-  margin: 0 auto;
-  background-color:#fff;
-  font-family: 'Roboto Slab', serif;
-  overflow-x:hidden;
-}
-.img_slot{
-	position:relative;
-	overflow:hidden;
-	clear:both;}
-
-.banner_img{
-	background: url(../image/about_us.jpg)no-repeat center;
-	min-height:350px;
-	background-size:cover;
-}
-
-/* Breadcrumb */
-.bread_area {
-	background-color:transparent;
-	border-bottom:1px solid #eee;
-}
-
-ul.breadcrumb_b{
+	margin: 0 auto;
+	background-color: #fff;
 	font-family: 'Roboto Slab', serif;
-	list-style-type:none;
-	margin:0;
-	background:#fff;
-	padding: 0;
-	color:#333;
-	padding:12px 0px;
+	overflow-x: hidden;
 }
-ul.breadcrumb_b li{
-	display:inline;
+.img_slot {
+	position: relative;
+	overflow: hidden;
+	clear: both;
+}
+.banner_img {
+	background: url(../image/about_us.jpg)no-repeat center;
+	min-height: 350px;
+	background-size: cover;
+}
+/* Breadcrumb */
+
+.bread_area {
+	background-color: transparent;
+	border-bottom: 1px solid #eee;
+}
+ul.breadcrumb_b {
+	font-family: 'Roboto Slab', serif;
+	list-style-type: none;
+	margin: 0;
+	background: #fff;
+	padding: 0;
+	color: #333;
+	padding: 12px 0px;
+}
+ul.breadcrumb_b li {
+	display: inline;
 }
 ul.breadcrumb_b a:link,
 ul.breadcrumb_b a:active,
-ul.breadcrumb_b a:visited{
+ul.breadcrumb_b a:visited {
 	font-family: 'Roboto Slab', serif;
-	font-size:1em;
-	color:#333;
-	text-decoration:none;
+	font-size: 1em;
+	color: #333;
+	text-decoration: none;
 }
-ul.breadcrumb_b a:hover{
-	color:#ff961b;
+ul.breadcrumb_b a:hover {
+	color: #ff961b;
 }
-
 /*product_d start here*/
-.product_d{
-	width:100%;
-	position:relative;
+
+.product_d {
+	width: 100%;
+	position: relative;
 }
-.product_info{
-	width:100%;
-	position:relative;
-	margin:0 auto;
-	height:auto;
-	display:block;
+.product_info {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	height: auto;
+	display: block;
 }
-.product_heading{
-	padding:20px 0px 10px 0px;
+.product_heading {
+	padding: 20px 0px 10px 0px;
 	font-family: 'Roboto Slab', serif;
-	text-align:left;
-	color:#555;
-	font-weight:400;
-	font-size:1.325em;	text-decoration:none;
-	margin:0px;
+	text-align: left;
+	color: #555;
+	font-weight: 400;
+	font-size: 1.325em;
+	text-decoration: none;
+	margin: 0px;
 }
-.fish_heading{
-	padding:0%;
+.fish_heading {
+	padding: 0%;
 	font-family: 'Roboto Slab', serif;
-	text-align:left;
-	color:#000;
-	font-weight:400;
-	font-size:2.1em;
-	padding:0px 0px 10px 0px;
-	text-decoration:none;
-	margin:0px;
+	text-align: left;
+	color: #000;
+	font-weight: 400;
+	font-size: 2.1em;
+	padding: 0px 0px 10px 0px;
+	text-decoration: none;
+	margin: 0px;
 }
 .details_gm {
-	color:#898989;
+	color: #898989;
 }
-.second_text{
+.second_text {
 	font-family: 'Roboto Slab', serif;
-	color:#888;
-	font-weight:400;
-	font-size:0.385em;
-	padding:0% 0%;
+	color: #888;
+	font-weight: 400;
+	font-size: 0.385em;
+	padding: 0% 0%;
 }
-.fish_type_marathi{
-	position:relative;
-	text-align:left;
-	color:#333;
-	font-weight:300;
-	font-size:0.575em;
-	margin:0%;
-	padding:0%;
+.fish_type_marathi {
+	position: relative;
+	text-align: left;
+	color: #333;
+	font-weight: 300;
+	font-size: 0.575em;
+	margin: 0%;
+	padding: 0%;
 }
-.kg{
+.kg {
 	font-family: 'Roboto Slab', serif;
-	text-align:left;
-	color:#f07830;
-	font-weight:400;
-	font-size:0.475em;
-	padding:0%;
-	margin:6% 0% 0% 0%;
+	text-align: left;
+	color: #f07830;
+	font-weight: 400;
+	font-size: 0.475em;
+	padding: 0%;
+	margin: 6% 0% 0% 0%;
 }
-.kg_a{
-	position:relative;
+.kg_a {
+	position: relative;
 	font-family: 'Roboto Slab', serif;
-	color:#333;
-	font-weight:400;
-	font-size:1em;
-	top:5px;
-	padding:0px 0px 0px 10px;
-	margin:0px 0px 0px 0px;
+	color: #333;
+	font-weight: 400;
+	font-size: 1em;
+	top: 5px;
+	padding: 0px 0px 0px 10px;
+	margin: 0px 0px 0px 0px;
 }
-.price{
+.price {
 	font-family: 'Roboto Slab', serif;
-	text-align:left;
-	color:#000;
-	font-weight:700;
-	font-size:2em;
-	padding:2% 0% 0% 0%;
-	margin:0% 0% 0% 0%;
+	text-align: left;
+	color: #000;
+	font-weight: 700;
+	font-size: 2em;
+	padding: 2% 0% 0% 0%;
+	margin: 0% 0% 0% 0%;
 }
-.available{
+.available {
 	font-family: 'Roboto Slab', serif;
-	text-align:left;
-	color:#555;
-	font-weight:700;
-	font-size:1em;
+	text-align: left;
+	color: #555;
+	font-weight: 700;
+	font-size: 1em;
 }
-.stock{
+.stock {
 	font-family: 'Roboto Slab', serif;
-	text-align:left;
-	color:#00a651;
-	font-weight:400;
-	font-size:1em;
+	text-align: left;
+	color: #00a651;
+	font-weight: 400;
+	font-size: 1em;
 }
-.quantity_box{
-	position:relative;
-	display:block;
-	width:100%;
-	text-align:left;
-	padding:0%;
-	margin:1% 0% 0% 0%;
-	padding:10px 0px;
+.quantity_box {
+	position: relative;
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 0%;
+	margin: 1% 0% 0% 0%;
+	padding: 10px 0px;
 }
-
 form {
-  width:100%;
-  position:relative;
-  top: 0;
-  bottom: 0;
-  left:0;
-  height:30px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	height: 30px;
 }
 input[type=number] {
-  float:left;
-  width:60px;
-  height:33px;
-  font-family: 'Roboto Slab', serif;
-  font-weight:700;
-  font-size: 1.2em;
-  text-transform: uppercase;
-  text-align:center;
-  color: #333;
-  border: 1px #333 solid;
-  background: none;
-  outline: none;
-  pointer-events: none;
+	float: left;
+	width: 60px;
+	height: 33px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #333;
+	border: 1px #333 solid;
+	background: none;
+	outline: none;
+	pointer-events: none;
 }
 span.spinner {
-  position:relative;
-  height: 40px;
-  user-select: none;
-  -ms-user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -webkit-touch-callout: none;}
+	position: relative;
+	height: 40px;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+}
 span.spinner > .sub,
 span.spinner > .add {
-  float: left;
-  display: block;
-  width: 35px;
-  height: 33px;
-  text-align: center;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 700;
-  font-size: 1.2em;
-  line-height:33px;
-  color: #333;
-  border: 1px #333 solid;
-  border-right: 0;
-  border-radius: 2px 0 0 2px;
-  cursor: pointer;
-  transition: 0.1s linear;
-  -o-transition: 0.1s linear;  -ms-transition: 0.1s linear;
-  -moz-transition: 0.1s linear;
-  -webkit-transition: 0.1s linear;}
-span.spinner > .add {  top: 0;  border: 1px #333 solid;  border-left: 0;  border-radius: 0 2px 2px 0;
-}
-
-span.spinner > .sub:hover,span.spinner > .add:hover {  background: #eee;  color: #25323B;}
- input[type=number]::-webkit-inner-spin-button,  input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none;}
-
-.add_to_cart_b{	margin:0 auto;	position:relative;
-}
-
-a.add_to_cart_b:link,a.add_to_cart_b:active,a.add_to_cart_b:visited {  display: inline-block; padding:0.6em 1.8em;
- text-decoration:none;  background: #2c97de;  color: #ffffff;  margin:0px 10px 0px 0px;  font-weight:400;  -webkit-transition: all .2s;  transition: all .2s;
-}
-a.add_to_cart_b:hover{
-	background:#186394;
-}
-.cuts{
-	display:block;
+	float: left;
+	display: block;
+	width: 35px;
+	height: 33px;
+	text-align: center;
 	font-family: 'Roboto Slab', serif;
-	font-size:14px;
-	padding:30px 0px 0px 0px;
-	text-decoration:none;
-	margin:0 auto;
-	color:#333;
+	font-weight: 700;
+	font-size: 1.2em;
+	line-height: 33px;
+	color: #333;
+	border: 1px #333 solid;
+	border-right: 0;
+	border-radius: 2px 0 0 2px;
+	cursor: pointer;
+	transition: 0.1s linear;
+	-o-transition: 0.1s linear;
+	-ms-transition: 0.1s linear;
+	-moz-transition: 0.1s linear;
+	-webkit-transition: 0.1s linear;
 }
-.radio{
-	font-family: 'Roboto Slab', serif;    font-size: 14px;    font-weight: 400;    padding: 14px 0px 0px 0px;    text-decoration: none;    margin: 1% auto;    color: #333;
+span.spinner > .add {
+	top: 0;
+	border: 1px #333 solid;
+	border-left: 0;
+	border-radius: 0 2px 2px 0;
 }
-.p_line{
-	position:absolute;
-	margin:0 auto;
-	width:60%;
-	border:1px solid #bfbfbf;
+span.spinner > .sub:hover,
+span.spinner > .add:hover {
+	background: #eee;
+	color: #25323B;
 }
-.cart_button{	width:100%;	position:relative;	padding:10px 0px 0px 0px;
-	margin:0px 0px 0px 0px;}
-.thumbnail .caption {	padding: 9px;	color: #404040;	padding-left: 0;
-	padding-right: 0;}
-/* Makes images fully responsive */.img-responsive,
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+}
+.add_to_cart_b {
+	margin: 0 auto;
+	position: relative;
+}
+a.add_to_cart_b:link,
+a.add_to_cart_b:active,
+a.add_to_cart_b:visited {
+	display: inline-block;
+	padding: 0.6em 1.8em;
+	text-decoration: none;
+	background: #2c97de;
+	color: #ffffff;
+	margin: 0px 10px 0px 0px;
+	font-weight: 400;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+a.add_to_cart_b:hover {
+	background: #186394;
+}
+.cuts {
+	display: block;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	padding: 30px 0px 0px 0px;
+	text-decoration: none;
+	margin: 0 auto;
+	color: #333;
+}
+.radio {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 14px 0px 0px 0px;
+	text-decoration: none;
+	margin: 1% auto;
+	color: #333;
+}
+.p_line {
+	position: absolute;
+	margin: 0 auto;
+	width: 60%;
+	border: 1px solid #bfbfbf;
+}
+.cart_button {
+	width: 100%;
+	position: relative;
+	padding: 10px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.thumbnail .caption {
+	padding: 9px;
+	color: #404040;
+	padding-left: 0;
+	padding-right: 0;
+}
+/* Makes images fully responsive */
+
+.img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;  margin:0 auto;
-  height: auto;  padding: 10px 0px;
+	display: block;
+	margin: 0 auto;
+	height: auto;
+	padding: 10px 0px;
 }
 /* Carousel Styling */
+
 .carousel-inner {
-	position:relative;
-	margin:0 auto;
-	margin:20px 0px 0px 0px;
-	border:1px solid #e1e1e1;
+	position: relative;
+	margin: 0 auto;
+	margin: 20px 0px 0px 0px;
+	border: 1px solid #e1e1e1;
 }
 .carousel-caption {
-  background-color: rgba(0,0,0,.5);
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 10;
-  padding:10px 12px;  color: #fff;  text-align: left;
+	background-color: rgba(0, 0, 0, .5);
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	padding: 10px 12px;
+	color: #fff;
+	text-align: left;
 }
-
-.img_l_heading{
-	font-family: 'Roboto Slab', serif;	text-align:left;	color:#fff;	font-weight:400;	font-size:1.2em;	padding:10px 0px 10px 20px;	text-decoration:none;	margin:0px;
+.img_l_heading {
+	font-family: 'Roboto Slab', serif;
+	text-align: left;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.2em;
+	padding: 10px 0px 10px 20px;
+	text-decoration: none;
+	margin: 0px;
 }
-.carousel-indicators {  position: absolute;  bottom: 0;
-  right: 0;
-  left: 0;
-  width:100%;  z-index: 15;
-  margin: 0;
-  padding: 0 25px 18px 0;
-  text-align: right;
-}
-.carousel-control.left,.carousel-control.right {  background-image: none;}
-.carousel-inner img{	display:block;	height:400px;}
-.style9{	position:relative;
-	width:100%;	border:1px dashed #eee;	margin:4% 0%;}
-/*section start here */
-.tabs_nutrition{	position:relative;	padding:0px;
-	margin:0px 0px 10px 0px;
-}
-a:hover,a:focus{    outline: none;    text-decoration: none;}
-.tab .nav-tabs{    background: #f6fbff;}.tab .nav-tabs li{    text-align: center;    margin-right: 3px;margin-bottom: 0px;}
-.tab .nav-tabs li a{    font-size: 15px;    font-weight: 600;    color: #22272c;    padding:12px 25px;    background: #f6fbff;    margin-right: 0;    border-radius: 0;	text-decoration:none;    border: none;    position: relative;    transition: all 0.5s ease 0s;}
-.tab .nav-tabs li.active {border-bottom:3px solid #000}
-.tab .nav-tabs li.active a, .tab .nav-tabs li a:hover{background: #f6fbff;color: #000;border: none;font-weight:600;}
-.tab .tab-content{font-size: 15px;color: #3d3537;line-height:30px;padding: 30px 0px 30px 20px;/* border: 3px solid #ff9150; */background:#f6fbff;}
-.tab .tab-content h3{ font-size: 20px;font-weight: bold;margin-top: 0;}
-
-.recipe{width:100%;	position:relative;}
-.recipe{width:100%;	position:relative;font-family: 'Roboto Slab', serif;	text-align:left;color:#333;	font-weight:400;font-size:1.2em;padding:0px;margin:0px;}
-.re_para{width:100%;position:relative;	font-family: 'Roboto Slab', serif;text-align:left;color:#333;font-weight:400;font-size:0.775em;padding:15px 10px 0px 0px; }
-ul.list_of_step{	position:relative;	padding:2px 18px;	margin:0px;	left:0;}
-.in_b{position:relative;font-family: 'Roboto Slab', serif;	text-align:left;color:#2c97de;font-weight:700;line-height:1.3em;font-size:0.875em;padding:10px 0px ;margin:0px;}
-
-.ingre{	list-style-type:disc;position:relative;	font-family: 'Roboto Slab', serif;	text-align:justify;	color:#333;	line-height:1.8em;font-weight:400;font-size:0.775em;
-}
-.re_img{
-	margin:2% 0% 1% 0%;}@media (min-width: 767px) and (max-width: 992px ){
-/*product_d start here*/
-.product_d{	width:100%;
-	position:relative;
-}.img-responsive,.thumbnail > img,.thumbnail a > img,.carousel-inner > .item > img,.carousel-inner > .item > a > img {  display: block;  /* width: 100%; */  margin: 0 auto;  height: auto;  padding:5px 0px;}
-.product_info{
-	width:100%;	position:relative;	margin:0 auto;	height:auto;	display:block;}
-.img_l_heading{
-	font-size:1em;
-	padding:1px 10px;	margin:0px;}
-.carousel-indicators {  padding: 0 25px 8px 0;}
-.quantity_box{
-	position:relative;
-	display:block;	width:100%;	text-align:left;	padding:0%;	margin:1% 0% 0% 0%;	padding:10px 0px;
-}
-form {  width:100%;  position:relative;  height:auto;  overflow:hidden;  clear:both;}
-.radio{
- font-size:14px;
-}.cart_button{	position:relative;	width:100%;
-	overflow:hidden;	clear:both;	height:auto;	display:block;
-	margin:5% 0%;	padding:10px 0px;}
-.add_to_cart_b{	position:relative;	margin:3% auto;	z-index:9999px;	padding:0px;}
-.tabs_nutrition{	width:100%;
-	position:relative;	margin:0 auto;	overflow:hidden;	clear:both;	display:block;	padding:3% 0%;}
-
-.tab{	overflow:hidden;	clear:both;
-	display:block;	height:auto;
-}
-
-.tab .nav-tabs li{ 	width: 100%; }
-}
-@media (min-width:480px) and (max-width:768px) {
-/*product_d start here*/
-.product_d{	width:100%;	position:relative;}.img-responsive,.thumbnail > img,.thumbnail a > img,.carousel-inner > .item > img,.carousel-inner > .item > a > img {  display: block;  /* width: 100%; */  margin: 0 auto;  height: auto;  padding:5px 0px;}
-
-.product_info{
-	width:100%;	position:relative;	margin:0 auto;	height:auto;
-	display:block;
-}
-
-.img_l_heading{
-	font-size:1em;
-	padding:1px 10px;
-	margin:0px;
-}
-.carousel-indicators {  padding: 0 25px 8px 0;}
-.quantity_box{	position:relative;	display:block;	width:100%;
-	text-align:left;
-	padding:0%;
-	margin:1% 0% 0% 0%;
-	padding:10px 0px;
-}
-form {  width:100%;  position:relative;  height:auto;  overflow:hidden;
-  clear:both;
-}
-.radio{
- font-size:14px;
-}
-.cart_button{
-	position:relative;	width:100%;	overflow:hidden;	clear:both;	height:auto;
-	display:block;	margin:5% 0%;	padding:10px 0px;}
-
-.add_to_cart_b{	position:relative;	margin:3% auto;	z-index:9999px;	padding:0px;}
-.tabs_nutrition{	width:100%;	position:relative;	margin:0 auto;	overflow:hidden;
-	clear:both;
-	display:block;
-	padding:3% 0%;
-}
-
-.tab{
-	overflow:hidden;
-	clear:both;
-	display:block;
-	height:auto;
-}
-.tab .nav-tabs li{
-	width: 100%; }
-}
-@media only screen and (max-width: 480px){
-/*product_d start here*/
-.product_d{
-	width:100%;	position:relative;}.img-responsive,.thumbnail > img,.thumbnail a > img,.carousel-inner > .item > img,.carousel-inner > .item > a > img {  display: block;  /* width: 100%; */  margin: 0 auto;  height: auto;  padding:5px 0px;}
-
-.product_info{
-	width:100%;
-	position:relative;	margin:0 auto;	height:auto;	display:block;}
-
-.img_l_heading{	font-size:1em;	padding:1px 10px;	margin:0px;}
-
-.carousel-indicators {  padding: 0 25px 8px 0;
-}
-
-.quantity_box{	position:relative;	display:block;	width:100%;	text-align:left;	padding:0%;	margin:1% 0% 0% 0%;	padding:10px 0px;}
-form {  width:100%;  position:relative;  height:auto;  overflow:hidden;  clear:both;}
-.radio{ font-size:14px;
-}
-.cart_button{	position:relative;	width:100%;	overflow:hidden;
-	clear:both;	height:auto;	display:block;	margin:5% 0%;	padding:10px 0px;}
-.add_to_cart_b{	position:relative;	margin:3% auto;	z-index:9999px;	padding:0px;}
-
-
-.tabs_nutrition{	width:100%;	position:relative;	margin:0 auto;	overflow:hidden;	clear:both;	display:block;	padding:3% 0%;}
-
-.tab{
-	overflow:hidden;
-	clear:both;	display:block;	height:auto;	}
-.tab .nav-tabs li{ 	width: 100%; }
-}
-@media only screen and (max-width: 320px){
-/*product_d start here*/
-.product_d{
-	width:100%;	position:relative;}/* Makes images fully responsive */.img-responsive,.thumbnail > img,.thumbnail a > img,.carousel-inner > .item > img,.carousel-inner > .item > a > img {  display: block;  /* width: 100%; */  margin: 0 auto;  height: auto;  padding:5px 0px;}
-.product_info{	width:100%;	position:relative;	margin:0 auto;	height:auto;	display:block;}.img_l_heading{	font-size:1em;	padding:1px 10px;	margin:0px;}
-
-.carousel-indicators {  padding: 0 25px 8px 0;}
-.quantity_box{	position:relative;	display:block;	width:100%;	text-align:left;	padding:0%;	margin:1% 0% 0% 0%;
-	padding:10px 0px;}
-form {  width:100%;  position:relative;  height:auto;  overflow:hidden;  clear:both;}
-.radio{ font-size:14px;}
-.cart_button{	position:relative;	width:100%;	overflow:hidden;	clear:both;
-	height:auto;	display:block;
-	margin:5% 0%;	padding:10px 0px;}
-.add_to_cart_b{	position:relative;	margin:3% auto;	z-index:9999px;	padding:0px;}
-.tabs_nutrition{	width:100%;	position:relative;	margin:0 auto;
-	overflow:hidden;
-	clear:both;
-	display:block;
-	padding:3% 0%;
-}
-
-.tab{
-	overflow:hidden;
-	clear:both;
-	display:block;
-	height:auto;
-}
-
-.tab .nav-tabs li{
+.carousel-indicators {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
 	width: 100%;
+	z-index: 15;
+	margin: 0;
+	padding: 0 25px 18px 0;
+	text-align: right;
 }
-
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
 }
+.carousel-inner img {
+	display: block;
+	height: 400px;
+}
+.style9 {
+	position: relative;
+	width: 100%;
+	border: 1px dashed #eee;
+	margin: 4% 0%;
+}
+/*section start here */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.tabs_nutrition {
+	position: relative;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+a:hover,
+a:focus {
+	outline: none;
+	text-decoration: none;
+}
+.tab .nav-tabs {
+	background: #f6fbff;
+}
+.tab .nav-tabs li {
+	text-align: center;
+	margin-right: 3px;
+	margin-bottom: 0px;
+}
+.tab .nav-tabs li a {
+	font-size: 15px;
+	font-weight: 600;
+	color: #22272c;
+	padding: 12px 25px;
+	background: #f6fbff;
+	margin-right: 0;
+	border-radius: 0;
+	text-decoration: none;
+	border: none;
+	position: relative;
+	transition: all 0.5s ease 0s;
+}
+.tab .nav-tabs li.active {
+	border-bottom: 3px solid #000
+}
+.tab .nav-tabs li.active a,
+.tab .nav-tabs li a:hover {
+	background: #f6fbff;
+	color: #000!important;
+	border: none;
+	font-weight: 600;
+}
+.tab .tab-content {
+	font-size: 15px;
+	color: #3d3537;
+	line-height: 30px;
+	padding: 30px 0px 30px 20px;
+	/* border: 3px solid #ff9150; */
+	background: #f6fbff;
+}
+.tab .tab-content h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 0;
+}
+.recipe {
+	width: 100%;
+	position: relative;
+}
+.recipe {
+	width: 100%;
+	position: relative;
+	font-family: 'Roboto Slab', serif;
+	text-align: left;
+	color: #333;
+	font-weight: 400;
+	font-size: 1.2em;
+	padding: 0px;
+	margin: 0px;
+}
+.re_para {
+	width: 100%;
+	position: relative;
+	font-family: 'Roboto Slab', serif;
+	text-align: left;
+	color: #333;
+	font-weight: 400;
+	font-size: 0.775em;
+	padding: 15px 10px 0px 0px;
+}
+ul.list_of_step {
+	position: relative;
+	padding: 2px 18px;
+	margin: 0px;
+	left: 0;
+}
+.in_b {
+	position: relative;
+	font-family: 'Roboto Slab', serif;
+	text-align: left;
+	color: #2c97de;
+	font-weight: 700;
+	line-height: 1.3em;
+	font-size: 0.875em;
+	padding: 10px 0px;
+	margin: 0px;
+}
+.ingre {
+	list-style-type: disc;
+	position: relative;
+	font-family: 'Roboto Slab', serif;
+	text-align: justify;
+	color: #333;
+	line-height: 1.8em;
+	font-weight: 400;
+	font-size: 0.775em;
+}
+.re_img {
+	margin: 2% 0% 1% 0%;
+}
+@media (min-width: 767px) and (max-width: 992px) {
+	/*product_d start here*/
+	.product_d {
+		width: 100%;
+		position: relative;
+	}
+	.img-responsive,
+	.thumbnail > img,
+	.thumbnail a > img,
+	.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+		display: block;
+		/* width: 100%; */
+		margin: 0 auto;
+		height: auto;
+		padding: 5px 0px;
+	}
+	.product_info {
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+		height: auto;
+		display: block;
+	}
+	.img_l_heading {
+		font-size: 1em;
+		padding: 1px 10px;
+		margin: 0px;
+	}
+	.carousel-indicators {
+		padding: 0 25px 8px 0;
+	}
+	.quantity_box {
+		position: relative;
+		display: block;
+		width: 100%;
+		text-align: left;
+		padding: 0%;
+		margin: 1% 0% 0% 0%;
+		padding: 10px 0px;
+	}
+	form {
+		width: 100%;
+		position: relative;
+		height: auto;
+		overflow: hidden;
+		clear: both;
+	}
+	.radio {
+		font-size: 14px;
+	}
+	.cart_button {
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		clear: both;
+		height: auto;
+		display: block;
+		margin: 5% 0%;
+		padding: 10px 0px;
+	}
+	.add_to_cart_b {
+		position: relative;
+		margin: 3% auto;
+		z-index: 9999px;
+		padding: 0px;
+	}
+	.tabs_nutrition {
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+		overflow: hidden;
+		clear: both;
+		display: block;
+		padding: 3% 0%;
+	}
+	.tab {
+		overflow: hidden;
+		clear: both;
+		display: block;
+		height: auto;
+	}
+	.tab .nav-tabs li {
+		width: 100%;
+	}
+}
+@media (min-width: 480px) and (max-width: 768px) {
+	/*product_d start here*/
+	.product_d {
+		width: 100%;
+		position: relative;
+	}
+	.img-responsive,
+	.thumbnail > img,
+	.thumbnail a > img,
+	.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+		display: block;
+		/* width: 100%; */
+		margin: 0 auto;
+		height: auto;
+		padding: 5px 0px;
+	}
+	.product_info {
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+		height: auto;
+		display: block;
+	}
+	.img_l_heading {
+		font-size: 1em;
+		padding: 1px 10px;
+		margin: 0px;
+	}
+	.carousel-indicators {
+		padding: 0 25px 8px 0;
+	}
+	.quantity_box {
+		position: relative;
+		display: block;
+		width: 100%;
+		text-align: left;
+		padding: 0%;
+		margin: 1% 0% 0% 0%;
+		padding: 10px 0px;
+	}
+	form {
+		width: 100%;
+		position: relative;
+		height: auto;
+		overflow: hidden;
+		clear: both;
+	}
+	.radio {
+		font-size: 14px;
+	}
+	.cart_button {
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		clear: both;
+		height: auto;
+		display: block;
+		margin: 5% 0%;
+		padding: 10px 0px;
+	}
+	.add_to_cart_b {
+		position: relative;
+		margin: 3% auto;
+		z-index: 9999px;
+		padding: 0px;
+	}
+	.tabs_nutrition {
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+		overflow: hidden;
+		clear: both;
+		display: block;
+		padding: 3% 0%;
+	}
+	.tab {
+		overflow: hidden;
+		clear: both;
+		display: block;
+		height: auto;
+	}
+	.tab .nav-tabs li {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.bread_area {margin-top:9px;}
+}
+@media only screen and (max-width: 480px) {
+	/*product_d start here*/
+	.product_d {
+		width: 100%;
+		position: relative;
+	}
+	.img-responsive,
+	.thumbnail > img,
+	.thumbnail a > img,
+	.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+		display: block;
+		/* width: 100%; */
+		margin: 0 auto;
+		height: auto;
+		padding: 5px 0px;
+	}
+	.product_info {
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+		height: auto;
+		display: block;
+	}
+	.img_l_heading {
+		font-size: 1em;
+		padding: 1px 10px;
+		margin: 0px;
+	}
+	.carousel-indicators {
+		padding: 0 25px 8px 0;
+	}
+	.quantity_box {
+		position: relative;
+		display: block;
+		width: 100%;
+		text-align: left;
+		padding: 0%;
+		margin: 1% 0% 0% 0%;
+		padding: 10px 0px;
+	}
+	form {
+		width: 100%;
+		position: relative;
+		height: auto;
+		overflow: hidden;
+		clear: both;
+	}
+	.radio {
+		font-size: 14px;
+	}
+	.cart_button {
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		clear: both;
+		height: auto;
+		display: block;
+		margin: 5% 0%;
+		padding: 10px 0px;
+	}
+	.add_to_cart_b {
+		position: relative;
+		margin: 3% auto;
+		z-index: 9999px;
+		padding: 0px;
+	}
+	.tabs_nutrition {
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+		overflow: hidden;
+		clear: both;
+		display: block;
+		padding: 3% 0%;
+	}
+	.tab {
+		overflow: hidden;
+		clear: both;
+		display: block;
+		height: auto;
+	}
+	.tab .nav-tabs li {
+		width: 32%;
+	}
+}
+@media only screen and (max-width: 320px) {
+	/*product_d start here*/
+	.product_d {
+		width: 100%;
+		position: relative;
+	}
+	/* Makes images fully responsive */
+	.img-responsive,
+	.thumbnail > img,
+	.thumbnail a > img,
+	.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+		display: block;
+		/* width: 100%; */
+		margin: 0 auto;
+		height: auto;
+		padding: 5px 0px;
+	}
+	.product_info {
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+		height: auto;
+		display: block;
+	}
+	.img_l_heading {
+		font-size: 1em;
+		padding: 1px 10px;
+		margin: 0px;
+	}
+	.carousel-indicators {
+		padding: 0 25px 8px 0;
+	}
+	.quantity_box {
+		position: relative;
+		display: block;
+		width: 100%;
+		text-align: left;
+		padding: 0%;
+		margin: 1% 0% 0% 0%;
+		padding: 10px 0px;
+	}
+	form {
+		width: 100%;
+		position: relative;
+		height: auto;
+		overflow: hidden;
+		clear: both;
+	}
+	.radio {
+		font-size: 14px;
+	}
+	.cart_button {
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		clear: both;
+		height: auto;
+		display: block;
+		margin: 5% 0%;
+		padding: 10px 0px;
+	}
+	.add_to_cart_b {
+		position: relative;
+		margin: 3% auto;
+		z-index: 9999px;
+		padding: 0px;
+	}
+	.tabs_nutrition {
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+		overflow: hidden;
+		clear: both;
+		display: block;
+		padding: 3% 0%;
+	}
+	.tab {
+		overflow: hidden;
+		clear: both;
+		display: block;
+		height: auto;
+	}
+	.tab .nav-tabs li {
+		width: 100%;
+	}
+}

@@ -13,17 +13,19 @@
 <?php } ?>-->
 
 <!-- imgage start here-->
-<div class="image_slot">
-<div class="row">
-	<img src="<?php echo $thumb;?>" alt="" class="img-fluid" style="width: 100%;"/>
-</div>
+<div class="container">
+	<div class="image_slot">
+		<div class="row">
+			<img src="<?php echo $thumb;?>" alt="" class="img-fluid" style="width: 100%;"/>
+		</div>
+	</div>
 </div>
 <!--bread_area start here-->
 <div class="bread_area">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <ul class="breadcrumb" style="margin-bottom:0;background-color:#fff;">
+                    <ul class="breadcrumb">
 						<?php foreach ($breadcrumbs as $breadcrumb) { ?>
 							<li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
 						<?php } ?>
@@ -72,7 +74,7 @@
 	$p = 1;
 ?>
 <div class="col-md-12 col-sm-12 col-xs-12">
-	<ul class="row" style="list-style-type: none;">
+	<ul class="row catUl" style="list-style-type: none;">
 		<?php foreach ($products as $product) { ?>
 			<li class="col-md-4 col-sm-6 col-xs-6">
 				<div class="thumbnail">

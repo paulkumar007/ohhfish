@@ -313,7 +313,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 <!--join us start here-->
 <div class="join_us">
 	<div class="container">
-		<h3 class="order_heading">What people are saying? </h3>
+		<h3 class="order_heading">What our customers say? </h3>
 		<div class="row">
 		<div class="col-sm-12">
 		<div class="owl-carousel owl-theme" id="owl-testimonial">
@@ -532,7 +532,7 @@ $('#owl-testimonial').owlCarousel({
             items:1
         },
         425:{
-            items:2
+            items:1
         },
         600:{
             items:3
