@@ -923,9 +923,9 @@ class ModelCheckoutOrder extends Model {
 				
 					/* SEND SMS */
 					$mobile = $order_info['telephone'];
-					$username = 'pdchavantr';
-					$password = 'deote321';
-					$sender_id = 'FGENIE';
+					$username = 'ohhfish';
+					$password = 'suhail12';
+					$sender_id = 'OHFISH';
 					$message = 'Out for Delivery: Your order for fish with order id ('.$order_id.') amounting to '.$delivery_cost.' from Fishgeniee, will be delivered between ( '.$delivery_date.' '.$delivery_time.' ).';
 
 					$output_arr = array();
@@ -951,10 +951,10 @@ class ModelCheckoutOrder extends Model {
 				
 					/* SEND SMS */
 					$mobile = $order_info['telephone'];
-					$username = 'pdchavantr';
-					$password = 'deote321';
-					$sender_id = 'FGENIE';
-					$message = 'Delivered: Your order for fish with order id ('.$order_id.') amounting to '.$delivery_cost.' from Fishgeniee was delivered, today. Click to give feedback (https:www.fishgeniee.com)';
+					$username = 'ohhfish';
+					$password = 'suhail12';
+					$sender_id = 'OHFISH';
+					$message = 'Delivered: Your order for fish with order id ('.$order_id.') amounting to '.$delivery_cost.' from Fishgeniee was delivered, today.';
 
 					$output_arr = array();
 					$ch = curl_init("https://app.indiasms.com/sendsms/sendsms.php?username=".$username."&password=".$password."&type=TEXT&sender=".$sender_id."&mobile=".$mobile."&message=".urlencode($message));

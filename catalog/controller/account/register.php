@@ -519,10 +519,10 @@ class ControllerAccountRegister extends Controller {
 			$random_no = rand(100000,999999);
 			/* SEND SMS */
 			
-			$username = 'pdchavanotp';
-			$password = 'jinne123';
-			$sender_id = 'FGENIE';
-			$message = 'Your Registration code for fishgeniee OTP is '.$random_no.'. Code to be valid for 15 minutes. Please DO NOT share this OTP with anyone else to ensure account security.';
+			$username = 'ohhfish';
+			$password = 'suhail12';
+			$sender_id = 'OHFISH';
+			$message = 'Your Registration code for Ohhfish OTP is '.$random_no.'. Code to be valid for 15 minutes. Please DO NOT share this OTP with anyone else to ensure account security.';
 			
 			/*
 			$url = "https://app.indiasms.com/sendsms/sendsms.php?username=".$username."&password=".$password."&type=TEXT&sender=".$sender_id."&mobile=".$mobile."&message=".urlencode($message);
@@ -582,10 +582,10 @@ class ControllerAccountRegister extends Controller {
 			} elseif(preg_match('/^[0-9]{10}+$/', $mobile)) {
 				
 				/* SEND SMS */
-				$username = 'pdchavanotp';
-				$password = 'jinne123';
-				$sender_id = 'FGENIE';
-				$message = 'Your Fishgeniee Login OTP is '.$random_no.'. Please do not share this OTP with anyone.';
+				$username = 'ohhfish';
+				$password = 'suhail12';
+				$sender_id = 'OHFISH';
+				$message = 'Your Ohhfish Login OTP is '.$random_no.'. Please do not share this OTP with anyone.';
 
 				$output_arr = array();
 				$ch = curl_init("https://app.indiasms.com/sendsms/sendsms.php?username=".$username."&password=".$password."&type=TEXT&sender=".$sender_id."&mobile=".$mobile."&message=".urlencode($message));
@@ -723,10 +723,10 @@ class ControllerAccountRegister extends Controller {
 				echo '1';
 			} elseif(preg_match('/^[0-9]{10}+$/', $mobile)) {
 				/* SEND SMS */
-				$username = 'pdchavanotp';
-				$password = 'jinne123';
-				$sender_id = 'FGENIE';
-				$message = 'Your Fishgeniee Forgot Password OTP is '.$random_no.'. Please do not share this OTP with anyone.';
+				$username = 'ohhfish';
+				$password = 'suhail12';
+				$sender_id = 'OHFISH';
+				$message = 'Your Ohhfish Forgot Password OTP is '.$random_no.'. Please do not share this OTP with anyone.';
 
 				$output_arr = array();
 				$ch = curl_init("https://app.indiasms.com/sendsms/sendsms.php?username=".$username."&password=".$password."&type=TEXT&sender=".$sender_id."&mobile=".$mobile."&message=".urlencode($message));
