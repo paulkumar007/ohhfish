@@ -110,6 +110,13 @@ class ControllerCommonHeader extends Controller {
 
 		$data['categories'] = array();
 
+		$category_id = 0;
+		if(isset($this->request->get['path'])){
+			$parts = explode('_', (string)$this->request->get['path']);
+
+			$category_id = (int)array_pop($parts);
+		}
+
 		$categories = $this->model_catalog_category->getCategories(0);
 
 		foreach ($categories as $category) {
@@ -134,6 +141,7 @@ class ControllerCommonHeader extends Controller {
 				// Level 1
 				$data['categories'][] = array(
 					'name'     => $category['name'],
+					'class'    => $category['category_id'] == $category_id ? 'active' : '',
 					'children' => $children_data,
 					'column'   => $category['column'] ? $category['column'] : 1,
 					'href'     => $this->url->link('product/category', 'path=' . $category['category_id'], true)

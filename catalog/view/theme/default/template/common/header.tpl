@@ -204,7 +204,7 @@
 				<a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
 			</li>
 			<?php } else { ?>
-			<li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+			<li class="<?php echo $category['class']; ?>"><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
 			<?php } ?>
 		<?php } ?>
 	</ul>
