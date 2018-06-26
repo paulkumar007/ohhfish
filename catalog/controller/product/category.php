@@ -173,10 +173,19 @@ class ControllerProductCategory extends Controller {
 			}
 
 			$data['products'] = array();
+			/*
+			if(isset($this->session->data['location']) && !empty($this->session->data['location'])) {
+				$filter_location = $this->session->data['location'];
+			} else {
+				$filter_location = '';
+			}
+			*/
+			$filter_location = '';
 
 			$filter_data = array(
 				'filter_category_id' => $category_id,
 				'filter_filter'      => $filter,
+				'filter_location'    => $filter_location,
 				'sort'               => $sort,
 				'order'              => $order,
 				'start'              => ($page - 1) * $limit,

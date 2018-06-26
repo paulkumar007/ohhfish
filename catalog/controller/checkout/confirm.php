@@ -449,7 +449,7 @@ class ControllerCheckoutConfirm extends Controller {
 
 			foreach ($order_data['totals'] as $total) {
 				$data['totals'][] = array(
-					'title' => str_replace(array("Sub-Total","Total","Handling Fee","Low Order Fee","Coupon (DISCOUNT)"),array("Price (".$display_item.")","Order Total","Delivery Cost","Delivery Cost","10% Discount on pre order"),$total['title']),
+					'title' => str_replace(array("Sub-Total","Total","Handling Fee","Low Order Fee","Coupon (DISCOUNT)"),array("Price (".$display_item.")","Order Total","Delivery Cost","Delivery Cost","5% Discount on pre order"),$total['title']),
 					'text'  => $this->currency->format($total['value'], $this->session->data['currency'])
 				);
 			}

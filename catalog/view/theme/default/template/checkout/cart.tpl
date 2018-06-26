@@ -158,7 +158,7 @@
 		<?php } ?>
 	</div>
 	<div class="head_row">
-		<p class="p_details" style="color:red;margin-top:-50px;">(10% off on pre order only available for online payment*)</p>
+		<p class="p_details" style="color:red;margin-top:-50px;">(5% off on pre order only available for online payment*)</p>
 	</div>
 </div>
 
@@ -319,12 +319,43 @@ function save_delivery_date(){
         url: 'index.php?route=checkout/cart/saveDeliveryDate',
         type: 'post',
         data: 'ship_date='+ship_date+'&ship_time='+ship_time,
+        dataType: 'json',
+        beforeSend: function() {
+         	
+		},
+        success: function(json) {
+			$("#delivery_date").html(json['ship_date']);
+
+			$("#first_time").removeAttr('CHECKED');
+			$("#second_time").removeAttr('CHECKED');
+
+			if(json['first_time'] == 'no'){
+				$("#first_time").attr('disabled',true);
+			} else {
+				$("#first_time").removeAttr('disabled');
+			}
+
+			if(json['second_time'] == 'no'){
+				$("#second_time").attr('disabled',true);
+			} else {
+				$("#second_time").removeAttr('disabled');
+			}
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+        }
+    });
+
+	$.ajax({
+        url: 'index.php?route=checkout/cart/updateDiscount',
+        type: 'post',
+        data: 'ship_date='+ship_date+'&ship_time='+ship_time,
         dataType: 'html',
         beforeSend: function() {
          	
 		},
         success: function(output) {
-			$("#delivery_date").html(output);
+			$("#price_total_box").html(output);
         },
         error: function(xhr, ajaxOptions, thrownError) {
             alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);

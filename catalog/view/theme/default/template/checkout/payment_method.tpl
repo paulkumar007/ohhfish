@@ -3,7 +3,7 @@
 <?php } ?>
 <?php if ($payment_methods) { ?>
 <p><?php echo $text_payment_method; ?></p>
-<p style="color:red;font-weight:bold;">(10% off on pre order only available for online payment*)</p>
+<p style="color:red;font-weight:bold;">(5% off on pre order only available for online payment*)</p>
 <?php foreach ($payment_methods as $payment_method) { ?>
 <div class="radio">
   <label>

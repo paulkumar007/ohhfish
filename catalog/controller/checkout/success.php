@@ -52,9 +52,9 @@ class ControllerCheckoutSuccess extends Controller {
 			$mobile = $order_info['telephone'];
 			/* SEND SMS */
 			$order_url = $order_info['store_url'] . 'index.php?route=account/order/info&order_id=' . $order_info['order_id'];
-			$username = 'pdchavantr';
-			$password = 'deote321';
-			$sender_id = 'FGENIE';
+			$username = 'ohhfish';
+			$password = 'suhail12';
+			$sender_id = 'OHFISH';
 			$message = 'Thank you for placing order with us. Your Order ID. '.$order_info['order_id'].' amounting to Rs.'.round($order_info['total']).' has been received. Date of delivery is '.$delivery_date.'. We will send you an update when your order is shipped. You can track your order ('.$order_url.').';
 
 			$url = "https://app.indiasms.com/sendsms/sendsms.php?username=".$username."&password=".$password."&type=TEXT&sender=".$sender_id."&mobile=".$mobile."&message=".urlencode($message);

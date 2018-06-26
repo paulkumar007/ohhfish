@@ -252,7 +252,7 @@ class ControllerCheckoutCart extends Controller {
 			
 			foreach ($totals as $total) {
 				$data['totals'][] = array(
-					'title' => str_replace(array("Sub-Total","Total","Handling Fee","Low Order Fee","Coupon (DISCOUNT)"),array("Price (".$display_item.")","Order Total","Delivery Cost","Delivery Cost","10% Discount on pre order"),$total['title']),
+					'title' => str_replace(array("Sub-Total","Total","Handling Fee","Low Order Fee","Coupon (DISCOUNT)"),array("Price (".$display_item.")","Order Total","Delivery Cost","Delivery Cost","5% Discount on pre order"),$total['title']),
 					'text'  => $this->currency->format($total['value'], $this->session->data['currency'])
 				);
 			}
@@ -548,10 +548,46 @@ class ControllerCheckoutCart extends Controller {
 
 	public function saveDeliveryDate(){
 		
+		$json = array();
+
 		$this->load->model('checkout/order');
 		
 		if (isset($this->request->post['ship_date'])) {
 			$ship_date = $this->request->post['ship_date'];
+			$this->session->data['delivery_date'] = date("Y-m-d",strtotime($ship_date));
+		}
+
+		date_default_timezone_set("Asia/Kolkata");
+
+		$first_time = 'no';
+		$second_time = 'no';
+		$shiper_date = date("Y-m-d",strtotime($ship_date));
+		$today_date = date('Y-m-d');
+		$today_time = time();
+		$today_allow_time = strtotime(date('Y-m-d 12:00:00'));
+
+		$prev_day_time = strtotime(date('Y-m-d 20:00:00'));
+
+		if($today_date == $shiper_date){
+			if($today_time < $today_allow_time){
+				$second_time = 'yes';
+			}
+		} else {
+			$date1=date_create($shiper_date);
+			$date2=date_create($today_date);
+			$diff=date_diff($date1,$date2);
+
+			if($diff->days == '1'){
+				if($today_time < $prev_day_time){
+					$first_time = 'yes';
+					$second_time = 'yes';
+				} else {
+					$second_time = 'yes';
+				}
+			} else {
+				$first_time = 'yes';
+				$second_time = 'yes';
+			}
 		}
 		
 		if (isset($this->request->post['ship_time'])) {
@@ -561,7 +597,112 @@ class ControllerCheckoutCart extends Controller {
 		$this->model_checkout_order->saveDelivery($ship_date);
 		$this->model_checkout_order->saveDeliveryTime($ship_time);
 		
-		echo date("D, j M Y",strtotime($ship_date));
+		$json['ship_date'] = date("D, j M Y",strtotime($ship_date));
+		$json['first_time'] = $first_time;
+		$json['second_time'] = $second_time;
+
+		$this->response->addHeader('Content-Type: application/json');
+		$this->response->setOutput(json_encode($json));
+	}
+
+	public function updateDiscount(){	
+		$output = '';
+		
+		date_default_timezone_set("Asia/Kolkata");
+		$today_date = date('Y-m-d');
+		
+		if (isset($this->request->post['ship_date'])) {
+			$ship_date = $this->request->post['ship_date'];
+		}
+		
+		if (isset($this->request->post['ship_time'])) {
+			$ship_time = $this->request->post['ship_time'];
+		}	
+		$ship_dater = date("Y-m-d",strtotime($ship_date));
+		if($today_date != $ship_dater){
+			$this->session->data['coupon'] = 'DISCOUNT';
+		} else {
+			unset($this->session->data['coupon']);
+		}
+
+		$total_item = $this->cart->countProducts();
+
+		$coupon_namer = '';
+		if(isset($this->session->data['coupon'])) {
+			$this->load->model('catalog/product');
+			$coupon_namer = $this->model_catalog_product->getCouponName($this->session->data['coupon']);
+		}
+
+		// Totals
+		$this->load->model('extension/extension');
+
+		$totals = array();
+		$taxes = $this->cart->getTaxes();
+		$total = 0;
+		
+		// Because __call can not keep var references so we put them into an array. 			
+		$total_data = array(
+			'totals' => &$totals,
+			'taxes'  => &$taxes,
+			'total'  => &$total
+		);
+		
+		// Display prices
+		if ($this->customer->isLogged() || !$this->config->get('config_customer_price')) {
+			$sort_order = array();
+
+			$results = $this->model_extension_extension->getExtensions('total');
+
+			foreach ($results as $key => $value) {
+				$sort_order[$key] = $this->config->get($value['code'] . '_sort_order');
+			}
+
+			array_multisort($sort_order, SORT_ASC, $results);
+
+			foreach ($results as $result) {
+				if ($this->config->get($result['code'] . '_status')) {
+					$this->load->model('extension/total/' . $result['code']);
+					
+					// We have to put the totals in an array so that they pass by reference.
+					$this->{'model_extension_total_' . $result['code']}->getTotal($total_data);
+				}
+			}
+
+			$sort_order = array();
+
+			foreach ($totals as $key => $value) {
+				$sort_order[$key] = $value['sort_order'];
+			}
+
+			array_multisort($sort_order, SORT_ASC, $totals);
+		}
+
+		$data['totals'] = array();
+
+		if($total_item == '1'){
+			$display_item = "1 Item";
+		} else {
+			$display_item = $total_item." Items";
+		}
+		
+		foreach ($totals as $total) {
+			$data['totals'][] = array(
+				'title' => str_replace(array("Sub-Total","Total","Handling Fee","Low Order Fee","Coupon (DISCOUNT)"),array("Price (".$display_item.")","Order Total","Delivery Cost","Delivery Cost",$coupon_namer),$total['title']),
+				'text'  => $this->currency->format($total['value'], $this->session->data['currency'])
+			);
+		}
+
+		foreach ($data['totals'] as $total) { 
+			if($total['title'] == 'Order Total'){
+				$output .= '<hr class="order_l"><br/>';
+			}
+			$output .='<div class="'.($total['title'] == "Order Total" ? 'amount_p' : 'text_p' ).'"> '. $total['title'].'</div>
+			<div class="'.($total['title'] == "Order Total" ? 'text_amount_price' : 'text_product_price' ).'"><p class="price_n"> '.$total['text'].'  </p></div>
+			<br><br>';
+		}
+
+		echo $output;
+
 	}
 	
 	public function saveDeliveryTime(){

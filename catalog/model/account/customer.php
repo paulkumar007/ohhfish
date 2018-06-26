@@ -87,10 +87,10 @@ class ModelAccountCustomer extends Model {
 		
 		$mobile = $data['telephone'];
 		/* SEND SMS */
-		$username = 'pdchavantr';
-		$password = 'deote321';
-		$sender_id = 'FGENIE';
-		$message = 'We thank you for choosing Fishgeniee and welcome you to the family. We are glad to inform you that your Login Id is ('.$mobile.'). Please quote your Login Id in all future transaction with us. Please do not share Login details with anyone.';
+		$username = 'ohhfish';
+		$password = 'suhail12';
+		$sender_id = 'OHFISH';
+		$message = 'We thank you for choosing Ohhfish and welcome you to the family. We are glad to inform you that your Login Id is ('.$mobile.'). Please quote your Login Id in all future transaction with us. Please do not share Login details with anyone.';
 
 		$output_arr = array();
 		$ch = curl_init("https://app.indiasms.com/sendsms/sendsms.php?username=".$username."&password=".$password."&type=TEXT&sender=".$sender_id."&mobile=".$mobile."&message=".urlencode($message));

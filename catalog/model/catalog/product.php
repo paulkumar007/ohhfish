@@ -162,6 +162,10 @@ class ModelCatalogProduct extends Model {
 			$sql .= " AND p.best_seller = '" . (int)$data['filter_best_seller'] . "'";
 		}
 
+		if (!empty($data['filter_location'])) {
+			$sql .= " AND p.location = '" . $data['filter_location'] . "'";
+		}
+
 		$sql .= " GROUP BY p.product_id";
 
 		$sort_data = array(
