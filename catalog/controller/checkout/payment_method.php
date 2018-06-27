@@ -113,7 +113,8 @@ class ControllerCheckoutPaymentMethod extends Controller {
 			$information_info = $this->model_catalog_information->getInformation($this->config->get('config_checkout_id'));
 
 			if ($information_info) {
-				$data['text_agree'] = sprintf($this->language->get('text_agree'), $this->url->link('information/information/agree', 'information_id=' . $this->config->get('config_checkout_id'), true), $information_info['title'], $information_info['title']);
+				//$data['text_agree'] = sprintf($this->language->get('text_agree'), $this->url->link('information/information/agree', 'information_id=' . $this->config->get('config_checkout_id'), true), $information_info['title'], $information_info['title']);
+				$data['text_agree'] = sprintf($this->language->get('text_agree'), 'index.php?route=information/tnc', $information_info['title'], $information_info['title']);
 			} else {
 				$data['text_agree'] = '';
 			}
@@ -210,7 +211,7 @@ class ControllerCheckoutPaymentMethod extends Controller {
 			$payment_type = '';
 		}			
 
-		if($payment_type == 'payu' && $today_date != $ship_date){
+		if($payment_type == 'ccavenue' && $today_date != $ship_date){
 			$this->session->data['coupon'] = 'DISCOUNT';
 		} else {
 			unset($this->session->data['coupon']);

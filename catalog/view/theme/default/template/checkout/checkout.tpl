@@ -264,7 +264,7 @@
     </ul>    
 </div>
 
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
 <script type="text/javascript">
 $(window).load(function(){	
 	$(".done").click(function(){
