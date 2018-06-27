@@ -39,7 +39,7 @@
 <div class="row">
 <div class="col-sm-12 pad20">
 <h2 class="fish_heading_one"><?php echo $heading_title; ?></h2>
-<p>Seawater fish is a delight to have on your dining table.Whether it’s a family get together on a weekend or a party on-the-house with friends, it’s always a welcome. Try out your culinary expertise with Ohhfish Seafood’s Pomfret, Salmon or King Fish and please everybody’s appetite. Saltwater fish taste best in any way. Taste lovers can go for saute, pan fry, deep fry or bake. Health freaks can try their hands on poach, broil or steam. Seafood barbecue on the beach will definitely create an eternal experience and everlasting memory. Come celebrate!</p>
+<p><?php echo $description; ?></p>
 </div>
 </div>
 </div>
