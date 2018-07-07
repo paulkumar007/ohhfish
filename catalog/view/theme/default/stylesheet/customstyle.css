@@ -12,7 +12,7 @@ body {
 .red {
 	color: red;
 }
-.modal-open {
+/* .modal-open {
 	overflow: hidden;
 }
 .modal {
@@ -117,7 +117,7 @@ body {
 	height: 50px;
 	overflow: scroll;
 }
-/* Header */
+ *//* Header */
 
 header {
 	margin: 0 auto;
@@ -203,7 +203,7 @@ header {
 	text-decoration: underline;
 }
 /* White Search Box */
-
+#selectlocpopup {width:100%;}
 .white {
 	height: 18px;
 	display: inline;
@@ -846,7 +846,7 @@ a.copyright_a:hover {
 	}
 	.white #search input[type="text"] {
 		width: 100%;
-		background: url(../image/search-white.png) no-repeat 10px 10px, url(../image/detectlocationmob.png) right bottom no-repeat #f8f8f8;
+		background: url(../image/search-white.png) no-repeat 10px 10px /*, url(../image/detectlocationmob.png) right bottom no-repeat*/ #f8f8f8;
 		border: 1px solid #d1d1d1;
 		font-family: 'Roboto Slab', serif;
 		font-size: 12px;
@@ -946,8 +946,9 @@ a.copyright_a:hover {
 		;
 	}
 	.white {
-		/* display:block; */
-		padding: 13px 0px 40px 0px;
+		display:block;
+		padding: 0px;
+		height:auto;
 	}
 	/* box navigation start here*/
 	.box_navigation {
@@ -999,6 +1000,10 @@ a.copyright_a:hover {
 	}
 	.copy_text {
 		text-align: center;
+	}
+	#selectlocation {
+		width:100%;
+		margin-bottom:10px;
 	}
 }
 #tabs {

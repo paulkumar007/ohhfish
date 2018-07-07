@@ -66,42 +66,42 @@
 </head>
 <body class="<?php echo $class; ?>">
 <header>
-        <div class="top_bar">
-         <div class="container">
-               <div class="row">
-                    <div class="col-sm-6 left_b"></div>
-                    <div class="col-sm-6 right_b hidden-xs">
-					 <ul class="top_ul">
-						<li class="toplist"><a href="mailto:care@ohhfish.in"><i class="fa fa-envelope-o" aria-hidden="true"></i> <?php echo $email; ?> </a></li>
-						<li class="toplist"> | </li>
-						<li class="toplist"><a href="tel:8104464146"> <i class="fa fa-phone" aria-hidden="true"></i> <?php echo $telephone; ?> </a></li>
-					</ul>
-                        <!-- <ul class="top_ul_r">
-							<li class="toplist_r"><a href="javascript:void(0);">Refer to neighbour</a></li>
-							<li class="vertical_line"> | </li>
-							<?php //if ($logged) { ?>
-							<li class="toplist_r"> <a href="index.php?route=account/account"> <?php //if($customer_name != '') { echo $customer_name; } else { echo 'My Account'; } ?></a></li>
-							<li class="vertical_line"> | </li>
-							<li class="toplist_r"><a href="index.php?route=account/logout">Log Out</a></li>
-							<li class="vertical_line"> | </li>
-							<?php //} else { ?>
-							<li class="toplist_r"> <a href="#0" class="cd-popup-trigger"><i class="fa fa-user-o" aria-hidden="true"></i> <?php // echo $customer_name; ?></a></li>
-							<li class="vertical_line"> | </li>
-							<li class="toplist_r"><a href="index.php?route=account/register">Register</a></li>
-							<li class="vertical_line"> | </li>
-							<?php //} ?>
-							<!-- <li class="toplist_r"><a href="index.php?route=checkout/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart</a></li> -->
-							<!-- <li class="vertical_line"> | </li>
-							<li class="toplist_r">
-							<div class="white">
-							<form method="get" action="index.php?route=product/search" id="search">
-								<input name="search" id="searcher" type="text" size="40" placeholder="Search..." />
-							</form>
-							</div></li>
-                        </ul>-->
-                    </div>
-                </div>
-            </div>
+<div class="top_bar">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 left_b"></div>
+			<div class="col-sm-6 right_b hidden-xs">
+			 <ul class="top_ul">
+				<li class="toplist"><a href="mailto:care@ohhfish.in"><i class="fa fa-envelope-o" aria-hidden="true"></i> <?php echo $email; ?> </a></li>
+				<li class="toplist"> | </li>
+				<li class="toplist"><a href="tel:8104464146"> <i class="fa fa-phone" aria-hidden="true"></i> <?php echo $telephone; ?> </a></li>
+			</ul>
+				<!-- <ul class="top_ul_r">
+					<li class="toplist_r"><a href="javascript:void(0);">Refer to neighbour</a></li>
+					<li class="vertical_line"> | </li>
+					<?php //if ($logged) { ?>
+					<li class="toplist_r"> <a href="index.php?route=account/account"> <?php //if($customer_name != '') { echo $customer_name; } else { echo 'My Account'; } ?></a></li>
+					<li class="vertical_line"> | </li>
+					<li class="toplist_r"><a href="index.php?route=account/logout">Log Out</a></li>
+					<li class="vertical_line"> | </li>
+					<?php //} else { ?>
+					<li class="toplist_r"> <a href="#0" class="cd-popup-trigger"><i class="fa fa-user-o" aria-hidden="true"></i> <?php // echo $customer_name; ?></a></li>
+					<li class="vertical_line"> | </li>
+					<li class="toplist_r"><a href="index.php?route=account/register">Register</a></li>
+					<li class="vertical_line"> | </li>
+					<?php //} ?>
+					<!-- <li class="toplist_r"><a href="index.php?route=checkout/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart</a></li> -->
+					<!-- <li class="vertical_line"> | </li>
+					<li class="toplist_r">
+					<div class="white">
+					<form method="get" action="index.php?route=product/search" id="search">
+						<input name="search" id="searcher" type="text" size="40" placeholder="Search..." />
+					</form>
+					</div></li>
+				</ul>-->
+			</div>
+	</div>
+</div>
 <div class="cd-popup" role="alert">
 	<div class="cd-popup-container">
 		<div  class="login_box">
@@ -143,8 +143,31 @@
 
 		</div>
 		</div>
-
 	</div> <!-- cd-popup-container -->
+</div>
+<div class="container">
+<div id="myModal" class="modal fade" role="dialog" data-keyboard="false" data-backdrop="static">
+  <div class="modal-dialog  modal-sm">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+       <!--  <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+        <h4 class="modal-title">Choose Location</h4>
+      </div>
+      <div class="modal-body">
+      <select class="selectpicker" name="selectlocpopup" id="selectlocpopup" onchange="choose_location(this.value);">
+		  <option data-icon="glyphicon-heart" value="">Choose Location</option>
+		  <?php if(!empty($locations)){ ?>
+		  	<?php foreach($locations as $location){ ?>
+		  <option value="<?php echo $location['name']; ?>" <?php if($chose_location == $location['name']){ echo 'SELECTED'; } ?>><?php echo $location['name']; ?></option>
+		  	<?php } ?>
+		  <?php } ?>
+		</select>
+      </div>
+      <div class="modal-footer"></div>
+    </div>
+  </div>
+</div>
 </div>
 </div>
 </header>
@@ -158,7 +181,7 @@
 <div>
 	<div class="white">
 	<form method="get" action="index.php?route=product/search" id="search">
-		<select class="selectpicker hidden-xs" name="selectlocation" id="selectlocation" onchange="choose_location(this.value);">
+		<select class="selectpicker" name="selectlocation" id="selectlocation" onchange="choose_location(this.value);">
 		  <option data-icon="glyphicon-heart" value="">Choose Location</option>
 		  <?php if(!empty($locations)){ ?>
 		  	<?php foreach($locations as $location){ ?>
@@ -510,7 +533,6 @@ function myFunction() {
 
 </script>
 <style>
-
 .sticky {
 	position: fixed;
 	top: 0;
@@ -519,3 +541,8 @@ function myFunction() {
 	background: #fff;
 }
 </style>
+<script>
+$(window).load(function(){        
+   $('#myModal').modal('show');
+}); 
+</script>
