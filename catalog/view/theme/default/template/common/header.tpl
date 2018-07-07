@@ -542,7 +542,10 @@ function myFunction() {
 }
 </style>
 <script>
-$(window).load(function(){        
-   $('#myModal').modal('show');
+$(window).load(function(){  
+	var locationer = '<?php echo $chose_location; ?>';   
+	if(locationer == ''){   
+   		$('#myModal').modal('show');
+	}
 }); 
 </script>

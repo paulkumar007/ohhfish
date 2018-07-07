@@ -519,7 +519,7 @@ class ControllerAccountRegister extends Controller {
 			$random_no = rand(100000,999999);
 			/* SEND SMS */
 			
-			$username = 'ohhfish';
+			$username = 'ohhfishotp';
 			$password = 'suhail12';
 			$sender_id = 'OHFISH';
 			$message = 'Your Registration code for Ohhfish OTP is '.$random_no.'. Code to be valid for 15 minutes. Please DO NOT share this OTP with anyone else to ensure account security.';
@@ -582,7 +582,7 @@ class ControllerAccountRegister extends Controller {
 			} elseif(preg_match('/^[0-9]{10}+$/', $mobile)) {
 				
 				/* SEND SMS */
-				$username = 'ohhfish';
+				$username = 'ohhfishotp';
 				$password = 'suhail12';
 				$sender_id = 'OHFISH';
 				$message = 'Your Ohhfish Login OTP is '.$random_no.'. Please do not share this OTP with anyone.';
@@ -723,7 +723,7 @@ class ControllerAccountRegister extends Controller {
 				echo '1';
 			} elseif(preg_match('/^[0-9]{10}+$/', $mobile)) {
 				/* SEND SMS */
-				$username = 'ohhfish';
+				$username = 'ohhfishotp';
 				$password = 'suhail12';
 				$sender_id = 'OHFISH';
 				$message = 'Your Ohhfish Forgot Password OTP is '.$random_no.'. Please do not share this OTP with anyone.';

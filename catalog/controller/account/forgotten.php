@@ -41,7 +41,26 @@ class ControllerAccountForgotten extends Controller {
 			$mail->setSender(html_entity_decode($this->config->get('config_name'), ENT_QUOTES, 'UTF-8'));
 			$mail->setSubject(html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
 			$mail->setText(html_entity_decode($message, ENT_QUOTES, 'UTF-8'));
-			$mail->send();			*/						$mail = new PHPMailer();			$mail->IsSMTP();			$mail->Mailer = $this->config->get('config_mail_protocol');			$mail->Host = $this->config->get('config_mail_smtp_hostname');			$mail->Port = $this->config->get('config_mail_smtp_port'); // 8025, 587 and 25 can also be used. Use Port 465 for SSL.			$mail->SMTPAuth = true;			$mail->SMTPSecure = 'ssl';			$mail->Username = $this->config->get('config_mail_smtp_username');			$mail->Password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');			$mail->From = $this->config->get('config_mail_smtp_username');			$mail->FromName = "FISHGENIEE";			$mail->AddAddress($this->request->post['email'], " ");			$mail->IsHTML(true); 			$mail->Subject = html_entity_decode($subject, ENT_QUOTES, 'UTF-8');			$mail->Body = html_entity_decode($message, ENT_QUOTES, 'UTF-8');			$mail->AltBody = html_entity_decode($message, ENT_QUOTES, 'UTF-8');			//$mail->WordWrap = 50; 			$mail->send();
+			$mail->send();			*/		
+
+			$mail = new PHPMailer();	
+			$mail->IsSMTP();	
+			$mail->Mailer = $this->config->get('config_mail_protocol');		
+			$mail->Host = $this->config->get('config_mail_smtp_hostname');			
+			$mail->Port = $this->config->get('config_mail_smtp_port'); // 8025, 587 and 25 can also be used. Use Port 465 for SSL.	
+			$mail->SMTPAuth = true;		
+			$mail->SMTPSecure = 'ssl';		
+			$mail->Username = $this->config->get('config_mail_smtp_username');		
+			$mail->Password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');		
+			$mail->From = $this->config->get('config_mail_smtp_username');	
+			$mail->FromName = "OHHFISH";	
+			$mail->AddAddress($this->request->post['email'], " ");		
+			$mail->IsHTML(true); 		
+			$mail->Subject = html_entity_decode($subject, ENT_QUOTES, 'UTF-8');	
+			$mail->Body = html_entity_decode($message, ENT_QUOTES, 'UTF-8');	
+			$mail->AltBody = html_entity_decode($message, ENT_QUOTES, 'UTF-8');		
+			//$mail->WordWrap = 50;
+			$mail->send();
 
 			$this->session->data['success'] = $this->language->get('text_success');
 

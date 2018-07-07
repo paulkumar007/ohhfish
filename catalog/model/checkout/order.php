@@ -697,7 +697,7 @@ class ModelCheckoutOrder extends Model {
 				$mail->Password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');
 
 				$mail->From = $this->config->get('config_mail_smtp_username');
-				$mail->FromName = "FISHGENIEE";
+				$mail->FromName = "OHHFISH";
 				$mail->AddAddress($order_email, " ");
 				$mail->IsHTML(true); 
 				$mail->Subject = html_entity_decode($subject, ENT_QUOTES, 'UTF-8');
@@ -808,7 +808,7 @@ class ModelCheckoutOrder extends Model {
 					$mail->Password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');
 
 					$mail->From = $this->config->get('config_mail_smtp_username');
-					$mail->FromName = "FISHGENIEE";
+					$mail->FromName = "OHHFISH";
 					$mail->AddAddress($this->config->get('config_email'), " ");
 					$mail->IsHTML(true); 
 					$mail->Subject = html_entity_decode($subject, ENT_QUOTES, 'UTF-8');
@@ -890,7 +890,7 @@ class ModelCheckoutOrder extends Model {
 				$mail->Password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');
 
 				$mail->From = $this->config->get('config_mail_smtp_username');
-				$mail->FromName = "FISHGENIEE";
+				$mail->FromName = "OHHFISH";
 				$mail->AddAddress($order_info['email'], " ");
 				$mail->IsHTML(true); 
 				$mail->Subject = html_entity_decode($subject, ENT_QUOTES, 'UTF-8');
@@ -926,7 +926,7 @@ class ModelCheckoutOrder extends Model {
 					$username = 'ohhfish';
 					$password = 'suhail12';
 					$sender_id = 'OHFISH';
-					$message = 'Out for Delivery: Your order for fish with order id ('.$order_id.') amounting to '.$delivery_cost.' from Fishgeniee, will be delivered between ( '.$delivery_date.' '.$delivery_time.' ).';
+					$message = 'Out for Delivery: Your order id ('.$order_id.') amounting to '.$delivery_cost.' from Ohhfish, will be delivered between ( '.$delivery_date.' '.$delivery_time.' ).';
 
 					$output_arr = array();
 					$ch = curl_init("https://app.indiasms.com/sendsms/sendsms.php?username=".$username."&password=".$password."&type=TEXT&sender=".$sender_id."&mobile=".$mobile."&message=".urlencode($message));
@@ -954,7 +954,7 @@ class ModelCheckoutOrder extends Model {
 					$username = 'ohhfish';
 					$password = 'suhail12';
 					$sender_id = 'OHFISH';
-					$message = 'Delivered: Your order for fish with order id ('.$order_id.') amounting to '.$delivery_cost.' from Fishgeniee was delivered, today.';
+					$message = 'Delivered: Your order id ('.$order_id.') amounting to '.$delivery_cost.' from Ohhfish was delivered, today.';
 
 					$output_arr = array();
 					$ch = curl_init("https://app.indiasms.com/sendsms/sendsms.php?username=".$username."&password=".$password."&type=TEXT&sender=".$sender_id."&mobile=".$mobile."&message=".urlencode($message));

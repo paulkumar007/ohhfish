@@ -6,7 +6,7 @@
 		<input type="hidden" name="access_code" value="<?php  echo $access_code?>">
 		 <div class="buttons">
 		  <div class="pull-right">
-			<input type="submit" value="<?php echo $button_confirm; ?>" id="button-confirm" class="btn btn-primary" />
+			<input type="submit" value="<?php echo $button_confirm; ?>" id="button-confirm" class="btn btn-primary confirm_order" />
 		  </div>
 		</div>
 	</form>

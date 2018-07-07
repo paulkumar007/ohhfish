@@ -62,7 +62,6 @@
 
 <div class="copyrights">
 <p class="copy_text">© Copyright 2018 Ohh Fish. All Rights Reserved. Premium fresh fish daily
-<!--<a href="#" class="copyright_a">customercare@fishgeniee.com</a>-->
 </p>
 </div>
 		</div>

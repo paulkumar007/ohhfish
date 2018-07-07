@@ -7,13 +7,6 @@
 	} else {
 		$_SESSION['fish_popup'] = 'yes';
 	}
-
-	/*
-	$popup_cookie = 'yes';
-	if(isset($_COOKIE['fishgeniee_popup'])){
-		$popup_cookie = 'no';
-	}
-	*/
 ?>
 <script src="catalog/view/javascript/index.js" type="text/javascript"></script>
 
@@ -369,7 +362,7 @@ We deliver Fresh, Cleant, Ready to fry/cook Seafood to your doorstep.</h3>
 			<div class="circle_one">
 				<img src="catalog/view/theme/default/image/login.png" alt="login" class="order_icons">
 			</div>
-			<p class="login_tx">Login to <br>www.ohhfish.com</p>
+			<p class="login_tx">Login to <br>www.ohhfish.in</p>
 			</div>
 
 			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6 c_space">

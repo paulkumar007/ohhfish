@@ -76,7 +76,7 @@ class ModelAccountCustomer extends Model {
 		$mail->Password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');
 
 		$mail->From = $this->config->get('config_mail_smtp_username');
-		$mail->FromName = "FISHGENIEE";
+		$mail->FromName = "OHHFISH";
 		$mail->AddAddress($data['email'], " ");
 		$mail->IsHTML(true); 
 		$mail->Subject = html_entity_decode($subject, ENT_QUOTES, 'UTF-8');
@@ -138,7 +138,7 @@ class ModelAccountCustomer extends Model {
 			$mail->Password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');
 
 			$mail->From = $this->config->get('config_mail_smtp_username');
-			$mail->FromName = "FISHGENIEE";
+			$mail->FromName = "OHHFISH";
 			$mail->AddAddress($this->config->get('config_email'), " ");
 			$mail->IsHTML(true); 
 			$mail->Subject = html_entity_decode($this->language->get('text_new_customer'), ENT_QUOTES, 'UTF-8');

@@ -27,8 +27,8 @@ class ModelCatalogEmailManager extends Model
 			}else{
 				$sender_email = $this->config->get('config_email');
 				if($sendto == $sender_email){
-					$sender_email = 'info@fishgeniee.com';
-					$smtp_username = 'info@fishgeniee.com';
+					$sender_email = 'care@ohhfish.in';
+					$smtp_username = 'care@ohhfish.in';
 					$smtp_password = 'password@123';
 				}
 				$sender_name = $this->config->get('config_name');
@@ -51,7 +51,7 @@ class ModelCatalogEmailManager extends Model
 			$mail->Password = $smtp_password;
 
 			$mail->From = $smtp_username;
-			$mail->FromName = "FISHGENIEE";
+			$mail->FromName = "OHHFISH";
 			$mail->AddAddress($sendto, " ");
 			$mail->IsHTML(true); 
 			$mail->Subject = $subject;

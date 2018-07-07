@@ -69,7 +69,7 @@ a.close_b:hover{
 			<div id="box" style="width:320px; margin:20% auto; border:6px solid #f4992e; position:relative;">
 				<div class="top_text" style="height:190px;">
 					<h2 class="f_name" style="font-family:Open Sans, sans-serif; font-size:22px; font-weight:400; color:#333; padding:25px 0px 0px 0px; margin:0px;" >Thank you   </h2>
-					<p class="welcome" style="font-family:Open Sans, sans-serif; font-size:14px; font-weight:400; color:#555; padding:25px 0px 0px 0px; margin:0px 0px 0px 0px;" >Welcome to Fishgeniee!</p>
+					<p class="welcome" style="font-family:Open Sans, sans-serif; font-size:14px; font-weight:400; color:#555; padding:25px 0px 0px 0px; margin:0px 0px 0px 0px;" >Welcome to Ohhfish!</p>
 					<p class="welcome" style="font-family:Open Sans, sans-serif; font-size:12px; font-weight:400; color:#000; padding:2px 0px; margin:0px;" >Please take a second to confirm your email address</p>
 					<div class="close"  style=" width:100px; padding:30px 0px 0px 0px; margin:0px;">
 						<a href="#" class="close_b">Close</a>
